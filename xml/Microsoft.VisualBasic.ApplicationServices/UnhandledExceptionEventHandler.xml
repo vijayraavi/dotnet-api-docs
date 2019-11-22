@@ -10,12 +10,16 @@
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>10.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
   </Base>
   <Attributes>
     <Attribute>
-      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
+      <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
     </Attribute>
   </Attributes>
   <Parameters>
@@ -28,7 +32,9 @@
   <Docs>
     <param name="sender">The source of the event.</param>
     <param name="e">A <see cref="T:Microsoft.VisualBasic.ApplicationServices.UnhandledExceptionEventArgs" /> object that contains the event data.</param>
-    <summary>Represents the method that will handle the <see langword="My.Application.UnhandledException" /> event.</summary>
+    <summary>
+ Signature for the UnhandledException event handler
+ </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   

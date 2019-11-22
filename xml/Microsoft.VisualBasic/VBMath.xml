@@ -1,6 +1,6 @@
 <Type Name="VBMath" FullName="Microsoft.VisualBasic.VBMath">
   <TypeSignature Language="C#" Value="public sealed class VBMath" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed VBMath extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit VBMath extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.VisualBasic.VBMath" />
   <TypeSignature Language="VB.NET" Value="Public Module VBMath" />
   <TypeSignature Language="C++ CLI" Value="public ref class VBMath sealed" />
@@ -58,12 +58,11 @@
     </MemberGroup>
     <Member MemberName="Randomize">
       <MemberSignature Language="C#" Value="public static void Randomize ();" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Randomize() cil managed" FrameworkAlternate="netcore-3.0;netframework-1.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Randomize() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.VBMath.Randomize" />
       <MemberSignature Language="VB.NET" Value="Public Sub Randomize ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Randomize();" />
       <MemberSignature Language="F#" Value="static member Randomize : unit -&gt; unit" Usage="Microsoft.VisualBasic.VBMath.Randomize " />
-      <MemberSignature Language="ILAsm" Value=".method public static void Randomize() cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -110,12 +109,11 @@
     </Member>
     <Member MemberName="Randomize">
       <MemberSignature Language="C#" Value="public static void Randomize (double Number);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Randomize(float64 Number) cil managed" FrameworkAlternate="netcore-3.0;netframework-1.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Randomize(float64 Number) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.VBMath.Randomize(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Randomize (Number As Double)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Randomize(double Number);" />
       <MemberSignature Language="F#" Value="static member Randomize : double -&gt; unit" Usage="Microsoft.VisualBasic.VBMath.Randomize Number" />
-      <MemberSignature Language="ILAsm" Value=".method public static void Randomize(float64 Number) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -174,12 +172,11 @@
     </MemberGroup>
     <Member MemberName="Rnd">
       <MemberSignature Language="C#" Value="public static float Rnd ();" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 Rnd() cil managed" FrameworkAlternate="netcore-3.0;netframework-1.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 Rnd() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.VBMath.Rnd" />
       <MemberSignature Language="VB.NET" Value="Public Function Rnd () As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static float Rnd();" />
       <MemberSignature Language="F#" Value="static member Rnd : unit -&gt; single" Usage="Microsoft.VisualBasic.VBMath.Rnd " />
-      <MemberSignature Language="ILAsm" Value=".method public static float32 Rnd() cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -191,11 +188,6 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
@@ -238,12 +230,11 @@
     </Member>
     <Member MemberName="Rnd">
       <MemberSignature Language="C#" Value="public static float Rnd (float Number);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 Rnd(float32 Number) cil managed" FrameworkAlternate="netcore-3.0;netframework-1.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 Rnd(float32 Number) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.VBMath.Rnd(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function Rnd (Number As Single) As Single" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static float Rnd(float Number);" />
       <MemberSignature Language="F#" Value="static member Rnd : single -&gt; single" Usage="Microsoft.VisualBasic.VBMath.Rnd Number" />
-      <MemberSignature Language="ILAsm" Value=".method public static float32 Rnd(float32 Number) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>

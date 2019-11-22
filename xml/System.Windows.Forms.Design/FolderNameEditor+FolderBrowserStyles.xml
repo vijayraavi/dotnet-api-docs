@@ -13,6 +13,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -46,13 +47,14 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.Design.FolderNameEditor+FolderBrowserStyles</ReturnType>
       </ReturnValue>
       <MemberValue>4096</MemberValue>
       <Docs>
-        <summary>The folder browser can only return computers. If the user selects anything other than a computer, the **OK** button is grayed.</summary>
+        <summary>The folder browser can only return computers. If the user selects anything other than a computer, the OK button is grayed.</summary>
       </Docs>
     </Member>
     <Member MemberName="BrowseForEverything">
@@ -72,6 +74,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.Design.FolderNameEditor+FolderBrowserStyles</ReturnType>
@@ -98,13 +101,14 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.Design.FolderNameEditor+FolderBrowserStyles</ReturnType>
       </ReturnValue>
       <MemberValue>8192</MemberValue>
       <Docs>
-        <summary>The folder browser can only return printers. If the user selects anything other than a printer, the **OK** button is grayed.</summary>
+        <summary>The folder browser can only return printers. If the user selects anything other than a printer, the OK button is grayed.</summary>
       </Docs>
     </Member>
     <Member MemberName="RestrictToDomain">
@@ -124,6 +128,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.Design.FolderNameEditor+FolderBrowserStyles</ReturnType>
@@ -150,13 +155,14 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.Design.FolderNameEditor+FolderBrowserStyles</ReturnType>
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>The folder browser will only return local file system directories. If the user selects folders that are not part of the local file system, the **OK** button is grayed.</summary>
+        <summary>The folder browser will only return local file system directories. If the user selects folders that are not part of the local file system, the OK button is grayed.</summary>
       </Docs>
     </Member>
     <Member MemberName="RestrictToSubfolders">
@@ -176,13 +182,14 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.Design.FolderNameEditor+FolderBrowserStyles</ReturnType>
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>The folder browser will only return objects of the local file system that are within the root folder or a subfolder of the root folder. If the user selects a subfolder of the root folder that is not part of the local file system, the **OK** button is grayed.</summary>
+        <summary>The folder browser will only return objects of the local file system that are within the root folder or a subfolder of the root folder. If the user selects a subfolder of the root folder that is not part of the local file system, the OK button is grayed.</summary>
       </Docs>
     </Member>
     <Member MemberName="ShowTextBox">
@@ -202,6 +209,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.Design.FolderNameEditor+FolderBrowserStyles</ReturnType>

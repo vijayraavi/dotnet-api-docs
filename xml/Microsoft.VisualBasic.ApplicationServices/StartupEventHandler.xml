@@ -10,12 +10,16 @@
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>10.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
   </Base>
   <Attributes>
     <Attribute>
-      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
+      <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
     </Attribute>
   </Attributes>
   <Parameters>
@@ -28,7 +32,9 @@
   <Docs>
     <param name="sender">The source of the event.</param>
     <param name="e">A <see cref="T:Microsoft.VisualBasic.ApplicationServices.StartupEventArgs" /> object that contains the event data.</param>
-    <summary>Represents the method that will handle the <see langword="My.Application.Startup" /> event.</summary>
+    <summary>
+ Signature for the Startup event handler
+ </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   

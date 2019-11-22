@@ -14,12 +14,19 @@
     <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
     <AssemblyVersion>10.0.4.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Provides properties, methods, and events related to the current application.</summary>
+    <summary>
+ Abstract class that defines the application Startup/Shutdown model for VB 
+ Windows Applications such as console, winforms, dll, service.
+ </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   
@@ -65,11 +72,10 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:Microsoft.VisualBasic.ApplicationServices.ApplicationBase" /> class.</summary>
@@ -94,6 +100,10 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -103,43 +113,13 @@
       <Docs>
         <param name="cultureName">
           <see langword="String" />. Name of the culture as a string. For a list of possible names, see <see cref="T:System.Globalization.CultureInfo" />.</param>
-        <summary>Changes the culture used by the current thread for string manipulation and for string formatting.</summary>
+        <summary>
+ Changes the culture currently in used by the current thread.
+ </summary>
         <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The `My.Application.ChangeCulture` method changes the current thread's <xref:System.Threading.Thread.CurrentCulture%2A> property. <xref:System.Threading.Thread.CurrentCulture%2A> determines the default formats for dates, times, currency, numbers, sorting order of text, string comparisons, and casing for all computations on that thread.  
-  
- To retrieve the current culture, you can use the <xref:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Culture%2A> property or the <xref:System.Threading.Thread.CurrentCulture%2A> property.  
-  
- The <xref:System.Threading.Thread.CurrentCulture%2A> setting is different from a language setting. It contains only data related to the standard settings for a geographical region. Therefore, the <xref:System.Threading.Thread.CurrentCulture%2A> property can only be set to a specific culture or to the <xref:System.Globalization.CultureInfo.InvariantCulture%2A>.  
-  
- Use the `My.Application.ChangeUICulture` method to change the culture that the current thread uses for retrieving culture-specific resources.  
-  
-> [!IMPORTANT]
->  The `My.Application.ChangeCulture` method requires a <xref:System.Security.Permissions.SecurityPermission> with the <xref:System.Security.Permissions.SecurityPermissionFlag.ControlThread> set. Manipulating threads is dangerous because of the security state associated with threads. Therefore, this permission should be given only as necessary to trustworthy code. You cannot change a thread's culture in semi-trusted code.  
-  
-## Availability by Project Type  
-  
-|Project type|Available|  
-|-|-|  
-|Windows Forms Application|**Yes**|  
-|Class Library|**Yes**|  
-|Console Application|**Yes**|  
-|Windows Forms Control Library|**Yes**|  
-|Web Control Library|No|  
-|Windows Service|**Yes**|  
-|Web Site|No|  
-  
-   
-  
-## Examples  
- This example demonstrates how changing the culture changes the string representation of dates.  
-  
- [!code-vb[VbVbalrMyApplication#1](~/samples/snippets/visualbasic/VS_Snippets_VBCSharp/VbVbalrMyApplication/VB/Form1.vb#1)]  
-  
- ]]></format>
-        </remarks>
+ CultureInfo constructor will throw exceptions if cultureName is Nothing 
+ or an invalid CultureInfo ID. We are not catching those exceptions.
+ </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="cultureName" /> is <see langword="Nothing" />.</exception>
         <exception cref="T:System.ArgumentException">
@@ -165,6 +145,10 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -174,42 +158,14 @@
       <Docs>
         <param name="cultureName">
           <see langword="String" />. Name of the culture as a string. For a list of possible names, see <see cref="T:System.Globalization.CultureInfo" />.</param>
-        <summary>Changes the culture that the current thread uses for retrieving culture-specific resources.</summary>
+        <summary>
+ Changes the culture currently used by the Resource Manager to look
+ up culture-specific resource at runtime.
+ </summary>
         <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The `My.Application.ChangeUICulture` method changes the current thread's <xref:System.Threading.Thread.CurrentUICulture%2A> property. The <xref:System.Threading.Thread.CurrentUICulture%2A> property determines the culture used by the Resource Manager and the `My.Resources` object; it uses this information to look up culture-specific resources at run time.  
-  
- To retrieve the current UI culture, you can use the <xref:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.UICulture%2A> property or the <xref:System.Threading.Thread.CurrentUICulture%2A> property.  
-  
- Use the `My.Application.ChangeCulture` method to change the culture that the current thread uses for string manipulation and string formatting.  
-  
-## Availability by Project Type  
-  
-|Project type|Available|  
-|-|-|  
-|Windows Forms Application|**Yes**|  
-|Class Library|**Yes**|  
-|Console Application|**Yes**|  
-|Windows Forms Control Library|**Yes**|  
-|Web Control Library|No|  
-|Windows Service|**Yes**|  
-|Web Site|No|  
-  
-   
-  
-## Examples  
- This example uses the `My.Application.ChangeUICulture` method to set the culture that the `My.Resources` object uses for retrieving resources.  
-  
- [!code-vb[VbVbalrMyResources#10](~/samples/snippets/visualbasic/VS_Snippets_VBCSharp/VbVbalrMyResources/VB/Form1.vb#10)]  
-  
- For this example to work, your application must have a string named `Message` in the application's resource file, and the application should have the French-culture version of that resource file, `Resources.fr-FR.resx`. For more information, see [How to: Add or Remove Resources](https://msdn.microsoft.com/library/7b77bc06-3952-4799-b029-def3f8f7f88d).  
-  
- If the application does not have the French-culture version of that resource file, the `My.Resources` object retrieves the resource from the default-culture resource file.  
-  
- ]]></format>
-        </remarks>
+ CultureInfo constructor will throw exceptions if cultureName is Nothing 
+ or an invalid CultureInfo ID. We are not catching those exceptions.
+ </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="cultureName" /> is <see langword="Nothing" />.</exception>
         <exception cref="T:System.ArgumentException">
@@ -234,11 +190,17 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Globalization.CultureInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the culture that the current thread uses for string manipulation and string formatting.</summary>
+        <summary>
+ Gets the information about the current culture used by the current thread.
+ </summary>
         <value>A <see cref="T:System.Globalization.CultureInfo" /> object that represents the culture the current thread uses for string manipulation and string formatting.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -295,6 +257,10 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -303,8 +269,10 @@
       </Parameters>
       <Docs>
         <param name="name">A <see langword="String" /> containing the name of the environment variable.</param>
-        <summary>Returns the value of the specified environment variable.</summary>
-        <returns>A <see langword="String" /> containing the value of the environment variable with the name <paramref name="name" />.</returns>
+        <summary>
+ Returns the value of the specified environment variable.
+ </summary>
+        <returns>A string containing the value of the environment variable.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -332,9 +300,8 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="name" /> is <see langword="Nothing" />.</exception>
-        <exception cref="T:System.ArgumentException">The environment variable specified by <paramref name="name" /> does not exist.</exception>
+        <exception cref="T:System.ArgumentNullException">if name is Nothing.</exception>
+        <exception cref="T:System.ArgumentException">if the specified environment variable does not exist.</exception>
         <exception cref="T:System.Security.SecurityException">The calling code does not have <see cref="T:System.Security.Permissions.EnvironmentPermission" /> with <see langword="Read" /> access.</exception>
         <altmember cref="M:System.Environment.GetEnvironmentVariable(System.String)" />
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
@@ -357,11 +324,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.ApplicationServices.AssemblyInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets an object that provides properties for getting information about the application's assembly, such as the version number, description, and so on.</summary>
+        <summary>
+ Returns the info about the application.  If we are executing in a DLL, we still return the info
+ about the application, not the DLL.
+ </summary>
         <value>The <see cref="T:Microsoft.VisualBasic.ApplicationServices.AssemblyInfo" /> object for the current application.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -393,12 +367,19 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.Logging.Log</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets an object that provides properties and methods for writing event and exception information to the application's log listeners.</summary>
-        <value>The <see cref="T:Microsoft.VisualBasic.Logging.Log" /> object for the current application.</value>
+        <summary>
+ Provides access to logging capability.
+ </summary>
+        <value>Returns a Microsoft.VisualBasic.Windows.Log object used for logging to OS log, debug window
+ and a delimited text file or xml log.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -430,12 +411,22 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Globalization.CultureInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the culture that the current thread uses for retrieving culture-specific resources.</summary>
-        <value>A <see cref="T:System.Globalization.CultureInfo" /> object that represents the culture that the current thread uses for retrieving culture-specific resources.</value>
+        <summary>
+ Gets the information about the current culture used by the Resource
+ Manager to look up culture-specific resource at run time.
+ </summary>
+        <value>
+ The CultureInfo object that represents the culture used by the 
+ Resource Manager to look up culture-specific resources at run time.
+ </value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

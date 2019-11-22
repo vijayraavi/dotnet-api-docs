@@ -10,16 +10,12 @@
     <AssemblyVersion>1.0.5000.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Connects an ActiveX control to a client that handles the control's events.</summary>
     <remarks>
@@ -48,12 +44,8 @@
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="source" Type="System.Object" />
         <Parameter Name="sink" Type="System.Object" />
@@ -76,10 +68,8 @@
           <paramref name="source" /> does not implement <paramref name="eventInterface" />.</exception>
         <exception cref="T:System.InvalidCastException">
           <paramref name="sink" /> does not implement <paramref name="eventInterface" />.  
-  
- -or-  
-  
- <paramref name="source" /> does not implement <see cref="T:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer" />.</exception>
+-or-  
+<paramref name="source" /> does not implement <see cref="T:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer" />.</exception>
         <exception cref="T:System.InvalidOperationException">The connection point has already reached its limit of connections and cannot accept any more.</exception>
         <forInternalUseOnly />
       </Docs>
@@ -97,6 +87,7 @@
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -121,6 +112,7 @@
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

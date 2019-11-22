@@ -14,6 +14,10 @@
     <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
     <AssemblyVersion>10.0.4.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
@@ -24,7 +28,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Provides properties for getting information about the computer's memory, loaded assemblies, name, and operating system.</summary>
+    <summary>
+ Provides configuration information about the current computer and the current process.
+ </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   
@@ -59,14 +65,15 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Initializes a new instance of the <see cref="T:Microsoft.VisualBasic.Devices.ComputerInfo" /> class.</summary>
+        <summary>
+ Default constructor
+ </summary>
         <remarks>To be added.</remarks>
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
@@ -88,20 +95,23 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0">
           <AttributeName>System.CLSCompliant(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.UInt64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the total amount of free physical memory for the computer.</summary>
-        <value>A <see langword="ULong" /> containing the number of bytes of free physical memory for the computer.</value>
+        <summary>
+ Gets the total size of free physical memory on the machine.
+ </summary>
+        <value>A 64-bit unsigned integer containing the size of free physical memory on the machine, in bytes.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -117,7 +127,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ComponentModel.Win32Exception">The application cannot obtain the memory status.</exception>
+        <exception cref="T:System.ComponentModel.Win32Exception">If we are unable to obtain the memory status.</exception>
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
     </Member>
@@ -138,20 +148,24 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0">
           <AttributeName>System.CLSCompliant(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.UInt64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the total amount of the computer's free virtual address space.</summary>
-        <value>A <see langword="ULong" /> containing the number of bytes of the computer's free virtual address space.</value>
+        <summary>
+ Gets the total size of free user potion of virtual address space for calling process.
+ </summary>
+        <value>A 64-bit unsigned integer containing the size of free user potion of virtual address space for calling process, 
+          in bytes.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -167,7 +181,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ComponentModel.Win32Exception">The application cannot obtain the memory status.</exception>
+        <exception cref="T:System.ComponentModel.Win32Exception">If we are unable to obtain the memory status.</exception>
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
     </Member>
@@ -188,12 +202,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Globalization.CultureInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the current UI culture installed with the operating system.</summary>
-        <value>A <see cref="T:System.Globalization.CultureInfo" /> object represents the UI culture installed on the computer.</value>
+        <summary>
+ Gets the current UICulture installed on the machine.
+ </summary>
+        <value>A CultureInfo object represents the UI culture installed on the machine.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -231,17 +251,18 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the full operating system name.</summary>
-        <value>A <see langword="String" /> containing the operating-system name.</value>
+        <summary>
+ Gets the full operating system name.
+ </summary>
+        <value>A string contains the operating system name.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -279,12 +300,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the platform identifier for the operating system of the computer.</summary>
-        <value>A <see langword="String" /> containing the platform identifier for the operating system of the computer, chosen from the member names of the <see cref="T:System.PlatformID" /> enumeration.</value>
+        <summary>
+ Gets the platform OS name.
+ </summary>
+        <value>A string containing a Platform ID like "Win32NT", "Win32S", "Win32Windows". See PlatformID enum.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -300,7 +327,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ExecutionEngineException">The application cannot obtain the operating-system platform information.</exception>
+        <exception cref="T:System.ExecutionEngineException">If cannot obtain the OS Version information.</exception>
         <altmember cref="P:System.OperatingSystem.Platform" />
         <altmember cref="P:System.Environment.OSVersion" />
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
@@ -323,12 +350,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the version of the computer's operating system.</summary>
-        <value>A <see langword="String" /> containing the current version number of the operating system.</value>
+        <summary>
+ Gets the current version number of the operating system.
+ </summary>
+        <value>A string contains the current version number of the operating system.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -346,7 +379,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ExecutionEngineException">The application cannot obtain the operating-system version information.</exception>
+        <exception cref="T:System.ExecutionEngineException">If cannot obtain the OS Version information.</exception>
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
     </Member>
@@ -367,20 +400,23 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0">
           <AttributeName>System.CLSCompliant(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.UInt64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the total amount of physical memory for the computer.</summary>
-        <value>A <see langword="ULong" /> containing the number of bytes of physical memory for the computer.</value>
+        <summary>
+ Gets the total size of physical memory on the machine.
+ </summary>
+        <value>A 64-bit unsigned integer containing the size of total physical memory on the machine, in bytes.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -396,7 +432,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ComponentModel.Win32Exception">The application cannot obtain the memory status.</exception>
+        <exception cref="T:System.ComponentModel.Win32Exception">If we are unable to obtain the memory status.</exception>
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
     </Member>
@@ -417,20 +453,24 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0">
           <AttributeName>System.CLSCompliant(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.UInt64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the total amount of virtual address space available for the computer.</summary>
-        <value>A <see langword="ULong" /> containing the number of bytes of virtual address space available for the computer.</value>
+        <summary>
+ Gets the total size of user potion of virtual address space for calling process.
+ </summary>
+        <value>A 64-bit unsigned integer containing the size of user potion of virtual address space for calling process, 
+          in bytes.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -446,7 +486,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ComponentModel.Win32Exception">The application cannot obtain the memory status.</exception>
+        <exception cref="T:System.ComponentModel.Win32Exception">If we are unable to obtain the memory status.</exception>
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
     </Member>

@@ -9,6 +9,7 @@
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -30,9 +31,6 @@
     </Attribute>
     <Attribute>
       <AttributeName>System.ComponentModel.ListBindable(false)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
-      <AttributeName>System.ComponentModel.Design.Serialization.DesignerSerializer("System.Windows.Forms.Design.DataGridViewRowCollectionCodeDomSerializer, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.ComponentModel.Design.Serialization.CodeDomSerializer, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -65,6 +63,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="dataGridView" Type="System.Windows.Forms.DataGridView" />
@@ -98,6 +97,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -122,41 +122,23 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  The <see cref="T:System.Windows.Forms.DataGridView" /> has no columns.  
-  
  -or-  
-  
  This operation would add a frozen row after unfrozen rows.</exception>
         <exception cref="T:System.ArgumentException">The row returned by the <see cref="P:System.Windows.Forms.DataGridView.RowTemplate" /> property has more cells than there are columns in the control.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
@@ -176,6 +158,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -205,45 +188,25 @@
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="count" /> is less than 1.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  The <see cref="T:System.Windows.Forms.DataGridView" /> has no columns.  
-  
  -or-  
-  
  The row returned by the <see cref="P:System.Windows.Forms.DataGridView.RowTemplate" /> property has more cells than there are columns in the control.  
-  
  -or-  
-  
  This operation would add frozen rows after unfrozen rows.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -261,6 +224,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -273,7 +237,7 @@
       <Parameters>
         <Parameter Name="values" Type="System.Object[]">
           <Attributes>
-            <Attribute FrameworkAlternate="netcore-3.0">
+            <Attribute>
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
@@ -296,49 +260,27 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="values" /> is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.VirtualMode" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is set to <see langword="true" />.  
-  
 -or-
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  The <see cref="T:System.Windows.Forms.DataGridView" /> has no columns.  
-  
  -or-  
-  
  The row returned by the <see cref="P:System.Windows.Forms.DataGridView.RowTemplate" /> property has more cells than there are columns in the control.  
-  
  -or-  
-  
  This operation would add a frozen row after unfrozen rows.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -355,6 +297,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -377,49 +320,27 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  The <see cref="T:System.Windows.Forms.DataGridView" /> has no columns.  
-  
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridViewElement.DataGridView" /> property of the <paramref name="dataGridViewRow" /> is not <see langword="null" />.  
-  
  -or-  
-  
  <paramref name="dataGridViewRow" /> has a <see cref="P:System.Windows.Forms.DataGridViewRow.Selected" /> property value of <see langword="true" />.  
-  
  -or-  
-  
  This operation would add a frozen row after unfrozen rows.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dataGridViewRow" /> is <see langword="null" />.</exception>
@@ -444,6 +365,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -469,42 +391,24 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="indexSource" /> is less than zero or greater than or equal to the number of rows in the control.  
-  
- -or-  
-  
- <paramref name="count" /> is less than zero.</exception>
+-or-  
+<paramref name="count" /> is less than zero.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  This operation would add a frozen row after unfrozen rows.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -522,6 +426,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -546,37 +451,21 @@
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="indexSource" /> is less than zero or greater than or equal to the number of rows in the collection.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  This operation would add a frozen row after unfrozen rows.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -594,6 +483,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -606,7 +496,7 @@
       <Parameters>
         <Parameter Name="dataGridViewRows" Type="System.Windows.Forms.DataGridViewRow[]">
           <Attributes>
-            <Attribute FrameworkAlternate="netcore-3.0">
+            <Attribute>
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
@@ -641,65 +531,35 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="dataGridViewRows" /> contains only one row, and the row it contains has more cells than there are columns in the control.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  At least one entry in the <paramref name="dataGridViewRows" /> array is <see langword="null" />.  
-  
  -or-  
-  
  The <see cref="T:System.Windows.Forms.DataGridView" /> has no columns.  
-  
  -or-  
-  
  At least one row in the <paramref name="dataGridViewRows" /> array has a <see cref="P:System.Windows.Forms.DataGridViewElement.DataGridView" /> property value that is not <see langword="null" />.  
-  
  -or-  
-  
  At least one row in the <paramref name="dataGridViewRows" /> array has a <see cref="P:System.Windows.Forms.DataGridViewRow.Selected" /> property value of <see langword="true" />.  
-  
  -or-  
-  
  Two or more rows in the <paramref name="dataGridViewRows" /> array are identical.  
-  
  -or-  
-  
  At least one row in the <paramref name="dataGridViewRows" /> array contains one or more cells of a type that is incompatible with the type of the corresponding column in the control.  
-  
  -or-  
-  
  At least one row in the <paramref name="dataGridViewRows" /> array contains more cells than there are columns in the control.  
-  
  -or-  
-  
  This operation would add frozen rows after unfrozen rows.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -721,6 +581,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -730,34 +591,18 @@
         <summary>Clears the collection.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.InvalidOperationException">The collection is data bound and the underlying data source does not support clearing the row data.  
-  
  -or-  
-  
  The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents the row collection from being modified:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" /></exception>
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" /></exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
       </Docs>
@@ -774,6 +619,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.ComponentModel.CollectionChangeEventHandler</ReturnType>
@@ -813,6 +659,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -842,6 +689,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -861,10 +709,8 @@
           <paramref name="index" /> is less than zero.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="array" /> is multidimensional.  
-  
- -or-  
-  
- The number of elements in the <see cref="T:System.Windows.Forms.DataGridViewRowCollection" /> is greater than the available space from <paramref name="index" /> to the end of <paramref name="array" />.</exception>
+-or-  
+The number of elements in the <see cref="T:System.Windows.Forms.DataGridViewRowCollection" /> is greater than the available space from <paramref name="index" /> to the end of <paramref name="array" />.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
       </Docs>
@@ -884,6 +730,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -908,12 +755,8 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.DataGridView</ReturnType>
       </ReturnValue>
@@ -946,6 +789,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -976,6 +820,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1007,6 +852,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1046,6 +892,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1087,6 +934,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1138,6 +986,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1179,6 +1028,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1221,6 +1071,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1261,6 +1112,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1291,6 +1143,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.DataGridViewElementStates</ReturnType>
@@ -1320,6 +1173,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1357,6 +1211,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1381,54 +1236,30 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="rowIndex" /> is less than zero or greater than the number of rows in the collection.  
-  
- -or-  
-  
- <paramref name="count" /> is less than 1.</exception>
+-or-  
+<paramref name="count" /> is less than 1.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  The <see cref="T:System.Windows.Forms.DataGridView" /> has no columns.  
-  
  -or-  
-  
  <paramref name="rowIndex" /> is equal to the number of rows in the collection and the <see cref="P:System.Windows.Forms.DataGridView.AllowUserToAddRows" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is set to <see langword="true" />.  
-  
  -or-  
-  
  The row returned by the <see cref="P:System.Windows.Forms.DataGridView.RowTemplate" /> property has more cells than there are columns in the control.  
-  
  -or-  
-  
  This operation would insert a frozen row after unfrozen rows or an unfrozen row before frozen rows.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -1446,6 +1277,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1454,7 +1286,7 @@
         <Parameter Name="rowIndex" Type="System.Int32" />
         <Parameter Name="values" Type="System.Object[]">
           <Attributes>
-            <Attribute FrameworkAlternate="netcore-3.0">
+            <Attribute>
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
@@ -1479,53 +1311,29 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="values" /> is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.VirtualMode" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is set to <see langword="true" />.  
-  
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  The <see cref="T:System.Windows.Forms.DataGridView" /> has no columns.  
-  
  -or-  
-  
  <paramref name="rowIndex" /> is equal to the number of rows in the collection and the <see cref="P:System.Windows.Forms.DataGridView.AllowUserToAddRows" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is set to <see langword="true" />.  
-  
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridViewElement.DataGridView" /> property of the row returned by the control's <see cref="P:System.Windows.Forms.DataGridView.RowTemplate" /> property is not <see langword="null" />.  
-  
  -or-  
-  
  This operation would insert a frozen row after unfrozen rows or an unfrozen row before frozen rows.</exception>
         <exception cref="T:System.ArgumentException">The row returned by the control's <see cref="P:System.Windows.Forms.DataGridView.RowTemplate" /> property has more cells than there are columns in the control.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
@@ -1543,6 +1351,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1570,53 +1379,29 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="dataGridViewRow" /> is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  <paramref name="rowIndex" /> is equal to the number of rows in the collection and the <see cref="P:System.Windows.Forms.DataGridView.AllowUserToAddRows" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is set to <see langword="true" />.  
-  
  -or-  
-  
  The <see cref="T:System.Windows.Forms.DataGridView" /> has no columns.  
-  
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridViewElement.DataGridView" /> property of <paramref name="dataGridViewRow" /> is not <see langword="null" />.  
-  
  -or-  
-  
  <paramref name="dataGridViewRow" /> has a <see cref="P:System.Windows.Forms.DataGridViewRow.Selected" /> property value of <see langword="true" />.  
-  
  -or-  
-  
  This operation would insert a frozen row after unfrozen rows or an unfrozen row before frozen rows.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="dataGridViewRow" /> has more cells than there are columns in the control.</exception>
@@ -1636,6 +1421,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1662,46 +1448,26 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="indexSource" /> is less than zero or greater than the number of rows in the collection minus one.  
-  
- -or-  
-  
- <paramref name="indexDestination" /> is less than zero or greater than the number of rows in the collection.  
-  
- -or-  
-  
- <paramref name="count" /> is less than 1.</exception>
+-or-  
+<paramref name="indexDestination" /> is less than zero or greater than the number of rows in the collection.  
+-or-  
+<paramref name="count" /> is less than 1.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  <paramref name="indexDestination" /> is equal to the number of rows in the collection and <see cref="P:System.Windows.Forms.DataGridView.AllowUserToAddRows" /> is <see langword="true" />.  
-  
  -or-  
-  
  This operation would insert frozen rows after unfrozen rows or unfrozen rows before frozen rows.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -1719,12 +1485,8 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1748,42 +1510,24 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="indexSource" /> is less than zero or greater than the number of rows in the collection minus one.  
-  
- -or-  
-  
- <paramref name="indexDestination" /> is less than zero or greater than the number of rows in the collection.</exception>
+-or-  
+<paramref name="indexDestination" /> is less than zero or greater than the number of rows in the collection.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  <paramref name="indexDestination" /> is equal to the number of rows in the collection and <see cref="P:System.Windows.Forms.DataGridView.AllowUserToAddRows" /> is <see langword="true" />.  
-  
  -or-  
-  
  This operation would insert a frozen row after unfrozen rows or an unfrozen row before frozen rows.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -1801,6 +1545,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1809,7 +1554,7 @@
         <Parameter Name="rowIndex" Type="System.Int32" />
         <Parameter Name="dataGridViewRows" Type="System.Windows.Forms.DataGridViewRow[]">
           <Attributes>
-            <Attribute FrameworkAlternate="netcore-3.0">
+            <Attribute>
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
@@ -1847,69 +1592,37 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="dataGridViewRows" /> contains only one row, and the row it contains has more cells than there are columns in the control.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  <paramref name="rowIndex" /> is equal to the number of rows in the collection and <see cref="P:System.Windows.Forms.DataGridView.AllowUserToAddRows" /> is <see langword="true" />.  
-  
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  At least one entry in the <paramref name="dataGridViewRows" /> array is <see langword="null" />.  
-  
  -or-  
-  
  The <see cref="T:System.Windows.Forms.DataGridView" /> has no columns.  
-  
  -or-  
-  
  At least one row in the <paramref name="dataGridViewRows" /> array has a <see cref="P:System.Windows.Forms.DataGridViewElement.DataGridView" /> property value that is not <see langword="null" />.  
-  
  -or-  
-  
  At least one row in the <paramref name="dataGridViewRows" /> array has a <see cref="P:System.Windows.Forms.DataGridViewRow.Selected" /> property value of <see langword="true" />.  
-  
  -or-  
-  
  Two or more rows in the <paramref name="dataGridViewRows" /> array are identical.  
-  
  -or-  
-  
  At least one row in the <paramref name="dataGridViewRows" /> array contains one or more cells of a type that is incompatible with the type of the corresponding column in the control.  
-  
  -or-  
-  
  At least one row in the <paramref name="dataGridViewRows" /> array contains more cells than there are columns in the control.  
-  
  -or-  
-  
  This operation would insert frozen rows after unfrozen rows or unfrozen rows before frozen rows.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -1928,6 +1641,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.DataGridViewRow</ReturnType>
@@ -1938,13 +1652,11 @@
       <Docs>
         <param name="index">The zero-based index of the <see cref="T:System.Windows.Forms.DataGridViewRow" /> to get.</param>
         <summary>Gets the <see cref="T:System.Windows.Forms.DataGridViewRow" /> at the specified index.</summary>
-        <value>The <see cref="T:System.Windows.Forms.DataGridViewRow" /> at the specified index. Accessing a <see cref="T:System.Windows.Forms.DataGridViewRow" /> with this indexer causes the row to become unshared. To keep the row shared, use the <see cref="M:System.Windows.Forms.DataGridViewRowCollection.SharedRow(System.Int32)" /> method. For more information, see [Best Practices for Scaling the Windows Forms DataGridView Control](~/docs/framework/winforms/controls/best-practices-for-scaling-the-windows-forms-datagridview-control.md).</value>
+        <value>The <see cref="T:System.Windows.Forms.DataGridViewRow" /> at the specified index. Accessing a <see cref="T:System.Windows.Forms.DataGridViewRow" /> with this indexer causes the row to become unshared. To keep the row shared, use the <see cref="M:System.Windows.Forms.DataGridViewRowCollection.SharedRow(System.Int32)" /> method. For more information, see Best Practices for Scaling the Windows Forms DataGridView Control.</value>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is less than 0.  
-  
 -or-
-  
  <paramref name="index" /> is equal to or greater than <see cref="P:System.Windows.Forms.DataGridViewRowCollection.Count" />.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -1962,6 +1674,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ArrayList</ReturnType>
@@ -1994,6 +1707,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2032,6 +1746,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2047,42 +1762,24 @@
           <paramref name="dataGridViewRow" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="dataGridViewRow" /> is not contained in this collection.  
-  
- -or-  
-  
- <paramref name="dataGridViewRow" /> is a shared row.</exception>
+-or-  
+<paramref name="dataGridViewRow" /> is a shared row.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  <paramref name="dataGridViewRow" /> is the row for new records.  
-  
  -or-  
-  
  The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is bound to an <see cref="T:System.ComponentModel.IBindingList" /> implementation with <see cref="P:System.ComponentModel.IBindingList.AllowRemove" /> and <see cref="P:System.ComponentModel.IBindingList.SupportsChangeNotification" /> property values that are not both <see langword="true" />.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -2103,6 +1800,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2117,37 +1815,21 @@
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is less than zero and greater than the number of rows in the collection minus one.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  <paramref name="index" /> is equal to the number of rows in the collection and the <see cref="P:System.Windows.Forms.DataGridView.AllowUserToAddRows" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is set to <see langword="true" />.  
-  
  -or-  
-  
  The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is bound to an <see cref="T:System.ComponentModel.IBindingList" /> implementation with <see cref="P:System.ComponentModel.IBindingList.AllowRemove" /> and <see cref="P:System.ComponentModel.IBindingList.SupportsChangeNotification" /> property values that are not both <see langword="true" />.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -2165,6 +1847,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.DataGridViewRow</ReturnType>
@@ -2202,6 +1885,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2228,10 +1912,8 @@
           <paramref name="index" /> is less than zero.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="array" /> is multidimensional.  
-  
- -or-  
-  
- The number of elements in the <see cref="T:System.Windows.Forms.DataGridViewRowCollection" /> is greater than the available space from <paramref name="index" /> to the end of <paramref name="array" />.</exception>
+-or-  
+The number of elements in the <see cref="T:System.Windows.Forms.DataGridViewRowCollection" /> is greater than the available space from <paramref name="index" /> to the end of <paramref name="array" />.</exception>
         <exception cref="T:System.InvalidCastException">The type of the source <see cref="T:System.Windows.Forms.DataGridViewRowCollection" /> cannot be cast automatically to the type of <paramref name="array" />.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -2253,12 +1935,8 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -2292,6 +1970,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2328,6 +2007,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -2362,6 +2042,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>
@@ -2397,6 +2078,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -2423,49 +2105,27 @@
         <exception cref="T:System.InvalidCastException">
           <paramref name="value" /> is not a <see cref="T:System.Windows.Forms.DataGridViewRow" />.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  The <see cref="T:System.Windows.Forms.DataGridView" /> has no columns.  
-  
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridViewElement.DataGridView" /> property of the <paramref name="value" /> is not <see langword="null" />.  
-  
  -or-  
-  
  <paramref name="value" /> has a <see cref="P:System.Windows.Forms.DataGridViewRow.Selected" /> property value of <see langword="true" />.  
-  
  -or-  
-  
  This operation would add a frozen row after unfrozen rows.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="value" /> is <see langword="null" />.</exception>
@@ -2490,12 +2150,8 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -2511,34 +2167,18 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The collection is data bound and the underlying data source does not support clearing the row data.  
-  
  -or-  
-  
  The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" /></exception>
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" /></exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
         <altmember cref="T:System.Collections.IList" />
@@ -2558,6 +2198,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2597,6 +2238,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -2635,6 +2277,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2666,53 +2309,29 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="value" /> is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridView.DataSource" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is not <see langword="null" />.  
-  
  -or-  
-  
  <paramref name="index" /> is equal to the number of rows in the collection and the <see cref="P:System.Windows.Forms.DataGridView.AllowUserToAddRows" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is set to <see langword="true" />.  
-  
  -or-  
-  
  The <see cref="T:System.Windows.Forms.DataGridView" /> has no columns.  
-  
  -or-  
-  
  The <see cref="P:System.Windows.Forms.DataGridViewElement.DataGridView" /> property of the <paramref name="value" /> is not <see langword="null" />.  
-  
  -or-  
-  
  <paramref name="value" /> has a <see cref="P:System.Windows.Forms.DataGridViewRow.Selected" /> property value of <see langword="true" />.  
-  
  -or-  
-  
  This operation would insert a frozen row after unfrozen rows or an unfrozen row before frozen rows.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="value" /> has more cells than there are columns in the control.</exception>
@@ -2736,6 +2355,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2772,6 +2392,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2808,12 +2429,8 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -2837,9 +2454,7 @@
         <exception cref="T:System.NotSupportedException">The user tried to set this property.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is less than 0.  
-  
 -or-
-  
  <paramref name="index" /> is equal to or greater than <see cref="P:System.Windows.Forms.DataGridViewRowCollection.Count" />.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -2860,6 +2475,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2884,42 +2500,24 @@
           <paramref name="value" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="value" /> is not contained in this collection.  
-  
- -or-  
-  
- <paramref name="value" /> is a shared row.</exception>
+-or-  
+<paramref name="value" /> is a shared row.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  <paramref name="value" /> is the row for new records.  
-  
  -or-  
-  
  The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is bound to an <see cref="T:System.ComponentModel.IBindingList" /> implementation with <see cref="P:System.ComponentModel.IBindingList.AllowRemove" /> and <see cref="P:System.ComponentModel.IBindingList.SupportsChangeNotification" /> property values that are not both <see langword="true" />.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />
@@ -2940,12 +2538,8 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -2966,37 +2560,21 @@
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is less than zero and greater than the number of rows in the collection minus one.</exception>
         <exception cref="T:System.InvalidOperationException">The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is performing one of the following actions that temporarily prevents new rows from being added:  
-  
--   Selecting all cells in the control.  
-  
--   Clearing the selection.  
-  
+
+Selecting all cells in the control.  
+
+Clearing the selection.  
+
+
  -or-  
-  
  This method is being called from a handler for one of the following <see cref="T:System.Windows.Forms.DataGridView" /> events:  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidating" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.CellValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowEnter" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowLeave" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidated" />  
-  
--   <see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
-  
+
+<see cref="E:System.Windows.Forms.DataGridView.CellEnter" /><see cref="E:System.Windows.Forms.DataGridView.CellLeave" /><see cref="E:System.Windows.Forms.DataGridView.CellValidating" /><see cref="E:System.Windows.Forms.DataGridView.CellValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowEnter" /><see cref="E:System.Windows.Forms.DataGridView.RowLeave" /><see cref="E:System.Windows.Forms.DataGridView.RowValidated" /><see cref="E:System.Windows.Forms.DataGridView.RowValidating" />  
+
+
  -or-  
-  
  <paramref name="index" /> is equal to the number of rows in the collection and the <see cref="P:System.Windows.Forms.DataGridView.AllowUserToAddRows" /> property of the <see cref="T:System.Windows.Forms.DataGridView" /> is set to <see langword="true" />.  
-  
  -or-  
-  
  The associated <see cref="T:System.Windows.Forms.DataGridView" /> control is bound to an <see cref="T:System.ComponentModel.IBindingList" /> implementation with <see cref="P:System.ComponentModel.IBindingList.AllowRemove" /> and <see cref="P:System.ComponentModel.IBindingList.SupportsChangeNotification" /> property values that are not both <see langword="true" />.</exception>
         <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewRow" />

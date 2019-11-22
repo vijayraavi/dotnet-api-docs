@@ -1,0 +1,1678 @@
+<Type Name="SR" FullName="System.Windows.Forms.Design.Editors.Resources.SR">
+  <TypeSignature Language="C#" Value="public class SR" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SR extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.Windows.Forms.Design.Editors.Resources.SR" />
+  <TypeSignature Language="VB.NET" Value="Public Class SR" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SR" />
+  <TypeSignature Language="F#" Value="type SR = class" />
+  <AssemblyInfo>
+    <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerNonUserCode</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AnchorEditorAccName">
+      <MemberSignature Language="C#" Value="public static string AnchorEditorAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string AnchorEditorAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.AnchorEditorAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AnchorEditorAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ AnchorEditorAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AnchorEditorAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.AnchorEditorAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnchorEditorBottomAccName">
+      <MemberSignature Language="C#" Value="public static string AnchorEditorBottomAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string AnchorEditorBottomAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.AnchorEditorBottomAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AnchorEditorBottomAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ AnchorEditorBottomAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AnchorEditorBottomAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.AnchorEditorBottomAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnchorEditorLeftAccName">
+      <MemberSignature Language="C#" Value="public static string AnchorEditorLeftAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string AnchorEditorLeftAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.AnchorEditorLeftAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AnchorEditorLeftAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ AnchorEditorLeftAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AnchorEditorLeftAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.AnchorEditorLeftAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnchorEditorRightAccName">
+      <MemberSignature Language="C#" Value="public static string AnchorEditorRightAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string AnchorEditorRightAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.AnchorEditorRightAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AnchorEditorRightAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ AnchorEditorRightAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AnchorEditorRightAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.AnchorEditorRightAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnchorEditorTopAccName">
+      <MemberSignature Language="C#" Value="public static string AnchorEditorTopAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string AnchorEditorTopAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.AnchorEditorTopAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AnchorEditorTopAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ AnchorEditorTopAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.AnchorEditorTopAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.AnchorEditorTopAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogCustomFormat">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogCustomFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogCustomFormat" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogCustomFormat" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogCustomFormat As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogCustomFormat { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogCustomFormat : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogCustomFormat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogCustomFormatAccessibleDescription">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogCustomFormatAccessibleDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogCustomFormatAccessibleDescription" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogCustomFormatAccessibleDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogCustomFormatAccessibleDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogCustomFormatAccessibleDescription { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogCustomFormatAccessibleDescription : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogCustomFormatAccessibleDescription" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogDecimalPlaces">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogDecimalPlaces { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogDecimalPlaces" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogDecimalPlaces" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogDecimalPlaces As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogDecimalPlaces { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogDecimalPlaces : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogDecimalPlaces" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeCurrency">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeCurrency { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeCurrency" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeCurrency" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeCurrency As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeCurrency { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeCurrency : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeCurrency" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeCurrencyExplanation">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeCurrencyExplanation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeCurrencyExplanation" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeCurrencyExplanation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeCurrencyExplanation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeCurrencyExplanation { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeCurrencyExplanation : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeCurrencyExplanation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeCustom">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeCustom { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeCustom" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeCustom" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeCustom As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeCustom { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeCustom : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeCustom" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeCustomExplanation">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeCustomExplanation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeCustomExplanation" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeCustomExplanation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeCustomExplanation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeCustomExplanation { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeCustomExplanation : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeCustomExplanation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeCustomInvalidFormat">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeCustomInvalidFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeCustomInvalidFormat" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeCustomInvalidFormat" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeCustomInvalidFormat As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeCustomInvalidFormat { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeCustomInvalidFormat : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeCustomInvalidFormat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeDateTime">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeDateTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeDateTime" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeDateTime" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeDateTime As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeDateTime { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeDateTime : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeDateTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeDateTimeExplanation">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeDateTimeExplanation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeDateTimeExplanation" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeDateTimeExplanation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeDateTimeExplanation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeDateTimeExplanation { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeDateTimeExplanation : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeDateTimeExplanation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeNoFormatting">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeNoFormatting { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeNoFormatting" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeNoFormatting" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeNoFormatting As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeNoFormatting { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeNoFormatting : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeNoFormatting" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeNoFormattingExplanation">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeNoFormattingExplanation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeNoFormattingExplanation" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeNoFormattingExplanation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeNoFormattingExplanation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeNoFormattingExplanation { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeNoFormattingExplanation : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeNoFormattingExplanation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeNumeric">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeNumeric { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeNumeric" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeNumeric" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeNumeric As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeNumeric { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeNumeric : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeNumeric" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeNumericExplanation">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeNumericExplanation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeNumericExplanation" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeNumericExplanation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeNumericExplanation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeNumericExplanation { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeNumericExplanation : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeNumericExplanation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeScientific">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeScientific { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeScientific" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeScientific" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeScientific As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeScientific { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeScientific : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeScientific" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogFormatTypeScientificExplanation">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogFormatTypeScientificExplanation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogFormatTypeScientificExplanation" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeScientificExplanation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogFormatTypeScientificExplanation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogFormatTypeScientificExplanation { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogFormatTypeScientificExplanation : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogFormatTypeScientificExplanation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogNullValue">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogNullValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogNullValue" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogNullValue" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogNullValue As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogNullValue { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogNullValue : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogNullValue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindingFormattingDialogType">
+      <MemberSignature Language="C#" Value="public static string BindingFormattingDialogType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string BindingFormattingDialogType" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property BindingFormattingDialogType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ BindingFormattingDialogType { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.BindingFormattingDialogType : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.BindingFormattingDialogType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="bitmapFileDescription">
+      <MemberSignature Language="C#" Value="public static string bitmapFileDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string bitmapFileDescription" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.bitmapFileDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property bitmapFileDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ bitmapFileDescription { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.bitmapFileDescription : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.bitmapFileDescription" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CellStyleBuilderNormalPreviewAccName">
+      <MemberSignature Language="C#" Value="public static string CellStyleBuilderNormalPreviewAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string CellStyleBuilderNormalPreviewAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.CellStyleBuilderNormalPreviewAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CellStyleBuilderNormalPreviewAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CellStyleBuilderNormalPreviewAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CellStyleBuilderNormalPreviewAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.CellStyleBuilderNormalPreviewAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CellStyleBuilderSelectedPreviewAccName">
+      <MemberSignature Language="C#" Value="public static string CellStyleBuilderSelectedPreviewAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string CellStyleBuilderSelectedPreviewAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.CellStyleBuilderSelectedPreviewAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CellStyleBuilderSelectedPreviewAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CellStyleBuilderSelectedPreviewAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CellStyleBuilderSelectedPreviewAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.CellStyleBuilderSelectedPreviewAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CollectionEditorCantRemoveItem">
+      <MemberSignature Language="C#" Value="public static string CollectionEditorCantRemoveItem { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string CollectionEditorCantRemoveItem" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorCantRemoveItem" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CollectionEditorCantRemoveItem As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CollectionEditorCantRemoveItem { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CollectionEditorCantRemoveItem : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorCantRemoveItem" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CollectionEditorCaption">
+      <MemberSignature Language="C#" Value="public static string CollectionEditorCaption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string CollectionEditorCaption" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorCaption" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CollectionEditorCaption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CollectionEditorCaption { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CollectionEditorCaption : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorCaption" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CollectionEditorInheritedReadOnlySelection">
+      <MemberSignature Language="C#" Value="public static string CollectionEditorInheritedReadOnlySelection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string CollectionEditorInheritedReadOnlySelection" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorInheritedReadOnlySelection" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CollectionEditorInheritedReadOnlySelection As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CollectionEditorInheritedReadOnlySelection { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CollectionEditorInheritedReadOnlySelection : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorInheritedReadOnlySelection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CollectionEditorProperties">
+      <MemberSignature Language="C#" Value="public static string CollectionEditorProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string CollectionEditorProperties" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CollectionEditorProperties As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CollectionEditorProperties { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CollectionEditorProperties : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CollectionEditorPropertiesMultiSelect">
+      <MemberSignature Language="C#" Value="public static string CollectionEditorPropertiesMultiSelect { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string CollectionEditorPropertiesMultiSelect" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorPropertiesMultiSelect" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CollectionEditorPropertiesMultiSelect As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CollectionEditorPropertiesMultiSelect { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CollectionEditorPropertiesMultiSelect : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorPropertiesMultiSelect" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CollectionEditorPropertiesNone">
+      <MemberSignature Language="C#" Value="public static string CollectionEditorPropertiesNone { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string CollectionEditorPropertiesNone" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorPropertiesNone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CollectionEditorPropertiesNone As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CollectionEditorPropertiesNone { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CollectionEditorPropertiesNone : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorPropertiesNone" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CollectionEditorUndoBatchDesc">
+      <MemberSignature Language="C#" Value="public static string CollectionEditorUndoBatchDesc { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string CollectionEditorUndoBatchDesc" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorUndoBatchDesc" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CollectionEditorUndoBatchDesc As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ CollectionEditorUndoBatchDesc { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.CollectionEditorUndoBatchDesc : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.CollectionEditorUndoBatchDesc" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorEditorAccName">
+      <MemberSignature Language="C#" Value="public static string ColorEditorAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ColorEditorAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ColorEditorAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ColorEditorAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ColorEditorAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ColorEditorAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ColorEditorAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorEditorPaletteTab">
+      <MemberSignature Language="C#" Value="public static string ColorEditorPaletteTab { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ColorEditorPaletteTab" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ColorEditorPaletteTab" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ColorEditorPaletteTab As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ColorEditorPaletteTab { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ColorEditorPaletteTab : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ColorEditorPaletteTab" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorEditorStandardTab">
+      <MemberSignature Language="C#" Value="public static string ColorEditorStandardTab { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ColorEditorStandardTab" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ColorEditorStandardTab" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ColorEditorStandardTab As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ColorEditorStandardTab { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ColorEditorStandardTab : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ColorEditorStandardTab" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorEditorSystemTab">
+      <MemberSignature Language="C#" Value="public static string ColorEditorSystemTab { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ColorEditorSystemTab" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ColorEditorSystemTab" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ColorEditorSystemTab As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ColorEditorSystemTab { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ColorEditorSystemTab : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ColorEditorSystemTab" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignmentEditorAccName">
+      <MemberSignature Language="C#" Value="public static string ContentAlignmentEditorAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ContentAlignmentEditorAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContentAlignmentEditorAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContentAlignmentEditorAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentAlignmentEditorAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignmentEditorBottomCenterAccName">
+      <MemberSignature Language="C#" Value="public static string ContentAlignmentEditorBottomCenterAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ContentAlignmentEditorBottomCenterAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorBottomCenterAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContentAlignmentEditorBottomCenterAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContentAlignmentEditorBottomCenterAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentAlignmentEditorBottomCenterAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorBottomCenterAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignmentEditorBottomLeftAccName">
+      <MemberSignature Language="C#" Value="public static string ContentAlignmentEditorBottomLeftAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ContentAlignmentEditorBottomLeftAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorBottomLeftAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContentAlignmentEditorBottomLeftAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContentAlignmentEditorBottomLeftAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentAlignmentEditorBottomLeftAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorBottomLeftAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignmentEditorBottomRightAccName">
+      <MemberSignature Language="C#" Value="public static string ContentAlignmentEditorBottomRightAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ContentAlignmentEditorBottomRightAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorBottomRightAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContentAlignmentEditorBottomRightAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContentAlignmentEditorBottomRightAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentAlignmentEditorBottomRightAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorBottomRightAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignmentEditorMiddleCenterAccName">
+      <MemberSignature Language="C#" Value="public static string ContentAlignmentEditorMiddleCenterAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ContentAlignmentEditorMiddleCenterAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorMiddleCenterAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContentAlignmentEditorMiddleCenterAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContentAlignmentEditorMiddleCenterAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentAlignmentEditorMiddleCenterAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorMiddleCenterAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignmentEditorMiddleLeftAccName">
+      <MemberSignature Language="C#" Value="public static string ContentAlignmentEditorMiddleLeftAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ContentAlignmentEditorMiddleLeftAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorMiddleLeftAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContentAlignmentEditorMiddleLeftAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContentAlignmentEditorMiddleLeftAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentAlignmentEditorMiddleLeftAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorMiddleLeftAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignmentEditorMiddleRightAccName">
+      <MemberSignature Language="C#" Value="public static string ContentAlignmentEditorMiddleRightAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ContentAlignmentEditorMiddleRightAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorMiddleRightAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContentAlignmentEditorMiddleRightAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContentAlignmentEditorMiddleRightAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentAlignmentEditorMiddleRightAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorMiddleRightAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignmentEditorTopCenterAccName">
+      <MemberSignature Language="C#" Value="public static string ContentAlignmentEditorTopCenterAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ContentAlignmentEditorTopCenterAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorTopCenterAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContentAlignmentEditorTopCenterAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContentAlignmentEditorTopCenterAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentAlignmentEditorTopCenterAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorTopCenterAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignmentEditorTopLeftAccName">
+      <MemberSignature Language="C#" Value="public static string ContentAlignmentEditorTopLeftAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ContentAlignmentEditorTopLeftAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorTopLeftAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContentAlignmentEditorTopLeftAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContentAlignmentEditorTopLeftAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentAlignmentEditorTopLeftAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorTopLeftAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentAlignmentEditorTopRightAccName">
+      <MemberSignature Language="C#" Value="public static string ContentAlignmentEditorTopRightAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ContentAlignmentEditorTopRightAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorTopRightAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContentAlignmentEditorTopRightAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ContentAlignmentEditorTopRightAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ContentAlignmentEditorTopRightAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ContentAlignmentEditorTopRightAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Culture">
+      <MemberSignature Language="C#" Value="public static System.Globalization.CultureInfo Culture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property class System.Globalization.CultureInfo Culture" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Property Culture As CultureInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Globalization::CultureInfo ^ Culture { System::Globalization::CultureInfo ^ get(); void set(System::Globalization::CultureInfo ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.Culture : System.Globalization.CultureInfo with get, set" Usage="System.Windows.Forms.Design.Editors.Resources.SR.Culture" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Globalization.CultureInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataGridView_Cancel">
+      <MemberSignature Language="C#" Value="public static string DataGridView_Cancel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string DataGridView_Cancel" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.DataGridView_Cancel" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DataGridView_Cancel As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ DataGridView_Cancel { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DataGridView_Cancel : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.DataGridView_Cancel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataGridView_OK">
+      <MemberSignature Language="C#" Value="public static string DataGridView_OK { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string DataGridView_OK" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.DataGridView_OK" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DataGridView_OK As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ DataGridView_OK { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DataGridView_OK : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.DataGridView_OK" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataSourceLocksItems">
+      <MemberSignature Language="C#" Value="public static string DataSourceLocksItems { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string DataSourceLocksItems" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.DataSourceLocksItems" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DataSourceLocksItems As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ DataSourceLocksItems { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DataSourceLocksItems : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.DataSourceLocksItems" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DockEditorAccName">
+      <MemberSignature Language="C#" Value="public static string DockEditorAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string DockEditorAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.DockEditorAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DockEditorAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ DockEditorAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DockEditorAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.DockEditorAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DockEditorBottomAccName">
+      <MemberSignature Language="C#" Value="public static string DockEditorBottomAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string DockEditorBottomAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.DockEditorBottomAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DockEditorBottomAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ DockEditorBottomAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DockEditorBottomAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.DockEditorBottomAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DockEditorFillAccName">
+      <MemberSignature Language="C#" Value="public static string DockEditorFillAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string DockEditorFillAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.DockEditorFillAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DockEditorFillAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ DockEditorFillAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DockEditorFillAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.DockEditorFillAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DockEditorLeftAccName">
+      <MemberSignature Language="C#" Value="public static string DockEditorLeftAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string DockEditorLeftAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.DockEditorLeftAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DockEditorLeftAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ DockEditorLeftAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DockEditorLeftAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.DockEditorLeftAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DockEditorNoneAccName">
+      <MemberSignature Language="C#" Value="public static string DockEditorNoneAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string DockEditorNoneAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.DockEditorNoneAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DockEditorNoneAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ DockEditorNoneAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DockEditorNoneAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.DockEditorNoneAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DockEditorRightAccName">
+      <MemberSignature Language="C#" Value="public static string DockEditorRightAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string DockEditorRightAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.DockEditorRightAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DockEditorRightAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ DockEditorRightAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DockEditorRightAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.DockEditorRightAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DockEditorTopAccName">
+      <MemberSignature Language="C#" Value="public static string DockEditorTopAccName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string DockEditorTopAccName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.DockEditorTopAccName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property DockEditorTopAccName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ DockEditorTopAccName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.DockEditorTopAccName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.DockEditorTopAccName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormatStringDialogTitle">
+      <MemberSignature Language="C#" Value="public static string FormatStringDialogTitle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string FormatStringDialogTitle" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.FormatStringDialogTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FormatStringDialogTitle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ FormatStringDialogTitle { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.FormatStringDialogTitle : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.FormatStringDialogTitle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenericFileFilter">
+      <MemberSignature Language="C#" Value="public static string GenericFileFilter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string GenericFileFilter" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.GenericFileFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property GenericFileFilter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ GenericFileFilter { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GenericFileFilter : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.GenericFileFilter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenericOpenFile">
+      <MemberSignature Language="C#" Value="public static string GenericOpenFile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string GenericOpenFile" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.GenericOpenFile" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property GenericOpenFile As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ GenericOpenFile { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.GenericOpenFile : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.GenericOpenFile" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HelpProviderEditorFilter">
+      <MemberSignature Language="C#" Value="public static string HelpProviderEditorFilter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string HelpProviderEditorFilter" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.HelpProviderEditorFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property HelpProviderEditorFilter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ HelpProviderEditorFilter { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.HelpProviderEditorFilter : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.HelpProviderEditorFilter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HelpProviderEditorTitle">
+      <MemberSignature Language="C#" Value="public static string HelpProviderEditorTitle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string HelpProviderEditorTitle" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.HelpProviderEditorTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property HelpProviderEditorTitle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ HelpProviderEditorTitle { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.HelpProviderEditorTitle : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.HelpProviderEditorTitle" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="iconFileDescription">
+      <MemberSignature Language="C#" Value="public static string iconFileDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string iconFileDescription" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.iconFileDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property iconFileDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ iconFileDescription { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.iconFileDescription : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.iconFileDescription" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageCollectionEditorFormText">
+      <MemberSignature Language="C#" Value="public static string ImageCollectionEditorFormText { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ImageCollectionEditorFormText" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ImageCollectionEditorFormText" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImageCollectionEditorFormText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ImageCollectionEditorFormText { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ImageCollectionEditorFormText : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ImageCollectionEditorFormText" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="imageFileDescription">
+      <MemberSignature Language="C#" Value="public static string imageFileDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string imageFileDescription" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.imageFileDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property imageFileDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ imageFileDescription { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.imageFileDescription : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.imageFileDescription" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkAreaEditorCancel">
+      <MemberSignature Language="C#" Value="public static string LinkAreaEditorCancel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string LinkAreaEditorCancel" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.LinkAreaEditorCancel" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LinkAreaEditorCancel As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ LinkAreaEditorCancel { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LinkAreaEditorCancel : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.LinkAreaEditorCancel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkAreaEditorCaption">
+      <MemberSignature Language="C#" Value="public static string LinkAreaEditorCaption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string LinkAreaEditorCaption" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.LinkAreaEditorCaption" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LinkAreaEditorCaption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ LinkAreaEditorCaption { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LinkAreaEditorCaption : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.LinkAreaEditorCaption" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkAreaEditorDescription">
+      <MemberSignature Language="C#" Value="public static string LinkAreaEditorDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string LinkAreaEditorDescription" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.LinkAreaEditorDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LinkAreaEditorDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ LinkAreaEditorDescription { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LinkAreaEditorDescription : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.LinkAreaEditorDescription" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LinkAreaEditorOK">
+      <MemberSignature Language="C#" Value="public static string LinkAreaEditorOK { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string LinkAreaEditorOK" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.LinkAreaEditorOK" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property LinkAreaEditorOK As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ LinkAreaEditorOK { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.LinkAreaEditorOK : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.LinkAreaEditorOK" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListViewSubItemBaseName">
+      <MemberSignature Language="C#" Value="public static string ListViewSubItemBaseName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ListViewSubItemBaseName" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ListViewSubItemBaseName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ListViewSubItemBaseName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ListViewSubItemBaseName { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ListViewSubItemBaseName : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ListViewSubItemBaseName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="metafileFileDescription">
+      <MemberSignature Language="C#" Value="public static string metafileFileDescription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string metafileFileDescription" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.metafileFileDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property metafileFileDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ metafileFileDescription { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.metafileFileDescription : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.metafileFileDescription" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MultilineStringEditorWatermark">
+      <MemberSignature Language="C#" Value="public static string MultilineStringEditorWatermark { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string MultilineStringEditorWatermark" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.MultilineStringEditorWatermark" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MultilineStringEditorWatermark As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ MultilineStringEditorWatermark { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.MultilineStringEditorWatermark : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.MultilineStringEditorWatermark" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlatformNotSupported_WinformsDesigner">
+      <MemberSignature Language="C#" Value="public static string PlatformNotSupported_WinformsDesigner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string PlatformNotSupported_WinformsDesigner" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.PlatformNotSupported_WinformsDesigner" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PlatformNotSupported_WinformsDesigner As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ PlatformNotSupported_WinformsDesigner { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.PlatformNotSupported_WinformsDesigner : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.PlatformNotSupported_WinformsDesigner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceManager">
+      <MemberSignature Language="C#" Value="public static System.Resources.ResourceManager ResourceManager { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class System.Resources.ResourceManager ResourceManager" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ResourceManager" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ResourceManager As ResourceManager" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Resources::ResourceManager ^ ResourceManager { System::Resources::ResourceManager ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ResourceManager : System.Resources.ResourceManager" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ResourceManager" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Resources.ResourceManager</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RTL">
+      <MemberSignature Language="C#" Value="public static string RTL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string RTL" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.RTL" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RTL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ RTL { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.RTL : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.RTL" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedPathEditorLabel">
+      <MemberSignature Language="C#" Value="public static string SelectedPathEditorLabel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string SelectedPathEditorLabel" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.SelectedPathEditorLabel" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SelectedPathEditorLabel As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ SelectedPathEditorLabel { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.SelectedPathEditorLabel : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.SelectedPathEditorLabel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShortcutKeys_InvalidKey">
+      <MemberSignature Language="C#" Value="public static string ShortcutKeys_InvalidKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ShortcutKeys_InvalidKey" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Design.Editors.Resources.SR.ShortcutKeys_InvalidKey" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ShortcutKeys_InvalidKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ShortcutKeys_InvalidKey { System::String ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.ShortcutKeys_InvalidKey : string" Usage="System.Windows.Forms.Design.Editors.Resources.SR.ShortcutKeys_InvalidKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

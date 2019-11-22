@@ -14,12 +14,24 @@
     <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
     <AssemblyVersion>10.0.4.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.VisualBasic.Devices.ServerComputer</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Provides properties for manipulating computer components such as audio, the clock, the keyboard, the file system, and so on.</summary>
+    <summary>
+   A RAD object representing the 'computer' that serves as a discovery 
+   mechanism for finding principle abstractions in the system that you can
+   code against such as the file system, the clipboard, performance 
+   counters, etc. It also provides functionality you would expect to see 
+   associated with the computer such as playing sound, timers, access to 
+   environment variables, etc. This class represent a general computer
+   available from a Windows Application, Web app, Dll library, etc.
+ </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   
@@ -77,11 +89,10 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:Microsoft.VisualBasic.Devices.Computer" /> class.</summary>
@@ -112,12 +123,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.Devices.Audio</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets an object that provides properties for methods for playing sounds.</summary>
-        <value>The <see langword="My.Computer.Audio" /> object for the computer.</value>
+        <summary>
+ Gets an Audio object which can play sound files or resources.
+ </summary>
+        <value>A sound object.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -172,12 +189,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.MyServices.ClipboardProxy</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets an object that provides methods for manipulating the Clipboard.</summary>
-        <value>The <see langword="My.Computer.Clipboard" /> object for the computer.</value>
+        <summary>
+ A thin wrapper for System.Windows.Forms.Clipboard
+ </summary>
+        <value>An object representing the clipboard</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -231,12 +254,19 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.Devices.Keyboard</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets an object that provides properties for accessing the current state of the keyboard, such as what keys are currently pressed, and provides a method to send keystrokes to the active window.</summary>
-        <value>The <see langword="My.Computer.Keyboard" /> object for the computer.</value>
+        <summary>
+ This property returns the Keyboard object representing some
+ keyboard properties and a send keys method
+ </summary>
+        <value>An instance of the Keyboard class.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -285,12 +315,19 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.Devices.Mouse</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets an object that provides properties for getting information about the format and configuration of the mouse installed on the local computer.</summary>
-        <value>The <see langword="My.Computer.Mouse" /> object for the computer.</value>
+        <summary>
+ This property returns the Mouse object containing information about
+ the physical mouse installed to the machine.
+ </summary>
+        <value>An instance of the Mouse class.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -324,66 +361,6 @@
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
     </Member>
-    <Member MemberName="Ports">
-      <MemberSignature Language="C#" Value="public Microsoft.VisualBasic.Devices.Ports Ports { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.VisualBasic.Devices.Ports Ports" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.VisualBasic.Devices.Computer.Ports" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Ports As Ports" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::VisualBasic::Devices::Ports ^ Ports { Microsoft::VisualBasic::Devices::Ports ^ get(); };" />
-      <MemberSignature Language="F#" Value="member this.Ports : Microsoft.VisualBasic.Devices.Ports" Usage="Microsoft.VisualBasic.Devices.Computer.Ports" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.VisualBasic</AssemblyName>
-        <AssemblyVersion>8.0.0.0</AssemblyVersion>
-        <AssemblyVersion>10.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
-        <AssemblyVersion>10.0.4.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Microsoft.VisualBasic.Devices.Ports</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets an object that provides a property and a method for accessing the computer's serial ports.</summary>
-        <value>The <see langword="My.Computer.Ports" /> object.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- This property provides easy access to the `My.Computer.Ports` object. For more information, see <xref:Microsoft.VisualBasic.Devices.Ports> object.  
-  
-## Availability by Project Type  
-  
-|Project type|Available|  
-|------------------|---------------|  
-|Windows Forms Application|**Yes**|  
-|Class Library|**Yes**|  
-|Console Application|**Yes**|  
-|Windows Forms Control Library|**Yes**|  
-|Web Control Library|No|  
-|Windows Service|**Yes**|  
-|Web Site|No|  
-  
-   
-  
-## Examples  
- This example describes how to send strings to the computer's `COM1` serial port.  
-  
- The `Using` block allows the application to close the serial port even if it generates an exception. All code that manipulates the serial port should appear within this block, or within a `Try...Catch...Finally` block with a call to use the <xref:System.IO.Ports.SerialPort.Close%2A> method.  
-  
- The <xref:System.IO.Ports.SerialPort.WriteLine%2A> method sends the data to the serial port.  
-  
- [!code-vb[VbVbalrMyComputer#33](~/samples/snippets/visualbasic/VS_Snippets_VBCSharp/VbVbalrMyComputer/VB/Class2.vb#33)]  
-  
- For more information, see [How to: Send Strings to Serial Ports](~/docs/visual-basic/developing-apps/programming/computer-resources/how-to-send-strings-to-serial-ports.md).  
-  
- ]]></format>
-        </remarks>
-        <altmember cref="T:Microsoft.VisualBasic.Devices.Ports" />
-        <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
-      </Docs>
-    </Member>
     <Member MemberName="Screen">
       <MemberSignature Language="C#" Value="public System.Windows.Forms.Screen Screen { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Forms.Screen Screen" />
@@ -400,12 +377,18 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.Screen</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the <see cref="T:System.Windows.Forms.Screen" /> object that represents the computer's primary display screen.</summary>
-        <value>A <see cref="T:System.Windows.Forms.Screen" /> object that represents the computer's primary screen.</value>
+        <summary>
+ This property returns the primary display screen.
+ </summary>
+        <value>A System.Windows.Forms.Screen object as the primary screen.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

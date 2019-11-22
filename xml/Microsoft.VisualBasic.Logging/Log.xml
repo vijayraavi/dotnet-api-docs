@@ -10,12 +10,18 @@
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>10.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Provides a property and methods for writing event and exception information to the application's log listeners.</summary>
+    <summary>
+ Enables logging to configured TraceListeners
+ </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   
@@ -66,15 +72,16 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Initializes a new instance of the <see cref="T:Microsoft.VisualBasic.Logging.Log" /> class.</summary>
-        <remarks>To be added.</remarks>
+        <summary>
+ Creates a Log and the underlying TraceSource based on the platform
+ </summary>
+        <remarks>Right now we only support Winapp as an application platform</remarks>
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
     </Member>
@@ -91,18 +98,18 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">
-          <see cref="T:System.String" />. The name to give to the <see cref="P:Microsoft.VisualBasic.Logging.Log.TraceSource" /> property object.</param>
-        <summary>Initializes a new instance of the <see cref="T:Microsoft.VisualBasic.Logging.Log" /> class.</summary>
+        <param name="name">The name of the TraceSource to be created</param>
+        <summary>
+ Creates a Log and the underlying TraceSource based on the passed in name
+ </summary>
         <remarks>To be added.</remarks>
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
@@ -120,17 +127,18 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.Logging.FileLogTraceListener</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the file the <see cref="T:Microsoft.VisualBasic.Logging.FileLogTraceListener" /> object that underlies the <see langword="Log" /> object.</summary>
-        <value>The <see cref="T:Microsoft.VisualBasic.Logging.FileLogTraceListener" /> object that underlies the <see langword="Log" /> object.</value>
+        <summary>
+ Returns the file log trace listener we create for the Log
+ </summary>
+        <value>The file log trace listener</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -160,17 +168,19 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Creates a new <see cref="T:Microsoft.VisualBasic.Logging.FileLogTraceListener" /> object and adds it to the <see cref="P:System.Diagnostics.TraceSource.Listeners" /> collection.</summary>
+        <summary>
+ When there is no config file to configure the trace source, this function is called in order to
+ configure the trace source according to the defaults they would have had in a default AppConfig 
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -197,20 +207,23 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Diagnostics.TraceSource</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets to the <see cref="T:System.Diagnostics.TraceSource" /> object that underlies the <see langword="Log" /> object.</summary>
-        <value>The <see cref="T:System.Diagnostics.TraceSource" /> object that underlies the <see langword="Log" /> object.</value>
+        <summary>
+ Gives access to the log's underlying TraceSource
+ </summary>
+        <value>The log's underlying TraceSource</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -268,6 +281,10 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -275,8 +292,10 @@
         <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="message">Required. The message to log. If <paramref name="message" /> is <see langword="Nothing" />, an empty string is used.</param>
-        <summary>Writes a message to the application's log listeners.</summary>
+        <param name="message">The message to be logged</param>
+        <summary>
+ Has the TraceSource fire a TraceEvent for all of its listeners
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -354,6 +373,10 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -362,9 +385,11 @@
         <Parameter Name="severity" Type="System.Diagnostics.TraceEventType" />
       </Parameters>
       <Docs>
-        <param name="message">Required. The message to log. If <paramref name="message" /> is <see langword="Nothing" />, an empty string is used.</param>
-        <param name="severity">The type of message. By default, <see langword="TraceEventType.Information" />.</param>
-        <summary>Writes a message to the application's log listeners.</summary>
+        <param name="message">The message to be logged</param>
+        <param name="severity">The type of message (error, info, etc...)</param>
+        <summary>
+ Has the TraceSource fire a TraceEvent for all of its listeners
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -443,6 +468,10 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -452,10 +481,12 @@
         <Parameter Name="id" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="message">Required. The message to log. If <paramref name="message" /> is <see langword="Nothing" />, an empty string is used.</param>
-        <param name="severity">The type of message. By default, <see langword="TraceEventType.Information" />.</param>
-        <param name="id">Message identifier, typically used for correlation. By default, related to <c>entryType</c> as described in the table.</param>
-        <summary>Writes a message to the application's log listeners.</summary>
+        <param name="message">The message to be logged</param>
+        <param name="severity">The type of message (error, info, etc...)</param>
+        <param name="id">An id for the message (used for corelation)</param>
+        <summary>
+ Has the TraceSource fire a TraceEvent for all of its listeners
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -543,6 +574,10 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -550,8 +585,10 @@
         <Parameter Name="ex" Type="System.Exception" />
       </Parameters>
       <Docs>
-        <param name="ex">Required. Exception to log.</param>
-        <summary>Writes exception information to the application's log listeners.</summary>
+        <param name="ex">The exception being logged</param>
+        <summary>
+ Has the TraceSource fire a TraceEvent for all listeners using information in an exception to form the message
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -632,6 +669,10 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -641,10 +682,13 @@
         <Parameter Name="additionalInfo" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="ex">Required. Exception to log.</param>
-        <param name="severity">The type of message. By default, <see cref="F:System.Diagnostics.TraceEventType.Error" />.</param>
-        <param name="additionalInfo">String to append to the message. By default, this is an empty string.</param>
-        <summary>Writes exception information to the application's log listeners.</summary>
+        <param name="ex">The exception being logged</param>
+        <param name="severity">The type of message (error, info, etc...)</param>
+        <param name="additionalInfo">Extra information to append to the message</param>
+        <summary>
+ Has the TraceSource fire a TraceEvent for all listeners using information in an exception to form the message 
+ and appending additional info
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -726,6 +770,10 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -736,11 +784,14 @@
         <Parameter Name="id" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="ex">Required. Exception to log.</param>
-        <param name="severity">The type of message. By default, <see cref="F:System.Diagnostics.TraceEventType.Error" />.</param>
-        <param name="additionalInfo">String to append to the message. By default, this is an empty string.</param>
-        <param name="id">Message identifier, typically used for correlation. By default, related to <c>entryType</c> as described in the table in the Remarks section.</param>
-        <summary>Writes exception information to the application's log listeners.</summary>
+        <param name="ex">The exception being logged</param>
+        <param name="severity">The type of message (error, info, etc...)</param>
+        <param name="additionalInfo">Extra information to append to the message</param>
+        <param name="id">An id for the message (used for corelation)</param>
+        <summary>
+ Has the TraceSource fire a TraceEvent for all listeners using information in an exception to form the message
+ and appending additional info
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

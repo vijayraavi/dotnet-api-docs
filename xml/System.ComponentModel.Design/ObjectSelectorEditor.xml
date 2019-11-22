@@ -14,6 +14,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Drawing.Design.UITypeEditor</BaseTypeName>
@@ -49,12 +50,8 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.ComponentModel.Design.ObjectSelectorEditor" /> class.</summary>
@@ -78,12 +75,8 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="subObjectSelector" Type="System.Boolean" />
       </Parameters>
@@ -103,6 +96,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Design</AssemblyName>
@@ -111,10 +105,11 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="treeView" Type="System.Windows.Forms.TreeView" Index="0" FrameworkAlternate="netcore-3.0" />
+        <Parameter Name="treeView" Type="System.Windows.Forms.TreeView" />
       </Parameters>
       <Docs>
-        <param name="treeView">To be added.</param>
+        <param name="treeView">
+        </param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -136,6 +131,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -162,6 +158,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -188,16 +185,12 @@
       </Docs>
     </Member>
     <Member MemberName="EqualsToValue">
-      <MemberSignature Language="C#" Value="protected internal bool EqualsToValue (object value);" FrameworkAlternate="netcore-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig instance bool EqualsToValue(object value) cil managed" FrameworkAlternate="netcore-3.0" />
+      <MemberSignature Language="C#" Value="protected internal bool EqualsToValue (object value);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig instance bool EqualsToValue(object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.ComponentModel.Design.ObjectSelectorEditor.EqualsToValue(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Protected Friend Function EqualsToValue (value As Object) As Boolean" FrameworkAlternate="netcore-3.0" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; bool EqualsToValue(System::Object ^ value);" FrameworkAlternate="netcore-3.0" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Function EqualsToValue (value As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; bool EqualsToValue(System::Object ^ value);" />
       <MemberSignature Language="F#" Value="member this.EqualsToValue : obj -&gt; bool" Usage="objectSelectorEditor.EqualsToValue value" />
-      <MemberSignature Language="C#" Value="public bool EqualsToValue (object value);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool EqualsToValue(object value) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="VB.NET" Value="Public Function EqualsToValue (value As Object) As Boolean" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool EqualsToValue(System::Object ^ value);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Design</AssemblyName>
@@ -208,6 +201,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -239,6 +233,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -273,6 +268,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Design.UITypeEditorEditStyle</ReturnType>
@@ -304,6 +300,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -330,6 +327,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -360,6 +358,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Design.Editors</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

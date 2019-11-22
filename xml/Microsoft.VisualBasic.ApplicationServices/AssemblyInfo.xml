@@ -14,31 +14,22 @@
     <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
     <AssemblyVersion>10.0.4.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Provides properties for getting the information about the application, such as the version number, description, loaded assemblies, and so on.</summary>
-    <remarks>
-      <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- Some of the properties exposed by the `My.Application.Info` object return the application's assembly information. To set the information in the application's assembly, you must use the **Assembly Information** dialog box, accessible from the **Application** pane of the **Project Designer**.  
-  
- The `My.Application.Info` object provides functionality similar to the <xref:System.Diagnostics.FileVersionInfo> class but is scoped to give quick access to the most common properties.  
-  
- Other properties, such as `LoadedAssemblies`, provide access to the current state of the application.  
-  
-   
-  
-## Examples  
- This example uses the `My.Application.Info.Version` property to display the version of the application.  
-  
- [!code-vb[VbVbalrMyApplication#30](~/samples/snippets/visualbasic/VS_Snippets_VBCSharp/VbVbalrMyApplication/VB/Form1.vb#30)]  
-  
- ]]></format>
-    </remarks>
+    <summary>
+  A class that contains the information about an Application. This information can be
+  specified using the assembly attributes (contained in AssemblyInfo.vb file in case of
+  a VB project in Visual Studio .NET).
+ </summary>
+    <remarks>This class is based on the FileVersionInfo class of the framework, but
+ reduced to a number of relevant properties.</remarks>
     <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Info" />
     <altmember cref="T:System.Diagnostics.FileVersionInfo" />
     <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
@@ -61,13 +52,19 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters>
         <Parameter Name="currentAssembly" Type="System.Reflection.Assembly" />
       </Parameters>
       <Docs>
         <param name="currentAssembly">
           <see cref="T:System.Reflection.Assembly" />. The assembly for which to obtain the information.</param>
-        <summary>Initializes a new instance of the <see cref="T:Microsoft.VisualBasic.ApplicationServices.AssemblyInfo" /> class with the specified assembly information.</summary>
+        <summary>
+ Creates an AssemblyInfo from an assembly
+ </summary>
         <remarks>To be added.</remarks>
         <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Info" />
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
@@ -90,12 +87,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the name, without the extension, of the assembly file for the application.</summary>
-        <value>A <see langword="String" /> containing the file name.</value>
+        <summary>
+ Gets the name of the file containing the manifest (usually the .exe file).
+ </summary>
+        <value>A String containing the file name.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -146,12 +149,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the company name associated with the application.</summary>
-        <value>A <see langword="String" /> that contains the company name associated with the application.</value>
+        <summary>
+ Gets the company name associated with the assembly.
+ </summary>
+        <value>A String containing the AssemblyCompanyAttribute associated with the assembly.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -181,7 +190,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The assembly does not have an <see cref="T:System.Reflection.AssemblyCompanyAttribute" /> attribute.</exception>
+        <exception cref="T:System.InvalidOperationException">if the AssemblyCompanyAttribute is not defined.</exception>
         <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Info" />
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
@@ -203,12 +212,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the copyright notice associated with the application.</summary>
-        <value>A <see langword="String" /> containing the copyright notice associated with the application.</value>
+        <summary>
+ Gets the copyright notices associated with the assembly.
+ </summary>
+        <value>A String containing the AssemblyCopyrightAttribute associated with the assembly.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -238,7 +253,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The assembly does not have an <see cref="T:System.Reflection.AssemblyCopyrightAttribute" /> attribute.</exception>
+        <exception cref="T:System.InvalidOperationException">if the AssemblyCopyrightAttribute is not defined.</exception>
         <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Info" />
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
@@ -260,12 +275,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the description associated with the application.</summary>
-        <value>A <see langword="String" /> containing the description associated with the application.</value>
+        <summary>
+ Gets the description associated with the assembly.
+ </summary>
+        <value>A String containing the AssemblyDescriptionAttribute associated with the assembly.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -295,7 +316,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The assembly does not have an <see cref="T:System.Reflection.AssemblyDescriptionAttribute" /> attribute.</exception>
+        <exception cref="T:System.InvalidOperationException">if the AssemblyDescriptionAttribute is not defined.</exception>
         <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Info" />
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
@@ -317,11 +338,17 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the directory where the application is stored.</summary>
+        <summary>
+ Gets the directory where the assembly lives.
+ </summary>
         <value>A <see langword="String" /> that contains the directory where the application is stored.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -372,12 +399,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Reflection.Assembly&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets a collection of all assemblies loaded by the application.</summary>
-        <value>A <see cref="T:System.Collections.ObjectModel.ReadOnlyCollection`1" /> of <see cref="T:System.Reflection.Assembly" /> containing all the assemblies loaded by the application.</value>
+        <summary>
+ Returns the names of all assemblies loaded by the current application.
+ </summary>
+        <value>A ReadOnlyCollection(Of Assembly) containing all the loaded assemblies.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -407,7 +440,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.AppDomainUnloadedException">The application domain is not loaded.</exception>
+        <exception cref="T:System.AppDomainUnloadedException">attempt on an unloaded application domain.</exception>
         <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Info" />
         <altmember cref="T:System.Collections.ObjectModel.ReadOnlyCollection`1" />
         <altmember cref="T:System.Reflection.Assembly" />
@@ -431,12 +464,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the product name associated with the application.</summary>
-        <value>A <see langword="String" /> containing the product name associated with the application.</value>
+        <summary>
+ Gets the product name associated with the assembly.
+ </summary>
+        <value>A String containing the AssemblyProductAttribute associated with the assembly.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -466,7 +505,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The assembly does not have an <see cref="T:System.Reflection.AssemblyProductAttribute" /> attribute.</exception>
+        <exception cref="T:System.InvalidOperationException">if the AssemblyProductAttribute is not defined.</exception>
         <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Info" />
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
@@ -488,12 +527,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the current stack-trace information.</summary>
-        <value>A <see langword="String" /> containing the current stack-trace information. The return value can be <see cref="F:System.String.Empty" />.</value>
+        <summary>
+ Returns the current stack trace information.
+ </summary>
+        <value>A string containing stack trace information. Value can be String.Empty.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -539,7 +584,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentOutOfRangeException">The requested stack-trace information is out of range.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">The requested stack trace information is out of range.</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">Controls the ability to access information in the file paths. Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.PathDiscovery" />.</permission>
         <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Info" />
         <altmember cref="P:System.Environment.StackTrace" />
@@ -563,12 +608,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the title associated with the application.</summary>
-        <value>A <see langword="String" /> containing the <see cref="T:System.Reflection.AssemblyTitleAttribute" /> associated with the application.</value>
+        <summary>
+ Gets the title associated with the assembly.
+ </summary>
+        <value>A String containing the AssemblyTitleAttribute associated with the assembly.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -598,7 +649,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The assembly does not have an <see cref="T:System.Reflection.AssemblyTitleAttribute" /> attribute.</exception>
+        <exception cref="T:System.InvalidOperationException">if the AssemblyTitleAttribute is not defined.</exception>
         <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Info" />
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
@@ -620,12 +671,18 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the trademark notice associated with the application.</summary>
-        <value>A <see langword="String" /> containing the trademark notice associated with the application.</value>
+        <summary>
+ Gets the trademark notices associated with the assembly.
+ </summary>
+        <value>A String containing the AssemblyTrademarkAttribute associated with the assembly.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -655,7 +712,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The assembly does not have an <see cref="T:System.Reflection.AssemblyTrademarkAttribute" /> attribute.</exception>
+        <exception cref="T:System.InvalidOperationException">if the AssemblyTrademarkAttribute is not defined.</exception>
         <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Info" />
         <related type="Article" href="~/docs/visual-basic/language-reference/objects/index.md">Objects (Visual Basic)</related>
       </Docs>
@@ -677,41 +734,19 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Version</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the version number of the application.</summary>
-        <value>A <see cref="T:System.Version" /> object containing the version number of the application.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The `My.Application.Info.Version` property gets a <xref:System.Version> object containing the version number of the application. You can use the <xref:System.Version.Major%2A>, <xref:System.Version.Minor%2A>, <xref:System.Version.Build%2A>, and <xref:System.Version.Revision%2A> properties of the <xref:System.Version> object to access specific version information about the application.  
-  
- ClickOnce-deployed applications should use the <xref:System.Deployment.Application.ApplicationDeployment.CurrentVersion%2A> property of the <xref:Microsoft.VisualBasic.ApplicationServices.ConsoleApplicationBase.Deployment%2A> property.  
-  
-## Availability by Project Type  
-  
-|Project type|Available|  
-|------------------|---------------|  
-|Windows Forms Application|**Yes**|  
-|Class Library|**Yes**|  
-|Console Application|**Yes**|  
-|Windows Forms Control Library|**Yes**|  
-|Web Control Library|No|  
-|Windows Service|**Yes**|  
-|Web Site|No|  
-  
-   
-  
-## Examples  
- This example uses the `My.Application.Info.Version` property to display the version of the application.  
-  
- [!code-vb[VbVbalrMyApplication#30](~/samples/snippets/visualbasic/VS_Snippets_VBCSharp/VbVbalrMyApplication/VB/Form1.vb#30)]  
-  
- ]]></format>
-        </remarks>
+        <summary>
+ Gets the version number of the assembly.
+ </summary>
+        <value>A System.Version class containing the version number of the assembly</value>
+        <remarks>Cannot use AssemblyVersionAttribute since it always return Nothing.</remarks>
         <exception cref="T:System.Security.SecurityException">The application does not have sufficient permissions to access the assembly version.</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">Controls the ability to access files and folders. Associated enumeration: <see cref="F:System.Security.Permissions.PermissionState.Unrestricted" />.</permission>
         <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.ApplicationBase.Info" />
@@ -738,12 +773,20 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the amount of physical memory mapped to the process context.</summary>
-        <value>A <see langword="Long" /> containing the number of bytes of physical memory mapped to the process context.</value>
+        <summary>
+ Gets the amount of physical memory mapped to the process context.
+ </summary>
+        <value>
+ A 64-bit signed integer containing the size of physical memory mapped to the process context, in bytes.
+ </value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

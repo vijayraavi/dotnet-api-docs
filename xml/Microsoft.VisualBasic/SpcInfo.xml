@@ -1,6 +1,6 @@
 <Type Name="SpcInfo" FullName="Microsoft.VisualBasic.SpcInfo">
   <TypeSignature Language="C#" Value="public struct SpcInfo" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed SpcInfo extends System.ValueType" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit SpcInfo extends System.ValueType" />
   <TypeSignature Language="DocId" Value="T:Microsoft.VisualBasic.SpcInfo" />
   <TypeSignature Language="VB.NET" Value="Public Structure SpcInfo" />
   <TypeSignature Language="C++ CLI" Value="public value class SpcInfo" />
@@ -21,7 +21,7 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+      <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

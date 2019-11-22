@@ -14,12 +14,18 @@
     <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
     <AssemblyVersion>10.0.4.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Provides methods for playing sounds.</summary>
+    <summary>
+  An object that makes it easy to play wav files
+ </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   
@@ -75,14 +81,15 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Initializes a new instance of the <see cref="T:Microsoft.VisualBasic.Devices.Audio" /> class.</summary>
+        <summary>
+  Creates a new Audio object
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -118,11 +125,10 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -130,8 +136,10 @@
         <Parameter Name="location" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="location">A <see langword="String" /> containing the name of the sound file</param>
-        <summary>Plays a .wav sound file.</summary>
+        <param name="location">The name of the file</param>
+        <summary>
+  Plays a .wav file in background mode
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -207,6 +215,10 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -215,11 +227,11 @@
         <Parameter Name="playMode" Type="Microsoft.VisualBasic.AudioPlayMode" />
       </Parameters>
       <Docs>
-        <param name="data">
-          <see langword="Byte" /> array that represents the sound file.</param>
-        <param name="playMode">
-          <see cref="T:Microsoft.VisualBasic.AudioPlayMode" /> mode for playing the sound. By default, <see langword="AudioPlayMode.Background" />.</param>
-        <summary>Plays a .wav sound file.</summary>
+        <param name="data">The array representing the .wav file</param>
+        <param name="playMode">The mode in which the array should be played</param>
+        <summary>
+   Plays a Byte array representation of a .wav file in the passed in mode
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -292,6 +304,10 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -300,11 +316,11 @@
         <Parameter Name="playMode" Type="Microsoft.VisualBasic.AudioPlayMode" />
       </Parameters>
       <Docs>
-        <param name="stream">
-          <see cref="T:System.IO.Stream" /> that represents the sound file.</param>
-        <param name="playMode">
-          <see cref="T:Microsoft.VisualBasic.AudioPlayMode" /> mode for playing the sound. By default, <see langword="AudioPlayMode.Background" />.</param>
-        <summary>Plays a .wav sound file.</summary>
+        <param name="stream">The stream representing the .wav file</param>
+        <param name="playMode">The mode in which the stream should be played</param>
+        <summary>
+  Plays a stream representation of a .wav file in the passed in mode
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -379,6 +395,10 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -387,10 +407,14 @@
         <Parameter Name="playMode" Type="Microsoft.VisualBasic.AudioPlayMode" />
       </Parameters>
       <Docs>
-        <param name="location">A <see langword="String" /> containing the name of the sound file</param>
+        <param name="location">The name of the file</param>
         <param name="playMode">
-          <see cref="T:Microsoft.VisualBasic.AudioPlayMode" /> mode for playing the sound. By default, <see langword="AudioPlayMode.Background" />.</param>
-        <summary>Plays a .wav sound file.</summary>
+ An enum value representing the mode, Background (async), 
+ WaitToComplete (sync) or BackgroundLoop
+ </param>
+        <summary>
+ Plays a .wav file in the passed in mode
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -467,6 +491,10 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -474,52 +502,11 @@
         <Parameter Name="systemSound" Type="System.Media.SystemSound" />
       </Parameters>
       <Docs>
-        <param name="systemSound">
-          <see cref="T:System.Media.SystemSound" /> object representing the system sound to play.</param>
-        <summary>Plays a system sound.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The `PlaySystemSound` method plays the system sound described by `systemSound`; the sound is played once, in the background.  
-  
- The value of `systemSound` must be one of the shared members from the <xref:System.Media.SystemSounds> class:  
-  
--   <xref:System.Media.SystemSounds.Asterisk%2A>  
-  
--   <xref:System.Media.SystemSounds.Beep%2A>  
-  
--   <xref:System.Media.SystemSounds.Exclamation%2A>  
-  
--   <xref:System.Media.SystemSounds.Hand%2A>  
-  
--   <xref:System.Media.SystemSounds.Question%2A>  
-  
- For more information, see [Playing Sounds](~/docs/visual-basic/developing-apps/programming/computer-resources/playing-sounds.md).  
-  
-## Availability by Project Type  
-  
-|Project type|Available|  
-|-|-|  
-|Windows Application|**Yes**|  
-|Class Library|**Yes**|  
-|Console Application|**Yes**|  
-|Windows Control Library|**Yes**|  
-|Web Control Library|No|  
-|Windows Service|**Yes**|  
-|Web Site|No|  
-  
-   
-  
-## Examples  
- This example uses the `My.Computer.Audio.PlaySystemSound` method to play a system sound.  
-  
- [!code-vb[VbVbalrMyComputer#17](~/samples/snippets/visualbasic/VS_Snippets_VBCSharp/VbVbalrMyComputer/VB/Class1.vb#17)]  
-  
- This code example can run only within a Windows Forms application.  
-  
- ]]></format>
-        </remarks>
+        <param name="systemSound">The sound to be played</param>
+        <summary>
+   Plays a system messageBeep sound.
+ </summary>
+        <remarks>Plays the sound asysnchronously</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="systemSound" /> is <see langword="Nothing" />.</exception>
         <altmember cref="T:System.Media.SystemSound" />
@@ -544,12 +531,18 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Forms</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Stops a sound playing in the background.</summary>
+        <summary>
+  Stops the play of any playing sound
+ </summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

@@ -9,6 +9,7 @@
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -42,6 +43,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.VisualStyles.EdgeEffects</ReturnType>
@@ -53,21 +55,22 @@
     </Member>
     <Member MemberName="Flat">
       <MemberSignature Language="C#" Value="Flat" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Windows.Forms.VisualStyles.EdgeEffects Flat = int32(4096)" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Windows.Forms.VisualStyles.EdgeEffects Flat = int32(16384)" />
       <MemberSignature Language="DocId" Value="F:System.Windows.Forms.VisualStyles.EdgeEffects.Flat" />
       <MemberSignature Language="VB.NET" Value="Flat" />
       <MemberSignature Language="C++ CLI" Value="Flat" />
-      <MemberSignature Language="F#" Value="Flat = 4096" Usage="System.Windows.Forms.VisualStyles.EdgeEffects.Flat" />
+      <MemberSignature Language="F#" Value="Flat = 16384" Usage="System.Windows.Forms.VisualStyles.EdgeEffects.Flat" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.VisualStyles.EdgeEffects</ReturnType>
       </ReturnValue>
-      <MemberValue>4096</MemberValue>
+      <MemberValue>16384</MemberValue>
       <Docs>
         <summary>The border is flat.</summary>
       </Docs>
@@ -84,6 +87,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.VisualStyles.EdgeEffects</ReturnType>
@@ -105,6 +109,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.VisualStyles.EdgeEffects</ReturnType>
@@ -116,21 +121,22 @@
     </Member>
     <Member MemberName="Soft">
       <MemberSignature Language="C#" Value="Soft" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Windows.Forms.VisualStyles.EdgeEffects Soft = int32(16384)" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Windows.Forms.VisualStyles.EdgeEffects Soft = int32(4096)" />
       <MemberSignature Language="DocId" Value="F:System.Windows.Forms.VisualStyles.EdgeEffects.Soft" />
       <MemberSignature Language="VB.NET" Value="Soft" />
       <MemberSignature Language="C++ CLI" Value="Soft" />
-      <MemberSignature Language="F#" Value="Soft = 16384" Usage="System.Windows.Forms.VisualStyles.EdgeEffects.Soft" />
+      <MemberSignature Language="F#" Value="Soft = 4096" Usage="System.Windows.Forms.VisualStyles.EdgeEffects.Soft" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.VisualStyles.EdgeEffects</ReturnType>
       </ReturnValue>
-      <MemberValue>16384</MemberValue>
+      <MemberValue>4096</MemberValue>
       <Docs>
         <summary>The border is soft.</summary>
       </Docs>

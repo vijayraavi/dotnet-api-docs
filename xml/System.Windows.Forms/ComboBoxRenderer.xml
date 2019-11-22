@@ -9,6 +9,7 @@
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -53,6 +54,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -85,13 +87,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The operating system does not support visual styles.  
-  
  -or-  
-  
  Visual styles are disabled by the user in the operating system.  
-  
  -or-  
-  
  Visual styles are not applied to the client area of application windows.</exception>
       </Docs>
     </Member>
@@ -116,6 +114,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -139,13 +138,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The operating system does not support visual styles.  
-  
  -or-  
-  
  Visual styles are disabled by the user in the operating system.  
-  
  -or-  
-  
  Visual styles are not applied to the client area of application windows.</exception>
       </Docs>
     </Member>
@@ -160,12 +155,8 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -192,13 +183,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The operating system does not support visual styles.  
-  
  -or-  
-  
  Visual styles are disabled by the user in the operating system.  
-  
  -or-  
-  
  Visual styles are not applied to the client area of application windows.</exception>
       </Docs>
     </Member>
@@ -213,12 +200,8 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -256,13 +239,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The operating system does not support visual styles.  
-  
  -or-  
-  
  Visual styles are disabled by the user in the operating system.  
-  
  -or-  
-  
  Visual styles are not applied to the client area of application windows.</exception>
       </Docs>
     </Member>
@@ -277,6 +256,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -306,13 +286,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The operating system does not support visual styles.  
-  
  -or-  
-  
  Visual styles are disabled by the user in the operating system.  
-  
  -or-  
-  
  Visual styles are not applied to the client area of application windows.</exception>
       </Docs>
     </Member>
@@ -327,6 +303,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -358,13 +335,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The operating system does not support visual styles.  
-  
  -or-  
-  
  Visual styles are disabled by the user in the operating system.  
-  
  -or-  
-  
  Visual styles are not applied to the client area of application windows.</exception>
       </Docs>
     </Member>
@@ -380,6 +353,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

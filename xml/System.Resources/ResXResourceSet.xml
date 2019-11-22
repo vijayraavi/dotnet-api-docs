@@ -10,6 +10,7 @@
     <AssemblyVersion>1.0.5000.0</AssemblyVersion>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Resources.ResourceSet</BaseTypeName>
@@ -69,6 +70,7 @@
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="stream" Type="System.IO.Stream" />
@@ -94,6 +96,7 @@
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fileName" Type="System.String" />
@@ -112,13 +115,14 @@
       <MemberSignature Language="DocId" Value="M:System.Resources.ResXResourceSet.GetDefaultReader" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetDefaultReader () As Type" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override Type ^ GetDefaultReader();" />
-      <MemberSignature Language="F#" Value="override this.GetDefaultReader : unit -&gt; Type" Usage="resXResourceSet.GetDefaultReader " />
+      <MemberSignature Language="F#" Value="abstract member GetDefaultReader : unit -&gt; Type&#xA;override this.GetDefaultReader : unit -&gt; Type" Usage="resXResourceSet.GetDefaultReader " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>
@@ -141,13 +145,14 @@
       <MemberSignature Language="DocId" Value="M:System.Resources.ResXResourceSet.GetDefaultWriter" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetDefaultWriter () As Type" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override Type ^ GetDefaultWriter();" />
-      <MemberSignature Language="F#" Value="override this.GetDefaultWriter : unit -&gt; Type" Usage="resXResourceSet.GetDefaultWriter " />
+      <MemberSignature Language="F#" Value="abstract member GetDefaultWriter : unit -&gt; Type&#xA;override this.GetDefaultWriter : unit -&gt; Type" Usage="resXResourceSet.GetDefaultWriter " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>

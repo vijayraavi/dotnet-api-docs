@@ -9,6 +9,7 @@
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -53,13 +54,14 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="knownFolderGuid" Type="System.Guid" />
       </Parameters>
       <Docs>
-        <param name="knownFolderGuid">A <see cref="T:System.Guid" /> that represents a [!INCLUDE[wiprlhext](~/includes/wiprlhext-md.md)] Known Folder.</param>
-        <summary>Initializes a new instance of the <see cref="T:System.Windows.Forms.FileDialogCustomPlace" /> class with a custom place identified by a [!INCLUDE[wiprlhext](~/includes/wiprlhext-md.md)] Known Folder GUID.</summary>
+        <param name="knownFolderGuid">A <see cref="T:System.Guid" /> that represents a Windows Vista Known Folder.</param>
+        <summary>Initializes a new instance of the <see cref="T:System.Windows.Forms.FileDialogCustomPlace" /> class with a custom place identified by a Windows Vista Known Folder GUID.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -91,6 +93,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="path" Type="System.String" />
@@ -114,18 +117,14 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets or sets the [!INCLUDE[wiprlhext](~/includes/wiprlhext-md.md)] Known Folder GUID for the custom place.</summary>
-        <value>A <see cref="T:System.Guid" /> that indicates the [!INCLUDE[wiprlhext](~/includes/wiprlhext-md.md)] Known Folder for the custom place. If the custom place was specified with a folder path, then an empty GUID is returned. For a list of the available [!INCLUDE[wiprlhext](~/includes/wiprlhext-md.md)] Known Folders, see [Known Folder GUIDs for File Dialog Custom Places](~/docs/framework/winforms/controls/known-folder-guids-for-file-dialog-custom-places.md) or the KnownFolders.h file in the Windows SDK.</value>
+        <summary>Gets or sets the Windows Vista Known Folder GUID for the custom place.</summary>
+        <value>A <see cref="T:System.Guid" /> that indicates the Windows Vista Known Folder for the custom place. If the custom place was specified with a folder path, then an empty GUID is returned. For a list of the available Windows Vista Known Folders, see Known Folder GUIDs for File Dialog Custom Places or the KnownFolders.h file in the Windows SDK.</value>
         <remarks>To be added.</remarks>
         <altmember cref="P:System.Windows.Forms.FileDialog.CustomPlaces" />
       </Docs>
@@ -142,13 +141,14 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the folder path to the custom place.</summary>
-        <value>A folder path to the custom place. If the custom place was specified with a [!INCLUDE[wiprlhext](~/includes/wiprlhext-md.md)] Known Folder GUID, then an empty string is returned.</value>
+        <value>A folder path to the custom place. If the custom place was specified with a Windows Vista Known Folder GUID, then an empty string is returned.</value>
         <remarks>To be added.</remarks>
         <altmember cref="P:System.Windows.Forms.FileDialog.CustomPlaces" />
       </Docs>
@@ -165,6 +165,7 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
