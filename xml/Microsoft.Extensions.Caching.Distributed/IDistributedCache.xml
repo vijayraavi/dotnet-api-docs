@@ -17,7 +17,9 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>Represents a distributed cache of serialized values.</summary>
+    <summary>
+            Represents a distributed cache of serialized values.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -47,7 +49,9 @@
       </Parameters>
       <Docs>
         <param name="key">A string identifying the requested value.</param>
-        <summary>Gets a value with the given key.</summary>
+        <summary>
+            Gets a value with the given key.
+            </summary>
         <returns>The located value or null.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -103,7 +107,9 @@
       <Docs>
         <param name="key">A string identifying the requested value.</param>
         <param name="token">Optional. The <see cref="T:System.Threading.CancellationToken" /> used to propagate notifications that the operation should be canceled.</param>
-        <summary>Gets a value with the given key.</summary>
+        <summary>
+            Gets a value with the given key.
+            </summary>
         <returns>The <see cref="T:System.Threading.Tasks.Task" /> that represents the asynchronous operation, containing the located value or null.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -134,7 +140,9 @@
       </Parameters>
       <Docs>
         <param name="key">A string identifying the requested calue.</param>
-        <summary>Refreshes a value in the cache based on its key, resetting its sliding expiration timeout (if any).</summary>
+        <summary>
+            Refreshes a value in the cache based on its key, resetting its sliding expiration timeout (if any).
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -189,7 +197,9 @@
       <Docs>
         <param name="key">A string identifying the requested value.</param>
         <param name="token">Optional. The <see cref="T:System.Threading.CancellationToken" /> used to propagate notifications that the operation should be canceled.</param>
-        <summary>Refreshes a value in the cache based on its key, resetting its sliding expiration timeout (if any).</summary>
+        <summary>
+            Refreshes a value in the cache based on its key, resetting its sliding expiration timeout (if any).
+            </summary>
         <returns>The <see cref="T:System.Threading.Tasks.Task" /> that represents the asynchronous operation.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -220,7 +230,9 @@
       </Parameters>
       <Docs>
         <param name="key">A string identifying the requested value.</param>
-        <summary>Removes the value with the given key.</summary>
+        <summary>
+            Removes the value with the given key.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -275,7 +287,9 @@
       <Docs>
         <param name="key">A string identifying the requested value.</param>
         <param name="token">Optional. The <see cref="T:System.Threading.CancellationToken" /> used to propagate notifications that the operation should be canceled.</param>
-        <summary>Removes the value with the given key.</summary>
+        <summary>
+            Removes the value with the given key.
+            </summary>
         <returns>The <see cref="T:System.Threading.Tasks.Task" /> that represents the asynchronous operation.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -310,7 +324,9 @@
         <param name="key">A string identifying the requested value.</param>
         <param name="value">The value to set in the cache.</param>
         <param name="options">The cache options for the value.</param>
-        <summary>Sets a value with the given key.</summary>
+        <summary>
+            Sets a value with the given key.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -373,7 +389,9 @@
         <param name="value">The value to set in the cache.</param>
         <param name="options">The cache options for the value.</param>
         <param name="token">Optional. The <see cref="T:System.Threading.CancellationToken" /> used to propagate notifications that the operation should be canceled.</param>
-        <summary>Sets the value with the given key.</summary>
+        <summary>
+            Sets the value with the given key.
+            </summary>
         <returns>The <see cref="T:System.Threading.Tasks.Task" /> that represents the asynchronous operation.</returns>
         <remarks>To be added.</remarks>
       </Docs>

@@ -20,7 +20,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Extension methods for setting data in an <see cref="T:Microsoft.Extensions.Caching.Distributed.IDistributedCache" />.</summary>
+    <summary>
+            Extension methods for setting data in an <see cref="T:Microsoft.Extensions.Caching.Distributed.IDistributedCache" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -52,7 +54,9 @@
       <Docs>
         <param name="cache">The cache in which to store the data.</param>
         <param name="key">The key to get the stored data for.</param>
-        <summary>Gets a string from the specified cache with the specified key.</summary>
+        <summary>
+            Gets a string from the specified cache with the specified key.
+            </summary>
         <returns>The string value from the stored cache key.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,7 +121,9 @@
         <param name="cache">The cache in which to store the data.</param>
         <param name="key">The key to get the stored data for.</param>
         <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
-        <summary>Asynchronously gets a string from the specified cache with the specified key.</summary>
+        <summary>
+            Asynchronously gets a string from the specified cache with the specified key.
+            </summary>
         <returns>A task that gets the string value from the stored cache key.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -152,7 +158,9 @@
         <param name="cache">The cache in which to store the data.</param>
         <param name="key">The key to store the data in.</param>
         <param name="value">The data to store in the cache.</param>
-        <summary>Sets a sequence of bytes in the specified cache with the specified key.</summary>
+        <summary>
+            Sets a sequence of bytes in the specified cache with the specified key.
+            </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>
       </Docs>
@@ -217,7 +225,9 @@
         <param name="key">The key to store the data in.</param>
         <param name="value">The data to store in the cache.</param>
         <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
-        <summary>Asynchronously sets a sequence of bytes in the specified cache with the specified key.</summary>
+        <summary>
+            Asynchronously sets a sequence of bytes in the specified cache with the specified key.
+            </summary>
         <returns>A task that represents the asynchronous set operation.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>
@@ -253,7 +263,9 @@
         <param name="cache">The cache in which to store the data.</param>
         <param name="key">The key to store the data in.</param>
         <param name="value">The data to store in the cache.</param>
-        <summary>Sets a string in the specified cache with the specified key.</summary>
+        <summary>
+            Sets a string in the specified cache with the specified key.
+            </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>
       </Docs>
@@ -290,7 +302,9 @@
         <param name="key">The key to store the data in.</param>
         <param name="value">The data to store in the cache.</param>
         <param name="options">The cache options for the entry.</param>
-        <summary>Sets a string in the specified cache with the specified key.</summary>
+        <summary>
+            Sets a string in the specified cache with the specified key.
+            </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>
       </Docs>
@@ -388,7 +402,9 @@
         <param name="key">The key to store the data in.</param>
         <param name="value">The data to store in the cache.</param>
         <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
-        <summary>Asynchronously sets a string in the specified cache with the specified key.</summary>
+        <summary>
+            Asynchronously sets a string in the specified cache with the specified key.
+            </summary>
         <returns>A task that represents the asynchronous set operation.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>
@@ -425,7 +441,9 @@
         <param name="value">The data to store in the cache.</param>
         <param name="options">The cache options for the entry.</param>
         <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
-        <summary>Asynchronously sets a string in the specified cache with the specified key.</summary>
+        <summary>
+            Asynchronously sets a string in the specified cache with the specified key.
+            </summary>
         <returns>A task that represents the asynchronous set operation.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>

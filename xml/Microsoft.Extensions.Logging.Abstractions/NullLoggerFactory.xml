@@ -25,8 +25,10 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>An <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory" /> used to create instance of
-            <see cref="T:Microsoft.Extensions.Logging.Abstractions.NullLogger" /> that logs nothing.</summary>
+    <summary>
+            An <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory" /> used to create instance of
+            <see cref="T:Microsoft.Extensions.Logging.Abstractions.NullLogger" /> that logs nothing.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -47,7 +49,9 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Creates a new <see cref="T:Microsoft.Extensions.Logging.Abstractions.NullLoggerFactory" /> instance.</summary>
+        <summary>
+            Creates a new <see cref="T:Microsoft.Extensions.Logging.Abstractions.NullLoggerFactory" /> instance.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -79,7 +83,9 @@
       <Docs>
         <param name="provider">To be added.</param>
         <summary>To be added.</summary>
-        <remarks>This method ignores the parameter and does nothing.</remarks>
+        <remarks>
+            This method ignores the parameter and does nothing.
+            </remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -112,7 +118,9 @@
         <param name="name">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
-        <remarks>This returns a <see cref="T:Microsoft.Extensions.Logging.Abstractions.NullLogger" /> instance which logs nothing.</remarks>
+        <remarks>
+            This returns a <see cref="T:Microsoft.Extensions.Logging.Abstractions.NullLogger" /> instance which logs nothing.
+            </remarks>
         <inheritdoc />
       </Docs>
     </Member>
@@ -165,7 +173,9 @@
         <ReturnType>Microsoft.Extensions.Logging.Abstractions.NullLoggerFactory</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Returns the shared instance of <see cref="T:Microsoft.Extensions.Logging.Abstractions.NullLoggerFactory" />.</summary>
+        <summary>
+            Returns the shared instance of <see cref="T:Microsoft.Extensions.Logging.Abstractions.NullLoggerFactory" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

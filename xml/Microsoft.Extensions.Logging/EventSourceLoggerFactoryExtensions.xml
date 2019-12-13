@@ -19,7 +19,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Extension methods for the <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory" /> class.</summary>
+    <summary>
+            Extension methods for the <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory" /> class.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -80,7 +82,9 @@
       </Parameters>
       <Docs>
         <param name="builder">The extension method argument.</param>
-        <summary>Adds an event logger named 'EventSource' to the factory.</summary>
+        <summary>
+            Adds an event logger named 'EventSource' to the factory.
+            </summary>
         <returns>The <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" /> so that additional calls can be chained.</returns>
         <remarks>To be added.</remarks>
       </Docs>

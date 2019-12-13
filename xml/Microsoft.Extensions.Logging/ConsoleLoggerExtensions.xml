@@ -82,7 +82,9 @@
       </Parameters>
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" /> to use.</param>
-        <summary>Adds a console logger named 'Console' to the factory.</summary>
+        <summary>
+            Adds a console logger named 'Console' to the factory.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -294,7 +296,9 @@
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" /> to use.</param>
         <param name="configure">A delegate to configure the <see cref="T:Microsoft.Extensions.Logging.Console.ConsoleLogger" />.</param>
-        <summary>Adds a console logger named 'Console' to the factory.</summary>
+        <summary>
+            Adds a console logger named 'Console' to the factory.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

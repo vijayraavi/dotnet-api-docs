@@ -25,7 +25,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Describes a service with its service type, implementation, and lifetime.</summary>
+    <summary>
+            Describes a service with its service type, implementation, and lifetime.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -54,8 +56,10 @@
       <Docs>
         <param name="serviceType">The <see cref="T:System.Type" /> of the service.</param>
         <param name="instance">The instance implementing the service.</param>
-        <summary>Initializes a new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified <paramref name="instance" />
-            as a <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" />.</summary>
+        <summary>
+            Initializes a new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified <paramref name="instance" />
+            as a <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -86,7 +90,9 @@
         <param name="serviceType">The <see cref="T:System.Type" /> of the service.</param>
         <param name="factory">A factory used for creating service instances.</param>
         <param name="lifetime">The <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceLifetime" /> of the service.</param>
-        <summary>Initializes a new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified <paramref name="factory" />.</summary>
+        <summary>
+            Initializes a new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified <paramref name="factory" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,7 +123,9 @@
         <param name="serviceType">The <see cref="T:System.Type" /> of the service.</param>
         <param name="implementationType">The <see cref="T:System.Type" /> implementing the service.</param>
         <param name="lifetime">The <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceLifetime" /> of the service.</param>
-        <summary>Initializes a new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified <paramref name="implementationType" />.</summary>
+        <summary>
+            Initializes a new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified <paramref name="implementationType" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -151,9 +159,11 @@
         <param name="serviceType">The type of the service.</param>
         <param name="implementationFactory">A factory to create new instances of the service implementation.</param>
         <param name="lifetime">The lifetime of the service.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <paramref name="serviceType" />, <paramref name="implementationFactory" />,
-            and <paramref name="lifetime" />.</summary>
+            and <paramref name="lifetime" />.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -188,9 +198,11 @@
         <param name="serviceType">The type of the service.</param>
         <param name="implementationType">The type of the implementation.</param>
         <param name="lifetime">The lifetime of the service.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <paramref name="serviceType" />, <paramref name="implementationType" />,
-            and <paramref name="lifetime" />.</summary>
+            and <paramref name="lifetime" />.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -335,9 +347,11 @@
       <Docs>
         <param name="service">The type of the service.</param>
         <param name="implementationFactory">A factory to create new instances of the service implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <paramref name="service" />, <paramref name="implementationFactory" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -370,9 +384,11 @@
       <Docs>
         <param name="service">The type of the service.</param>
         <param name="implementationType">The type of the implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <paramref name="service" /> and <paramref name="implementationType" />
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -411,9 +427,11 @@
       <Docs>
         <typeparam name="TService">The type of the service.</typeparam>
         <param name="implementationFactory">A factory to create new instances of the service implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <typeparamref name="TService" />, <paramref name="implementationFactory" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -456,9 +474,11 @@
       <Docs>
         <typeparam name="TService">The type of the service.</typeparam>
         <typeparam name="TImplementation">The type of the implementation.</typeparam>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <typeparamref name="TService" />, <typeparamref name="TImplementation" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -504,10 +524,12 @@
         <typeparam name="TService">The type of the service.</typeparam>
         <typeparam name="TImplementation">The type of the implementation.</typeparam>
         <param name="implementationFactory">A factory to create new instances of the service implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <typeparamref name="TService" />, <typeparamref name="TImplementation" />,
             <paramref name="implementationFactory" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -568,9 +590,11 @@
       <Docs>
         <param name="serviceType">The type of the service.</param>
         <param name="implementationFactory">A factory to create new instances of the service implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <paramref name="serviceType" />, <paramref name="implementationFactory" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -603,9 +627,11 @@
       <Docs>
         <param name="serviceType">The type of the service.</param>
         <param name="implementationInstance">The instance of the implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <paramref name="serviceType" />, <paramref name="implementationInstance" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -638,9 +664,11 @@
       <Docs>
         <param name="service">The type of the service.</param>
         <param name="implementationType">The type of the implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <paramref name="service" /> and <paramref name="implementationType" />
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -679,9 +707,11 @@
       <Docs>
         <typeparam name="TService">The type of the service.</typeparam>
         <param name="implementationFactory">A factory to create new instances of the service implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <typeparamref name="TService" />, <paramref name="implementationFactory" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -720,9 +750,11 @@
       <Docs>
         <typeparam name="TService">The type of the service.</typeparam>
         <param name="implementationInstance">The instance of the implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <typeparamref name="TService" />, <paramref name="implementationInstance" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Scoped" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -765,9 +797,11 @@
       <Docs>
         <typeparam name="TService">The type of the service.</typeparam>
         <typeparam name="TImplementation">The type of the implementation.</typeparam>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <typeparamref name="TService" />, <typeparamref name="TImplementation" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -813,10 +847,12 @@
         <typeparam name="TService">The type of the service.</typeparam>
         <typeparam name="TImplementation">The type of the implementation.</typeparam>
         <param name="implementationFactory">A factory to create new instances of the service implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <typeparamref name="TService" />, <typeparamref name="TImplementation" />,
             <paramref name="implementationFactory" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -873,9 +909,11 @@
       <Docs>
         <param name="service">The type of the service.</param>
         <param name="implementationFactory">A factory to create new instances of the service implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <paramref name="service" />, <paramref name="implementationFactory" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -908,9 +946,11 @@
       <Docs>
         <param name="service">The type of the service.</param>
         <param name="implementationType">The type of the implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <paramref name="service" /> and <paramref name="implementationType" />
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -949,9 +989,11 @@
       <Docs>
         <typeparam name="TService">The type of the service.</typeparam>
         <param name="implementationFactory">A factory to create new instances of the service implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <typeparamref name="TService" />, <paramref name="implementationFactory" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -994,9 +1036,11 @@
       <Docs>
         <typeparam name="TService">The type of the service.</typeparam>
         <typeparam name="TImplementation">The type of the implementation.</typeparam>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <typeparamref name="TService" />, <typeparamref name="TImplementation" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1042,10 +1086,12 @@
         <typeparam name="TService">The type of the service.</typeparam>
         <typeparam name="TImplementation">The type of the implementation.</typeparam>
         <param name="implementationFactory">A factory to create new instances of the service implementation.</param>
-        <summary>Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
+        <summary>
+            Creates an instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" /> with the specified
             <typeparamref name="TService" />, <typeparamref name="TImplementation" />,
             <paramref name="implementationFactory" />,
-            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.</summary>
+            and the <see cref="F:Microsoft.Extensions.DependencyInjection.ServiceLifetime.Transient" /> lifetime.
+            </summary>
         <returns>A new instance of <see cref="T:Microsoft.Extensions.DependencyInjection.ServiceDescriptor" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>

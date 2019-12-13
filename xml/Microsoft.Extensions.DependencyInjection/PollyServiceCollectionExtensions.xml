@@ -16,8 +16,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Provides convenience extension methods to register <see cref="T:Polly.Registry.IPolicyRegistry`1" /> and 
-            <see cref="T:Polly.Registry.IReadOnlyPolicyRegistry`1" /> in the service collection.</summary>
+    <summary>
+            Provides convenience extension methods to register <see cref="T:Polly.Registry.IPolicyRegistry`1" /> and 
+            <see cref="T:Polly.Registry.IReadOnlyPolicyRegistry`1" /> in the service collection.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,9 +45,11 @@
       </Parameters>
       <Docs>
         <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" />.</param>
-        <summary>Registers an empty <see cref="T:Polly.Registry.PolicyRegistry" /> in the service collection with service types
+        <summary>
+            Registers an empty <see cref="T:Polly.Registry.PolicyRegistry" /> in the service collection with service types
             <see cref="T:Polly.Registry.IPolicyRegistry`1" />, and <see cref="T:Polly.Registry.IReadOnlyPolicyRegistry`1" /> and returns
-            the newly created registry.</summary>
+            the newly created registry.
+            </summary>
         <returns>The newly created <see cref="T:Polly.Registry.PolicyRegistry" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -74,9 +78,11 @@
       <Docs>
         <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" />.</param>
         <param name="registry">The <see cref="T:Polly.Registry.IPolicyRegistry`1" />.</param>
-        <summary>Registers the provided <see cref="T:Polly.Registry.IPolicyRegistry`1" /> in the service collection with service types
+        <summary>
+            Registers the provided <see cref="T:Polly.Registry.IPolicyRegistry`1" /> in the service collection with service types
             <see cref="T:Polly.Registry.IPolicyRegistry`1" />, and <see cref="T:Polly.Registry.IReadOnlyPolicyRegistry`1" /> and returns
-            the provided registry.</summary>
+            the provided registry.
+            </summary>
         <returns>The provided <see cref="T:Polly.Registry.IPolicyRegistry`1" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>

@@ -62,7 +62,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Represents zero/null, one, or many strings in an efficient way.</summary>
+    <summary>
+            Represents zero/null, one, or many strings in an efficient way.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

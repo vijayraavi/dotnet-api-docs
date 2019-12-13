@@ -17,7 +17,8 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Extension methods for configuring an <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /></summary>
+    <summary>
+            Extension methods for configuring an <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -46,11 +47,13 @@
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</param>
         <param name="configureHandler">A delegate that is used to create a <see cref="T:System.Net.Http.DelegatingHandler" />.</param>
-        <summary>Adds a delegate that will be used to create an additional message handler for a named <see cref="T:System.Net.Http.HttpClient" />.</summary>
+        <summary>
+            Adds a delegate that will be used to create an additional message handler for a named <see cref="T:System.Net.Http.HttpClient" />.
+            </summary>
         <returns>An <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /> that can be used to configure the client.</returns>
         <remarks>
           <para>
-            The <paramref name="configureHandler" /> delegate should return a new instance of the message handler each time it
+            The <see paramref="configureHandler" /> delegate should return a new instance of the message handler each time it
             is invoked.
             </para>
           <para>
@@ -85,10 +88,14 @@
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</param>
         <param name="configureHandler">A delegate that is used to create a <see cref="T:System.Net.Http.DelegatingHandler" />.</param>
-        <summary>Adds a delegate that will be used to create an additional message handler for a named <see cref="T:System.Net.Http.HttpClient" />.</summary>
+        <summary>
+            Adds a delegate that will be used to create an additional message handler for a named <see cref="T:System.Net.Http.HttpClient" />.
+            </summary>
         <returns>An <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /> that can be used to configure the client.</returns>
-        <remarks>The <paramref name="configureHandler" /> delegate should return a new instance of the message handler each time it
-            is invoked.</remarks>
+        <remarks>
+            The <see paramref="configureHandler" /> delegate should return a new instance of the message handler each time it
+            is invoked.
+            </remarks>
       </Docs>
     </Member>
     <Member MemberName="AddHttpMessageHandler&lt;THandler&gt;">
@@ -124,7 +131,9 @@
             The type of the <see cref="T:System.Net.Http.DelegatingHandler" />. The handler type must be registered as a transient service.
             </typeparam>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</param>
-        <summary>Adds an additional message handler from the dependency injection container for a named <see cref="T:System.Net.Http.HttpClient" />.</summary>
+        <summary>
+            Adds an additional message handler from the dependency injection container for a named <see cref="T:System.Net.Http.HttpClient" />.
+            </summary>
         <returns>An <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /> that can be used to configure the client.</returns>
         <remarks>
           <para>
@@ -168,8 +177,10 @@
             a transient service. See <see cref="T:Microsoft.Extensions.Http.ITypedHttpClientFactory`1" /> for more details about authoring typed clients.
             </typeparam>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</param>
-        <summary>Configures a binding between the <typeparamref name="TClient" /> type and the named <see cref="T:System.Net.Http.HttpClient" />
-            associated with the <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</summary>
+        <summary>
+            Configures a binding between the <typeparamref name="TClient" /> type and the named <see cref="T:System.Net.Http.HttpClient" />
+            associated with the <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.
+            </summary>
         <returns>To be added.</returns>
         <remarks>
           <para>
@@ -225,8 +236,10 @@
             </typeparam>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</param>
         <param name="factory">A factory function that will be used to construct the typed client.</param>
-        <summary>Configures a binding between the <typeparamref name="TClient" /> type and the named <see cref="T:System.Net.Http.HttpClient" />
-            associated with the <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</summary>
+        <summary>
+            Configures a binding between the <typeparamref name="TClient" /> type and the named <see cref="T:System.Net.Http.HttpClient" />
+            associated with the <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.
+            </summary>
         <returns>To be added.</returns>
         <remarks>
           <para>
@@ -277,8 +290,10 @@
             </typeparam>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</param>
         <param name="factory">A factory function that will be used to construct the typed client.</param>
-        <summary>Configures a binding between the <typeparamref name="TClient" /> type and the named <see cref="T:System.Net.Http.HttpClient" />
-            associated with the <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</summary>
+        <summary>
+            Configures a binding between the <typeparamref name="TClient" /> type and the named <see cref="T:System.Net.Http.HttpClient" />
+            associated with the <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.
+            </summary>
         <returns>To be added.</returns>
         <remarks>
           <para>
@@ -337,9 +352,11 @@
             <see cref="T:Microsoft.Extensions.Http.ITypedHttpClientFactory`1" />.
             </typeparam>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</param>
-        <summary>Configures a binding between the <typeparamref name="TClient" /> type and the named <see cref="T:System.Net.Http.HttpClient" />
+        <summary>
+            Configures a binding between the <typeparamref name="TClient" /> type and the named <see cref="T:System.Net.Http.HttpClient" />
             associated with the <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />. The created instances will be of type
-            <typeparamref name="TImplementation" />.</summary>
+            <typeparamref name="TImplementation" />.
+            </summary>
         <returns>To be added.</returns>
         <remarks>
           <para>
@@ -385,10 +402,14 @@
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" />.</param>
         <param name="configureClient">A delegate that is used to configure an <see cref="T:System.Net.Http.HttpClient" />.</param>
-        <summary>Adds a delegate that will be used to configure a named <see cref="T:System.Net.Http.HttpClient" />.</summary>
+        <summary>
+            Adds a delegate that will be used to configure a named <see cref="T:System.Net.Http.HttpClient" />.
+            </summary>
         <returns>An <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /> that can be used to configure the client.</returns>
-        <remarks>The <see cref="T:System.IServiceProvider" /> provided to <paramref name="configureClient" /> will be the
-            same application's root service provider instance.</remarks>
+        <remarks>
+            The <see cref="T:System.IServiceProvider" /> provided to <paramref name="configureClient" /> will be the
+            same application's root service provider instance.
+            </remarks>
       </Docs>
     </Member>
     <Member MemberName="ConfigureHttpClient">
@@ -416,7 +437,9 @@
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" />.</param>
         <param name="configureClient">A delegate that is used to configure an <see cref="T:System.Net.Http.HttpClient" />.</param>
-        <summary>Adds a delegate that will be used to configure a named <see cref="T:System.Net.Http.HttpClient" />.</summary>
+        <summary>
+            Adds a delegate that will be used to configure a named <see cref="T:System.Net.Http.HttpClient" />.
+            </summary>
         <returns>An <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /> that can be used to configure the client.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -446,8 +469,10 @@
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</param>
         <param name="configureBuilder">A delegate that is used to configure an <see cref="T:Microsoft.Extensions.Http.HttpMessageHandlerBuilder" />.</param>
-        <summary>Adds a delegate that will be used to configure message handlers using <see cref="T:Microsoft.Extensions.Http.HttpMessageHandlerBuilder" />
-            for a named <see cref="T:System.Net.Http.HttpClient" />.</summary>
+        <summary>
+            Adds a delegate that will be used to configure message handlers using <see cref="T:Microsoft.Extensions.Http.HttpMessageHandlerBuilder" />
+            for a named <see cref="T:System.Net.Http.HttpClient" />.
+            </summary>
         <returns>An <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /> that can be used to configure the client.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -477,12 +502,14 @@
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</param>
         <param name="configureHandler">A delegate that is used to create an <see cref="T:System.Net.Http.HttpMessageHandler" />.</param>
-        <summary>Adds a delegate that will be used to configure the primary <see cref="T:System.Net.Http.HttpMessageHandler" /> for a
-            named <see cref="T:System.Net.Http.HttpClient" />.</summary>
+        <summary>
+            Adds a delegate that will be used to configure the primary <see cref="T:System.Net.Http.HttpMessageHandler" /> for a
+            named <see cref="T:System.Net.Http.HttpClient" />.
+            </summary>
         <returns>An <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /> that can be used to configure the client.</returns>
         <remarks>
           <para>
-            The <paramref name="configureHandler" /> delegate should return a new instance of the message handler each time it
+            The <see paramref="configureHandler" /> delegate should return a new instance of the message handler each time it
             is invoked.
             </para>
           <para>
@@ -517,11 +544,15 @@
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</param>
         <param name="configureHandler">A delegate that is used to create an <see cref="T:System.Net.Http.HttpMessageHandler" />.</param>
-        <summary>Adds a delegate that will be used to configure the primary <see cref="T:System.Net.Http.HttpMessageHandler" /> for a
-            named <see cref="T:System.Net.Http.HttpClient" />.</summary>
+        <summary>
+            Adds a delegate that will be used to configure the primary <see cref="T:System.Net.Http.HttpMessageHandler" /> for a
+            named <see cref="T:System.Net.Http.HttpClient" />.
+            </summary>
         <returns>An <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /> that can be used to configure the client.</returns>
-        <remarks>The <paramref name="configureHandler" /> delegate should return a new instance of the message handler each time it
-            is invoked.</remarks>
+        <remarks>
+            The <see paramref="configureHandler" /> delegate should return a new instance of the message handler each time it
+            is invoked.
+            </remarks>
       </Docs>
     </Member>
     <Member MemberName="ConfigurePrimaryHttpMessageHandler&lt;THandler&gt;">
@@ -557,8 +588,10 @@
             The type of the <see cref="T:System.Net.Http.DelegatingHandler" />. The handler type must be registered as a transient service.
             </typeparam>
         <param name="builder">The <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" />.</param>
-        <summary>Configures the primary <see cref="T:System.Net.Http.HttpMessageHandler" /> from the dependency injection container
-            for a  named <see cref="T:System.Net.Http.HttpClient" />.</summary>
+        <summary>
+            Configures the primary <see cref="T:System.Net.Http.HttpMessageHandler" /> from the dependency injection container
+            for a  named <see cref="T:System.Net.Http.HttpClient" />.
+            </summary>
         <returns>An <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /> that can be used to configure the client.</returns>
         <remarks>
           <para>
@@ -593,9 +626,11 @@
       <Docs>
         <param name="builder">To be added.</param>
         <param name="handlerLifetime">To be added.</param>
-        <summary>Sets the length of time that a <see cref="T:System.Net.Http.HttpMessageHandler" /> instance can be reused. Each named
+        <summary>
+            Sets the length of time that a <see cref="T:System.Net.Http.HttpMessageHandler" /> instance can be reused. Each named
             client can have its own configured handler lifetime value. The default value is two minutes. Set the lifetime to
-            <see cref="F:System.Threading.Timeout.InfiniteTimeSpan" /> to disable handler expiry.</summary>
+            <see cref="F:System.Threading.Timeout.InfiniteTimeSpan" /> to disable handler expiry.
+            </summary>
         <returns>To be added.</returns>
         <remarks>
           <para>

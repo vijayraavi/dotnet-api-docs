@@ -20,7 +20,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Extension methods for <see cref="T:Microsoft.Extensions.Configuration.FileConfigurationProvider" />.</summary>
+    <summary>
+            Extension methods for <see cref="T:Microsoft.Extensions.Configuration.FileConfigurationProvider" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,7 +51,9 @@
       </Parameters>
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" />.</param>
-        <summary>Gets the default <see cref="T:Microsoft.Extensions.FileProviders.IFileProvider" /> to be used for file-based providers.</summary>
+        <summary>
+            Gets the default <see cref="T:Microsoft.Extensions.FileProviders.IFileProvider" /> to be used for file-based providers.
+            </summary>
         <returns>The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,7 +84,9 @@
       </Parameters>
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" />.</param>
-        <summary>Gets the default <see cref="T:Microsoft.Extensions.FileProviders.IFileProvider" /> to be used for file-based providers.</summary>
+        <summary>
+            Gets the default <see cref="T:Microsoft.Extensions.FileProviders.IFileProvider" /> to be used for file-based providers.
+            </summary>
         <returns>The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -113,7 +119,9 @@
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" /> to add to.</param>
         <param name="basePath">The absolute path of file-based providers.</param>
-        <summary>Sets the FileProvider for file-based providers to a PhysicalFileProvider with the base path.</summary>
+        <summary>
+            Sets the FileProvider for file-based providers to a PhysicalFileProvider with the base path.
+            </summary>
         <returns>The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -145,7 +153,9 @@
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" /> to add to.</param>
         <param name="handler">The Action to be invoked on a file load exception.</param>
-        <summary>Sets a default action to be invoked for file-based providers when an error occurs.</summary>
+        <summary>
+            Sets a default action to be invoked for file-based providers when an error occurs.
+            </summary>
         <returns>The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -178,7 +188,9 @@
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" /> to add to.</param>
         <param name="fileProvider">The default file provider instance.</param>
-        <summary>Sets the default <see cref="T:Microsoft.Extensions.FileProviders.IFileProvider" /> to be used for file-based providers.</summary>
+        <summary>
+            Sets the default <see cref="T:Microsoft.Extensions.FileProviders.IFileProvider" /> to be used for file-based providers.
+            </summary>
         <returns>The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>

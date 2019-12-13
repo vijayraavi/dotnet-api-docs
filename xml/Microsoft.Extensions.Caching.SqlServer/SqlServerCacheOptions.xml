@@ -24,7 +24,9 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>Configuration options for <see cref="T:Microsoft.Extensions.Caching.SqlServer.SqlServerCache" />.</summary>
+    <summary>
+            Configuration options for <see cref="T:Microsoft.Extensions.Caching.SqlServer.SqlServerCache" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -73,7 +75,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The connection string to the database.</summary>
+        <summary>
+            The connection string to the database.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -99,8 +103,10 @@
         <ReturnType>System.TimeSpan</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The default sliding expiration set for a cache entry if neither Absolute or SlidingExpiration has been set explicitly.
-            By default, its 20 minutes.</summary>
+        <summary>
+            The default sliding expiration set for a cache entry if neither Absolute or SlidingExpiration has been set explicitly.
+            By default, its 20 minutes.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -127,7 +133,9 @@
         <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The periodic interval to scan and delete expired items in the cache. Default is 30 minutes.</summary>
+        <summary>
+            The periodic interval to scan and delete expired items in the cache. Default is 30 minutes.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -184,7 +192,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The schema name of the table.</summary>
+        <summary>
+            The schema name of the table.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -211,7 +221,9 @@
         <ReturnType>Microsoft.Extensions.Internal.ISystemClock</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>An abstraction to represent the clock of a machine in order to enable unit testing.</summary>
+        <summary>
+            An abstraction to represent the clock of a machine in order to enable unit testing.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -238,7 +250,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Name of the table where the cache items are stored.</summary>
+        <summary>
+            Name of the table where the cache items are stored.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

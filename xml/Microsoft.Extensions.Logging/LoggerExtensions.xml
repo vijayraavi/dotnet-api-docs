@@ -20,7 +20,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>ILogger extension methods for common scenarios.</summary>
+    <summary>
+            ILogger extension methods for common scenarios.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,7 +62,9 @@
         <param name="logger">The <see cref="T:Microsoft.Extensions.Logging.ILogger" /> to create the scope in.</param>
         <param name="messageFormat">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats the message and creates a scope.</summary>
+        <summary>
+            Formats the message and creates a scope.
+            </summary>
         <returns>A disposable scope object. Can be null.</returns>
         <remarks>To be added.</remarks>
         <example>
@@ -104,7 +108,9 @@
         <param name="logLevel">Entry will be written on this level.</param>
         <param name="message">Format string of the log message.</param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a log message at the specified log level.</summary>
+        <summary>
+            Formats and writes a log message at the specified log level.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -144,7 +150,9 @@
         <param name="eventId">The event id associated with the log.</param>
         <param name="message">Format string of the log message.</param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a log message at the specified log level.</summary>
+        <summary>
+            Formats and writes a log message at the specified log level.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -184,7 +192,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message.</param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a log message at the specified log level.</summary>
+        <summary>
+            Formats and writes a log message at the specified log level.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -226,7 +236,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message.</param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a log message at the specified log level.</summary>
+        <summary>
+            Formats and writes a log message at the specified log level.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -266,7 +278,9 @@
         <param name="logger">The <see cref="T:Microsoft.Extensions.Logging.ILogger" /> to write to.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a critical log message.</summary>
+        <summary>
+            Formats and writes a critical log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogCritical("Processing request from {Address}", address)</example>
       </Docs>
@@ -308,7 +322,9 @@
         <param name="eventId">The event id associated with the log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a critical log message.</summary>
+        <summary>
+            Formats and writes a critical log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogCritical(0, "Processing request from {Address}", address)</example>
       </Docs>
@@ -348,7 +364,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a critical log message.</summary>
+        <summary>
+            Formats and writes a critical log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogCritical(exception, "Error while processing request from {Address}", address)</example>
       </Docs>
@@ -392,7 +410,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a critical log message.</summary>
+        <summary>
+            Formats and writes a critical log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogCritical(0, exception, "Error while processing request from {Address}", address)</example>
       </Docs>
@@ -433,7 +453,9 @@
         <param name="logger">The <see cref="T:Microsoft.Extensions.Logging.ILogger" /> to write to.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a debug log message.</summary>
+        <summary>
+            Formats and writes a debug log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogDebug("Processing request from {Address}", address)</example>
       </Docs>
@@ -475,7 +497,9 @@
         <param name="eventId">The event id associated with the log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a debug log message.</summary>
+        <summary>
+            Formats and writes a debug log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogDebug(0, "Processing request from {Address}", address)</example>
       </Docs>
@@ -515,7 +539,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a debug log message.</summary>
+        <summary>
+            Formats and writes a debug log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogDebug(exception, "Error while processing request from {Address}", address)</example>
       </Docs>
@@ -559,7 +585,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a debug log message.</summary>
+        <summary>
+            Formats and writes a debug log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogDebug(0, exception, "Error while processing request from {Address}", address)</example>
       </Docs>
@@ -600,7 +628,9 @@
         <param name="logger">The <see cref="T:Microsoft.Extensions.Logging.ILogger" /> to write to.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes an error log message.</summary>
+        <summary>
+            Formats and writes an error log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogError("Processing request from {Address}", address)</example>
       </Docs>
@@ -642,7 +672,9 @@
         <param name="eventId">The event id associated with the log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes an error log message.</summary>
+        <summary>
+            Formats and writes an error log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogError(0, "Processing request from {Address}", address)</example>
       </Docs>
@@ -682,7 +714,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes an error log message.</summary>
+        <summary>
+            Formats and writes an error log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogError(exception, "Error while processing request from {Address}", address)</example>
       </Docs>
@@ -726,7 +760,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes an error log message.</summary>
+        <summary>
+            Formats and writes an error log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogError(0, exception, "Error while processing request from {Address}", address)</example>
       </Docs>
@@ -767,7 +803,9 @@
         <param name="logger">The <see cref="T:Microsoft.Extensions.Logging.ILogger" /> to write to.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes an informational log message.</summary>
+        <summary>
+            Formats and writes an informational log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogInformation("Processing request from {Address}", address)</example>
       </Docs>
@@ -809,7 +847,9 @@
         <param name="eventId">The event id associated with the log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes an informational log message.</summary>
+        <summary>
+            Formats and writes an informational log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogInformation(0, "Processing request from {Address}", address)</example>
       </Docs>
@@ -849,7 +889,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes an informational log message.</summary>
+        <summary>
+            Formats and writes an informational log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogInformation(exception, "Error while processing request from {Address}", address)</example>
       </Docs>
@@ -893,7 +935,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes an informational log message.</summary>
+        <summary>
+            Formats and writes an informational log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogInformation(0, exception, "Error while processing request from {Address}", address)</example>
       </Docs>
@@ -934,7 +978,9 @@
         <param name="logger">The <see cref="T:Microsoft.Extensions.Logging.ILogger" /> to write to.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a trace log message.</summary>
+        <summary>
+            Formats and writes a trace log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogTrace("Processing request from {Address}", address)</example>
       </Docs>
@@ -976,7 +1022,9 @@
         <param name="eventId">The event id associated with the log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a trace log message.</summary>
+        <summary>
+            Formats and writes a trace log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogTrace(0, "Processing request from {Address}", address)</example>
       </Docs>
@@ -1016,7 +1064,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a trace log message.</summary>
+        <summary>
+            Formats and writes a trace log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogTrace(exception, "Error while processing request from {Address}", address)</example>
       </Docs>
@@ -1060,7 +1110,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a trace log message.</summary>
+        <summary>
+            Formats and writes a trace log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogTrace(0, exception, "Error while processing request from {Address}", address)</example>
       </Docs>
@@ -1101,7 +1153,9 @@
         <param name="logger">The <see cref="T:Microsoft.Extensions.Logging.ILogger" /> to write to.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a warning log message.</summary>
+        <summary>
+            Formats and writes a warning log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogWarning("Processing request from {Address}", address)</example>
       </Docs>
@@ -1143,7 +1197,9 @@
         <param name="eventId">The event id associated with the log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a warning log message.</summary>
+        <summary>
+            Formats and writes a warning log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogWarning(0, "Processing request from {Address}", address)</example>
       </Docs>
@@ -1183,7 +1239,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a warning log message.</summary>
+        <summary>
+            Formats and writes a warning log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogWarning(exception, "Error while processing request from {Address}", address)</example>
       </Docs>
@@ -1227,7 +1285,9 @@
         <param name="exception">The exception to log.</param>
         <param name="message">Format string of the log message in message template format. Example: <code>"User {User} logged in from {Address}"</code></param>
         <param name="args">An object array that contains zero or more objects to format.</param>
-        <summary>Formats and writes a warning log message.</summary>
+        <summary>
+            Formats and writes a warning log message.
+            </summary>
         <remarks>To be added.</remarks>
         <example>logger.LogWarning(0, exception, "Error while processing request from {Address}", address)</example>
       </Docs>

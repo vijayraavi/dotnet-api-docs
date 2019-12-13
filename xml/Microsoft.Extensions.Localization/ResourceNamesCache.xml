@@ -24,7 +24,9 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>An implementation of <see cref="T:Microsoft.Extensions.Localization.IResourceNamesCache" /> backed by a <see cref="T:System.Collections.Concurrent.ConcurrentDictionary`2" />.</summary>
+    <summary>
+            An implementation of <see cref="T:Microsoft.Extensions.Localization.IResourceNamesCache" /> backed by a <see cref="T:System.Collections.Concurrent.ConcurrentDictionary`2" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -47,7 +49,8 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Creates a new <see cref="T:Microsoft.Extensions.Localization.ResourceNamesCache" /></summary>
+        <summary>
+            Creates a new <see cref="T:Microsoft.Extensions.Localization.ResourceNamesCache" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

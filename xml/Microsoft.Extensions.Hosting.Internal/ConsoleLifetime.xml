@@ -24,7 +24,9 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>Listens for Ctrl+C or SIGTERM and initiates shutdown.</summary>
+    <summary>
+            Listens for Ctrl+C or SIGTERM and initiates shutdown.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
