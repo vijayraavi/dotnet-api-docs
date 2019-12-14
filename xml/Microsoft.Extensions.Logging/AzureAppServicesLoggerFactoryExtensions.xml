@@ -19,9 +19,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Extension methods for adding Azure diagnostics logger.
-            </summary>
+    <summary>Extension methods for adding Azure diagnostics logger.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -82,9 +80,7 @@
       </Parameters>
       <Docs>
         <param name="builder">The extension method argument</param>
-        <summary>
-            Adds an Azure Web Apps diagnostics logger.
-            </summary>
+        <summary>Adds an Azure Web Apps diagnostics logger.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

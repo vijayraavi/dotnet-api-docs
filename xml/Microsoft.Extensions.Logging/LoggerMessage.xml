@@ -20,9 +20,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Creates delegates which can be later cached to log messages in a performant way.
-            </summary>
+    <summary>Creates delegates which can be later cached to log messages in a performant way.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -55,9 +53,7 @@
         <param name="logLevel">The <see cref="T:Microsoft.Extensions.Logging.LogLevel" /></param>
         <param name="eventId">The event id</param>
         <param name="formatString">The named format string</param>
-        <summary>
-            Creates a delegate which can be invoked for logging a message.
-            </summary>
+        <summary>Creates a delegate which can be invoked for logging a message.</summary>
         <returns>A delegate which when invoked creates a log message.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -95,9 +91,7 @@
         <param name="logLevel">The <see cref="T:Microsoft.Extensions.Logging.LogLevel" /></param>
         <param name="eventId">The event id</param>
         <param name="formatString">The named format string</param>
-        <summary>
-            Creates a delegate which can be invoked for logging a message.
-            </summary>
+        <summary>Creates a delegate which can be invoked for logging a message.</summary>
         <returns>A delegate which when invoked creates a log message.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,9 +131,7 @@
         <param name="logLevel">The <see cref="T:Microsoft.Extensions.Logging.LogLevel" /></param>
         <param name="eventId">The event id</param>
         <param name="formatString">The named format string</param>
-        <summary>
-            Creates a delegate which can be invoked for logging a message.
-            </summary>
+        <summary>Creates a delegate which can be invoked for logging a message.</summary>
         <returns>A delegate which when invoked creates a log message.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -181,9 +173,7 @@
         <param name="logLevel">The <see cref="T:Microsoft.Extensions.Logging.LogLevel" /></param>
         <param name="eventId">The event id</param>
         <param name="formatString">The named format string</param>
-        <summary>
-            Creates a delegate which can be invoked for logging a message.
-            </summary>
+        <summary>Creates a delegate which can be invoked for logging a message.</summary>
         <returns>A delegate which when invoked creates a log message.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -227,9 +217,7 @@
         <param name="logLevel">The <see cref="T:Microsoft.Extensions.Logging.LogLevel" /></param>
         <param name="eventId">The event id</param>
         <param name="formatString">The named format string</param>
-        <summary>
-            Creates a delegate which can be invoked for logging a message.
-            </summary>
+        <summary>Creates a delegate which can be invoked for logging a message.</summary>
         <returns>A delegate which when invoked creates a log message.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -275,9 +263,7 @@
         <param name="logLevel">The <see cref="T:Microsoft.Extensions.Logging.LogLevel" /></param>
         <param name="eventId">The event id</param>
         <param name="formatString">The named format string</param>
-        <summary>
-            Creates a delegate which can be invoked for logging a message.
-            </summary>
+        <summary>Creates a delegate which can be invoked for logging a message.</summary>
         <returns>A delegate which when invoked creates a log message.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -325,9 +311,7 @@
         <param name="logLevel">The <see cref="T:Microsoft.Extensions.Logging.LogLevel" /></param>
         <param name="eventId">The event id</param>
         <param name="formatString">The named format string</param>
-        <summary>
-            Creates a delegate which can be invoked for logging a message.
-            </summary>
+        <summary>Creates a delegate which can be invoked for logging a message.</summary>
         <returns>A delegate which when invoked creates a log message.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -358,9 +342,7 @@
       </Parameters>
       <Docs>
         <param name="formatString">The named format string</param>
-        <summary>
-            Creates a delegate which can be invoked to create a log scope.
-            </summary>
+        <summary>Creates a delegate which can be invoked to create a log scope.</summary>
         <returns>A delegate which when invoked creates a log scope.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -395,9 +377,7 @@
       <Docs>
         <typeparam name="T1">The type of the first parameter passed to the named format string.</typeparam>
         <param name="formatString">The named format string</param>
-        <summary>
-            Creates a delegate which can be invoked to create a log scope.
-            </summary>
+        <summary>Creates a delegate which can be invoked to create a log scope.</summary>
         <returns>A delegate which when invoked creates a log scope.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -434,9 +414,7 @@
         <typeparam name="T1">The type of the first parameter passed to the named format string.</typeparam>
         <typeparam name="T2">The type of the second parameter passed to the named format string.</typeparam>
         <param name="formatString">The named format string</param>
-        <summary>
-            Creates a delegate which can be invoked to create a log scope.
-            </summary>
+        <summary>Creates a delegate which can be invoked to create a log scope.</summary>
         <returns>A delegate which when invoked creates a log scope.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -475,9 +453,7 @@
         <typeparam name="T2">The type of the second parameter passed to the named format string.</typeparam>
         <typeparam name="T3">The type of the third parameter passed to the named format string.</typeparam>
         <param name="formatString">The named format string</param>
-        <summary>
-            Creates a delegate which can be invoked to create a log scope.
-            </summary>
+        <summary>Creates a delegate which can be invoked to create a log scope.</summary>
         <returns>A delegate which when invoked creates a log scope.</returns>
         <remarks>To be added.</remarks>
       </Docs>

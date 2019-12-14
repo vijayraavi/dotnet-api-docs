@@ -27,10 +27,8 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>
-            An implementation of <see cref="T:Microsoft.Extensions.Caching.Memory.IMemoryCache" /> using a dictionary to
-            store its entries.
-            </summary>
+    <summary>An implementation of <see cref="T:Microsoft.Extensions.Caching.Memory.IMemoryCache" /> using a dictionary to
+            store its entries.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -57,9 +55,7 @@
       </Parameters>
       <Docs>
         <param name="optionsAccessor">The options of the cache.</param>
-        <summary>
-            Creates a new <see cref="T:Microsoft.Extensions.Caching.Memory.MemoryCache" /> instance.
-            </summary>
+        <summary>Creates a new <see cref="T:Microsoft.Extensions.Caching.Memory.MemoryCache" /> instance.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,9 +79,7 @@
       <Docs>
         <param name="optionsAccessor">The options of the cache.</param>
         <param name="loggerFactory">The factory used to create loggers.</param>
-        <summary>
-            Creates a new <see cref="T:Microsoft.Extensions.Caching.Memory.MemoryCache" /> instance.
-            </summary>
+        <summary>Creates a new <see cref="T:Microsoft.Extensions.Caching.Memory.MemoryCache" /> instance.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -141,9 +135,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets the count of the current entries for diagnostic purposes.
-            </summary>
+        <summary>Gets the count of the current entries for diagnostic purposes.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -266,9 +258,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-            Cleans up the background collection events.
-            </summary>
+        <summary>Cleans up the background collection events.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -25,9 +25,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Extension methods for configuration classes./&gt;.
-            </summary>
+    <summary>Extension methods for configuration classes./&gt;.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -66,9 +64,7 @@
         <typeparam name="TSource">To be added.</typeparam>
         <param name="builder">The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" /> to add to.</param>
         <param name="configureSource">Configures the source secrets.</param>
-        <summary>
-            Adds a new configuration source.
-            </summary>
+        <summary>Adds a new configuration source.</summary>
         <returns>The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -225,8 +221,7 @@
       </Parameters>
       <Docs>
         <param name="configuration">The <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /> to enumerate.</param>
-        <summary>
-            Get the enumeration of key value pairs within the <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /></summary>
+        <summary>Get the enumeration of key value pairs within the <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /></summary>
         <returns>An enumeration of key value pairs.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -267,8 +262,7 @@
       <Docs>
         <param name="configuration">The <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /> to enumerate.</param>
         <param name="makePathsRelative">If true, the child keys returned will have the current configuration's Path trimmed from the front.</param>
-        <summary>
-            Get the enumeration of key value pairs within the <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /></summary>
+        <summary>Get the enumeration of key value pairs within the <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /></summary>
         <returns>An enumeration of key value pairs.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -297,9 +291,7 @@
       </Parameters>
       <Docs>
         <param name="section">To be added.</param>
-        <summary>
-            Determines whether the section has a <see cref="P:Microsoft.Extensions.Configuration.IConfigurationSection.Value" /> or has children
-            </summary>
+        <summary>Determines whether the section has a <see cref="P:Microsoft.Extensions.Configuration.IConfigurationSection.Value" /> or has children</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -332,9 +324,7 @@
       <Docs>
         <param name="configuration">The configuration.</param>
         <param name="name">The connection string key.</param>
-        <summary>
-            Shorthand for GetSection("ConnectionStrings")[name].
-            </summary>
+        <summary>Shorthand for GetSection("ConnectionStrings")[name].</summary>
         <returns>The connection string.</returns>
         <remarks>To be added.</remarks>
       </Docs>

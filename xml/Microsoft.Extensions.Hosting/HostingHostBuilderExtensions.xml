@@ -47,11 +47,9 @@
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="configureDelegate">The delegate for configuring the <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" /> that will be used
             to construct the <see cref="T:Microsoft.Extensions.Configuration.IConfiguration" /> for the host.</param>
-        <summary>
-            Sets up the configuration for the remainder of the build process and application. This can be called multiple times and
+        <summary>Sets up the configuration for the remainder of the build process and application. This can be called multiple times and
             the results will be additive. The results will be available at <see cref="P:Microsoft.Extensions.Hosting.HostBuilderContext.Configuration" /> for
-            subsequent operations, as well as in <see cref="P:Microsoft.Extensions.Hosting.IHost.Services" />.
-            </summary>
+            subsequent operations, as well as in <see cref="P:Microsoft.Extensions.Hosting.IHost.Services" />.</summary>
         <returns>The same instance of the <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> for chaining.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -86,10 +84,8 @@
         </typeparam>
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="configureDelegate">The delegate for configuring the <typeparamref name="TContainerBuilder" />.</param>
-        <summary>
-            Enables configuring the instantiated dependency container. This can be called multiple times and
-            the results will be additive.
-            </summary>
+        <summary>Enables configuring the instantiated dependency container. This can be called multiple times and
+            the results will be additive.</summary>
         <returns>The same instance of the <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> for chaining.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -119,9 +115,7 @@
       <Docs>
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="configureLogging">The delegate that configures the <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" />.</param>
-        <summary>
-            Adds a delegate for configuring the provided <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" />. This may be called multiple times.
-            </summary>
+        <summary>Adds a delegate for configuring the provided <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" />. This may be called multiple times.</summary>
         <returns>The same instance of the <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> for chaining.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -151,9 +145,7 @@
       <Docs>
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="configureLogging">The delegate that configures the <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" />.</param>
-        <summary>
-            Adds a delegate for configuring the provided <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" />. This may be called multiple times.
-            </summary>
+        <summary>Adds a delegate for configuring the provided <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" />. This may be called multiple times.</summary>
         <returns>The same instance of the <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> for chaining.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -183,9 +175,7 @@
       <Docs>
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="configureDelegate">The delegate for configuring the <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" />.</param>
-        <summary>
-            Adds services to the container. This can be called multiple times and the results will be additive.
-            </summary>
+        <summary>Adds services to the container. This can be called multiple times and the results will be additive.</summary>
         <returns>The same instance of the <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> for chaining.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -213,9 +203,7 @@
       <Docs>
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> that can be used to cancel the console.</param>
-        <summary>
-            Enables console support, builds and starts the host, and waits for Ctrl+C or SIGTERM to shut down.
-            </summary>
+        <summary>Enables console support, builds and starts the host, and waits for Ctrl+C or SIGTERM to shut down.</summary>
         <returns>A <see cref="T:System.Threading.Tasks.Task" /> that only completes when the token is triggeredor shutdown is triggered.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -243,9 +231,7 @@
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="configureOptions">The delegate for configuring the <see cref="T:Microsoft.Extensions.Hosting.Internal.ConsoleLifetime" />.</param>
         <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> that can be used to cancel the console.</param>
-        <summary>
-            Enables console support, builds and starts the host, and waits for Ctrl+C or SIGTERM to shut down.
-            </summary>
+        <summary>Enables console support, builds and starts the host, and waits for Ctrl+C or SIGTERM to shut down.</summary>
         <returns>A <see cref="T:System.Threading.Tasks.Task" /> that only completes when the token is triggeredor shutdown is triggered.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -273,10 +259,8 @@
       </Parameters>
       <Docs>
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
-        <summary>
-            Listens for Ctrl+C or SIGTERM and calls <see cref="M:Microsoft.Extensions.Hosting.IHostApplicationLifetime.StopApplication" /> to start the shutdown process.
-            This will unblock extensions like RunAsync and WaitForShutdownAsync.
-            </summary>
+        <summary>Listens for Ctrl+C or SIGTERM and calls <see cref="M:Microsoft.Extensions.Hosting.IHostApplicationLifetime.StopApplication" /> to start the shutdown process.
+            This will unblock extensions like RunAsync and WaitForShutdownAsync.</summary>
         <returns>The same instance of the <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> for chaining.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -304,10 +288,8 @@
       <Docs>
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="configureOptions">The delegate for configuring the <see cref="T:Microsoft.Extensions.Hosting.Internal.ConsoleLifetime" />.</param>
-        <summary>
-            Listens for Ctrl+C or SIGTERM and calls <see cref="M:Microsoft.Extensions.Hosting.IHostApplicationLifetime.StopApplication" /> to start the shutdown process.
-            This will unblock extensions like RunAsync and WaitForShutdownAsync.
-            </summary>
+        <summary>Listens for Ctrl+C or SIGTERM and calls <see cref="M:Microsoft.Extensions.Hosting.IHostApplicationLifetime.StopApplication" /> to start the shutdown process.
+            This will unblock extensions like RunAsync and WaitForShutdownAsync.</summary>
         <returns>The same instance of the <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> for chaining.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -337,9 +319,7 @@
       <Docs>
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="contentRoot">Path to root directory of the application.</param>
-        <summary>
-            Specify the content root directory to be used by the host.
-            </summary>
+        <summary>Specify the content root directory to be used by the host.</summary>
         <returns>The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -368,9 +348,7 @@
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="configure">
         </param>
-        <summary>
-            Specify the <see cref="T:System.IServiceProvider" /> to be the default one.
-            </summary>
+        <summary>Specify the <see cref="T:System.IServiceProvider" /> to be the default one.</summary>
         <returns>The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -398,9 +376,7 @@
       <Docs>
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="configure">The delegate that configures the <see cref="T:System.IServiceProvider" />.</param>
-        <summary>
-            Specify the <see cref="T:System.IServiceProvider" /> to be the default one.
-            </summary>
+        <summary>Specify the <see cref="T:System.IServiceProvider" /> to be the default one.</summary>
         <returns>The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -430,9 +406,7 @@
       <Docs>
         <param name="hostBuilder">The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" /> to configure.</param>
         <param name="environment">The environment to host the application in.</param>
-        <summary>
-            Specify the environment to be used by the host.
-            </summary>
+        <summary>Specify the environment to be used by the host.</summary>
         <returns>The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>

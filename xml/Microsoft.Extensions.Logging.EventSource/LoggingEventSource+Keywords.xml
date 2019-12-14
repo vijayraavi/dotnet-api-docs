@@ -15,10 +15,8 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            This is public from an EventSource consumer point of view, but since these defintions
-            are not needed outside this class
-            </summary>
+    <summary>This is public from an EventSource consumer point of view, but since these defintions
+            are not needed outside this class</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,9 +38,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-            Turns on the 'FormatMessage' event when ILogger.Log() is called.  It gives the formatted string version of the information.
-            </summary>
+        <summary>Turns on the 'FormatMessage' event when ILogger.Log() is called.  It gives the formatted string version of the information.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -64,9 +60,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-            Turns on the 'MessageJson' event when ILogger.Log() is called.   It gives  JSON representation of the Arguments.
-            </summary>
+        <summary>Turns on the 'MessageJson' event when ILogger.Log() is called.   It gives  JSON representation of the Arguments.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -88,9 +82,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-            Turns on the 'Message' event when ILogger.Log() is called.   It gives the information in a programmatic (not formatted) way
-            </summary>
+        <summary>Turns on the 'Message' event when ILogger.Log() is called.   It gives the information in a programmatic (not formatted) way</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -112,9 +104,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-            Meta events are events about the LoggingEventSource itself (that is they did not come from ILogger
-            </summary>
+        <summary>Meta events are events about the LoggingEventSource itself (that is they did not come from ILogger</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

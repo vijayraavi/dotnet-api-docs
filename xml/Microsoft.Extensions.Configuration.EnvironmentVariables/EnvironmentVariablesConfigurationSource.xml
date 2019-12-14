@@ -24,9 +24,7 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>
-            Represents environment variables as an <see cref="T:Microsoft.Extensions.Configuration.IConfigurationSource" />.
-            </summary>
+    <summary>Represents environment variables as an <see cref="T:Microsoft.Extensions.Configuration.IConfigurationSource" />.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -82,9 +80,7 @@
       </Parameters>
       <Docs>
         <param name="builder">The <see cref="T:Microsoft.Extensions.Configuration.IConfigurationBuilder" />.</param>
-        <summary>
-            Builds the <see cref="T:Microsoft.Extensions.Configuration.EnvironmentVariables.EnvironmentVariablesConfigurationProvider" /> for this source.
-            </summary>
+        <summary>Builds the <see cref="T:Microsoft.Extensions.Configuration.EnvironmentVariables.EnvironmentVariablesConfigurationProvider" /> for this source.</summary>
         <returns>A <see cref="T:Microsoft.Extensions.Configuration.EnvironmentVariables.EnvironmentVariablesConfigurationProvider" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -111,9 +107,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            A prefix used to filter environment variables.
-            </summary>
+        <summary>A prefix used to filter environment variables.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
