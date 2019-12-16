@@ -3296,7 +3296,7 @@
         <ReturnType>System.Windows.Automation.AutomationProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Describes the ordinal location of an automation element within a set of elements that are considered to be siblings.</summary>
+        <summary>Describes the ordinal location of an automation element within a set of elements that are considered to be siblings.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
 

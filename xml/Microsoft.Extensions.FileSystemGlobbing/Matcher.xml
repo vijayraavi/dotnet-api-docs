@@ -22,8 +22,7 @@
   <Docs>
     <summary>Searches the file system for files with names that match specified patterns.</summary>
     <remarks>
-      <para>
-                Patterns specified in <seealso cref="M:Microsoft.Extensions.FileSystemGlobbing.Matcher.AddInclude(System.String)" /> and <seealso cref="M:Microsoft.Extensions.FileSystemGlobbing.Matcher.AddExclude(System.String)" /> can use
+      <para>Patterns specified in <seealso cref="M:Microsoft.Extensions.FileSystemGlobbing.Matcher.AddInclude(System.String)" /> and <seealso cref="M:Microsoft.Extensions.FileSystemGlobbing.Matcher.AddExclude(System.String)" /> can use
                 the following formats to match multiple files or directories.
                 </para>
       <list type="bullet">
@@ -171,12 +170,10 @@
       <Docs>
         <param name="pattern">The globbing pattern</param>
         <summary>
-          <para>
-                Add a file name pattern for files the matcher should exclude from the results. Patterns are relative to the
+          <para>Add a file name pattern for files the matcher should exclude from the results. Patterns are relative to the
                 root directory given when <see cref="M:Microsoft.Extensions.FileSystemGlobbing.Matcher.Execute(Microsoft.Extensions.FileSystemGlobbing.Abstractions.DirectoryInfoBase)" /> is called.
                 </para>
-          <para>
-                Use the forward slash '/' to represent directory separator. Use '*' to represent wildcards in file and
+          <para>Use the forward slash '/' to represent directory separator. Use '*' to represent wildcards in file and
                 directory names. Use '**' to represent arbitrary directory depth. Use '..' to represent a parent directory.
                 </para>
         </summary>
@@ -211,12 +208,10 @@
       <Docs>
         <param name="pattern">The globbing pattern</param>
         <summary>
-          <para>
-                Add a file name pattern that the matcher should use to discover files. Patterns are relative to the root
+          <para>Add a file name pattern that the matcher should use to discover files. Patterns are relative to the root
                 directory given when <see cref="M:Microsoft.Extensions.FileSystemGlobbing.Matcher.Execute(Microsoft.Extensions.FileSystemGlobbing.Abstractions.DirectoryInfoBase)" /> is called.
                 </para>
-          <para>
-                Use the forward slash '/' to represent directory separator. Use '*' to represent wildcards in file and
+          <para>Use the forward slash '/' to represent directory separator. Use '*' to represent wildcards in file and
                 directory names. Use '**' to represent arbitrary directory depth. Use '..' to represent a parent directory.
                 </para>
         </summary>

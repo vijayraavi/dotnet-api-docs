@@ -18,7 +18,7 @@
   <Interfaces />
   <Docs>
     <typeparam name="TClient">The type of typed client to create.</typeparam>
-    <summary> A factory abstraction for a component that can create typed client instances with custom
+    <summary>A factory abstraction for a component that can create typed client instances with custom
              configuration for a given logical name.
              </summary>
     <remarks>

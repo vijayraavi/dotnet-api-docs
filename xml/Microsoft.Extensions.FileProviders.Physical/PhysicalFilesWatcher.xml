@@ -25,11 +25,9 @@
   </Interfaces>
   <Docs>
     <summary>
-      <para>
-                A file watcher that watches a physical filesystem for changes.
+      <para>A file watcher that watches a physical filesystem for changes.
                 </para>
-      <para>
-                Triggers events on <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" /> when files are created, change, renamed, or deleted.
+      <para>Triggers events on <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" /> when files are created, change, renamed, or deleted.
                 </para>
     </summary>
     <remarks>To be added.</remarks>
@@ -127,11 +125,9 @@
       <Docs>
         <param name="filter">A globbing pattern for files and directories to watch</param>
         <summary>
-          <para>
-                Creates an instance of <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" /> for all files and directories that match the
+          <para>Creates an instance of <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" /> for all files and directories that match the
                 <paramref name="filter" /></para>
-          <para>
-                Globbing patterns are relative to the root directory given in the constructor
+          <para>Globbing patterns are relative to the root directory given in the constructor
                 <seealso cref="M:Microsoft.Extensions.FileProviders.Physical.PhysicalFilesWatcher.#ctor(System.String,System.IO.FileSystemWatcher,System.Boolean)" />. Globbing patterns
                 are interpreted by <seealso cref="T:Microsoft.Extensions.FileSystemGlobbing.Matcher" />.
                 </para>

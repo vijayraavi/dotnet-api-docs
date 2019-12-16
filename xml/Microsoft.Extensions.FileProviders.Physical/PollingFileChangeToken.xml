@@ -25,11 +25,9 @@
   </Interfaces>
   <Docs>
     <summary>
-      <para>
-                A change token that polls for file system changes.
+      <para>A change token that polls for file system changes.
                 </para>
-      <para>
-                This change token does not raise any change callbacks. Callers should watch for <see cref="P:Microsoft.Extensions.FileProviders.Physical.PollingFileChangeToken.HasChanged" /> to turn
+      <para>This change token does not raise any change callbacks. Callers should watch for <see cref="P:Microsoft.Extensions.FileProviders.Physical.PollingFileChangeToken.HasChanged" /> to turn
                 from false to true
                 and dispose the token after this happens.
                 </para>
