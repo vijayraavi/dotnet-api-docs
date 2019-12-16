@@ -58,8 +58,7 @@
             and/or from an <see cref="T:System.IServiceProvider" />.</summary>
         <returns>
             A factory that will instantiate instanceType using an <see cref="T:System.IServiceProvider" />
-            and an argument array containing objects matching the types defined in argumentTypes
-            </returns>
+            and an argument array containing objects matching the types defined in argumentTypes</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

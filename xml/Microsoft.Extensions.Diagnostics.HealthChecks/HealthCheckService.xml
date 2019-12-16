@@ -78,8 +78,7 @@
         <summary>Runs all the health checks in the application and returns the aggregated status.</summary>
         <returns>
             A <see cref="T:System.Threading.Tasks.Task`1" /> which will complete when all the health checks have been run,
-            yielding a <see cref="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport" /> containing the results.
-            </returns>
+            yielding a <see cref="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport" /> containing the results.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -110,8 +109,7 @@
         <summary>Runs the provided health checks and returns the aggregated status</summary>
         <returns>
             A <see cref="T:System.Threading.Tasks.Task`1" /> which will complete when all the health checks have been run,
-            yielding a <see cref="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport" /> containing the results.
-            </returns>
+            yielding a <see cref="T:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport" /> containing the results.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -198,8 +198,7 @@
         <returns>
             Contents of the directory. Caller must check <see cref="P:Microsoft.Extensions.FileProviders.IDirectoryContents.Exists" /> property. <see cref="T:Microsoft.Extensions.FileProviders.NotFoundDirectoryContents" /> if
             <paramref name="subpath" /> is absolute, if the directory does not exist, or <paramref name="subpath" /> has invalid
-            characters.
-            </returns>
+            characters.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -369,8 +368,7 @@
             An <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" /> that is notified when a file matching <paramref name="filter" /> is added,
             modified or deleted. Returns a <see cref="T:Microsoft.Extensions.FileProviders.NullChangeToken" /> if <paramref name="filter" /> has invalid filter
             characters or if <paramref name="filter" /> is an absolute path or outside the root directory specified in the
-            constructor <seealso cref="M:Microsoft.Extensions.FileProviders.PhysicalFileProvider.#ctor(System.String)" />.
-            </returns>
+            constructor <seealso cref="M:Microsoft.Extensions.FileProviders.PhysicalFileProvider.#ctor(System.String)" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

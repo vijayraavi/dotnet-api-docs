@@ -155,8 +155,7 @@
         <summary>Locates a file at the given path.</summary>
         <returns>
             The file information. Caller must check Exists property. A <see cref="T:Microsoft.Extensions.FileProviders.NotFoundFileInfo" /> if the file could
-            not be found.
-            </returns>
+            not be found.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
