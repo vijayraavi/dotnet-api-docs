@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Type Name="ListView" FullName="System.Web.UI.WebControls.ListView">
   <TypeSignature Language="C#" Value="public class ListView : System.Web.UI.WebControls.DataBoundControl, System.Web.UI.IDataKeysControl, System.Web.UI.INamingContainer, System.Web.UI.WebControls.IDataBoundListControl, System.Web.UI.WebControls.IPageableItemContainer, System.Web.UI.WebControls.IPersistedSelector" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ListView extends System.Web.UI.WebControls.DataBoundControl implements class System.Web.UI.IDataKeysControl, class System.Web.UI.INamingContainer, class System.Web.UI.WebControls.IDataBoundControl, class System.Web.UI.WebControls.IDataBoundListControl, class System.Web.UI.WebControls.IPageableItemContainer, class System.Web.UI.WebControls.IPersistedSelector" />
@@ -6729,35 +6730,6 @@
   
  ]]></format>
         </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Web.UI.WebControls.IWizardSideBarListControl.Items">
-      <MemberSignature Language="C#" Value="System.Collections.IEnumerable System.Web.UI.WebControls.IWizardSideBarListControl.Items { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.IEnumerable System.Web.UI.WebControls.IWizardSideBarListControl.Items" />
-      <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.ListView.System#Web#UI#WebControls#IWizardSideBarListControl#Items" />
-      <MemberSignature Language="VB.NET" Value=" ReadOnly Property Items As IEnumerable Implements IWizardSideBarListControl.Items" />
-      <MemberSignature Language="C++ CLI" Value="property System::Collections::IEnumerable ^ System::Web::UI::WebControls::IWizardSideBarListControl::Items { System::Collections::IEnumerable ^ get(); };" />
-      <MemberSignature Language="F#" Usage="System.Web.UI.WebControls.IWizardSideBarListControl.Items" />
-      <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Web.UI.WebControls.IWizardSideBarListControl.Items</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Web.Extensions</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Collections.IEnumerable</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="TabIndex">

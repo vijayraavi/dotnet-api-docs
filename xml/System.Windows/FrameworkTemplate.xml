@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Type Name="FrameworkTemplate" FullName="System.Windows.FrameworkTemplate">
   <TypeSignature Language="C#" Value="public abstract class FrameworkTemplate : System.Windows.Threading.DispatcherObject, System.Windows.Markup.INameScope, System.Windows.Markup.IQueryAmbient" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit FrameworkTemplate extends System.Windows.Threading.DispatcherObject implements class System.Windows.Markup.INameScope, class System.Windows.Markup.IQueryAmbient" />
@@ -347,90 +348,6 @@
         <summary>Returns a value that indicates whether serialization processes should serialize the value of the <see cref="P:System.Windows.FrameworkTemplate.VisualTree" /> property on instances of this class.</summary>
         <returns>
           <see langword="true" /> if the <see cref="P:System.Windows.FrameworkTemplate.VisualTree" /> property value should be serialized; otherwise, <see langword="false" />.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Windows.ISealable.CanSeal">
-      <MemberSignature Language="C#" Value="bool System.Windows.ISealable.CanSeal { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool System.Windows.ISealable.CanSeal" />
-      <MemberSignature Language="DocId" Value="P:System.Windows.FrameworkTemplate.System#Windows#ISealable#CanSeal" />
-      <MemberSignature Language="VB.NET" Value=" ReadOnly Property CanSeal As Boolean Implements ISealable.CanSeal" />
-      <MemberSignature Language="C++ CLI" Value="property bool System::Windows::ISealable::CanSeal { bool get(); };" />
-      <MemberSignature Language="F#" Usage="System.Windows.ISealable.CanSeal" />
-      <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Windows.ISealable.CanSeal</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Windows.ISealable.IsSealed">
-      <MemberSignature Language="C#" Value="bool System.Windows.ISealable.IsSealed { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool System.Windows.ISealable.IsSealed" />
-      <MemberSignature Language="DocId" Value="P:System.Windows.FrameworkTemplate.System#Windows#ISealable#IsSealed" />
-      <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsSealed As Boolean Implements ISealable.IsSealed" />
-      <MemberSignature Language="C++ CLI" Value="property bool System::Windows::ISealable::IsSealed { bool get(); };" />
-      <MemberSignature Language="F#" Usage="System.Windows.ISealable.IsSealed" />
-      <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Windows.ISealable.IsSealed</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Windows.ISealable.Seal">
-      <MemberSignature Language="C#" Value="void ISealable.Seal ();" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.Windows.ISealable.Seal() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.FrameworkTemplate.System#Windows#ISealable#Seal" />
-      <MemberSignature Language="VB.NET" Value="Sub Seal () Implements ISealable.Seal" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void System.Windows.ISealable.Seal() = System::Windows::ISealable::Seal;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Windows.ISealable.Seal</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
