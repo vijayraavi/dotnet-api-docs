@@ -18,7 +18,8 @@
   <Interfaces />
   <Docs>
     <typeparam name="TClient">The type of typed client to create.</typeparam>
-    <summary> A factory abstraction for a component that can create typed client instances with custom
+    <summary>
+             A factory abstraction for a component that can create typed client instances with custom
              configuration for a given logical name.
              </summary>
     <remarks>
@@ -129,7 +130,9 @@
             An <see cref="T:System.Net.Http.HttpClient" /> created by the <see cref="T:System.Net.Http.IHttpClientFactory" /> for the named client
             associated with <typeparamref name="TClient" />.
             </param>
-        <summary>Creates a typed client given an associated <see cref="T:System.Net.Http.HttpClient" />.</summary>
+        <summary>
+            Creates a typed client given an associated <see cref="T:System.Net.Http.HttpClient" />.
+            </summary>
         <returns>An instance of <typeparamref name="TClient" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>

@@ -20,7 +20,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Extension methods for setting data in an <see cref="T:Microsoft.Extensions.Caching.Distributed.IDistributedCache" />.</summary>
+    <summary>
+            Extension methods for setting data in an <see cref="T:Microsoft.Extensions.Caching.Distributed.IDistributedCache" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -52,7 +54,9 @@
       <Docs>
         <param name="cache">The cache in which to store the data.</param>
         <param name="key">The key to get the stored data for.</param>
-        <summary>Gets a string from the specified cache with the specified key.</summary>
+        <summary>
+            Gets a string from the specified cache with the specified key.
+            </summary>
         <returns>The string value from the stored cache key.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -86,7 +90,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetStringAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (this Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, System.Threading.CancellationToken token = null);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (this Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, System.Threading.CancellationToken token = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;string&gt; GetStringAsync(class Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetStringAsync (cache As IDistributedCache, key As String, Optional token As CancellationToken = null) As Task(Of String)" />
@@ -117,7 +121,9 @@
         <param name="cache">The cache in which to store the data.</param>
         <param name="key">The key to get the stored data for.</param>
         <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
-        <summary>Asynchronously gets a string from the specified cache with the specified key.</summary>
+        <summary>
+            Asynchronously gets a string from the specified cache with the specified key.
+            </summary>
         <returns>A task that gets the string value from the stored cache key.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -152,7 +158,9 @@
         <param name="cache">The cache in which to store the data.</param>
         <param name="key">The key to store the data in.</param>
         <param name="value">The data to store in the cache.</param>
-        <summary>Sets a sequence of bytes in the specified cache with the specified key.</summary>
+        <summary>
+            Sets a sequence of bytes in the specified cache with the specified key.
+            </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>
       </Docs>
@@ -189,7 +197,7 @@
       </Docs>
     </Member>
     <Member MemberName="SetAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SetAsync (this Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, byte[] value, System.Threading.CancellationToken token = null);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SetAsync (this Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, byte[] value, System.Threading.CancellationToken token = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task SetAsync(class Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, unsigned int8[] value, valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.SetAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.Byte[],System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetAsync (cache As IDistributedCache, key As String, value As Byte(), Optional token As CancellationToken = null) As Task" />
@@ -217,7 +225,9 @@
         <param name="key">The key to store the data in.</param>
         <param name="value">The data to store in the cache.</param>
         <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
-        <summary>Asynchronously sets a sequence of bytes in the specified cache with the specified key.</summary>
+        <summary>
+            Asynchronously sets a sequence of bytes in the specified cache with the specified key.
+            </summary>
         <returns>A task that represents the asynchronous set operation.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>
@@ -253,7 +263,9 @@
         <param name="cache">The cache in which to store the data.</param>
         <param name="key">The key to store the data in.</param>
         <param name="value">The data to store in the cache.</param>
-        <summary>Sets a string in the specified cache with the specified key.</summary>
+        <summary>
+            Sets a string in the specified cache with the specified key.
+            </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>
       </Docs>
@@ -290,7 +302,9 @@
         <param name="key">The key to store the data in.</param>
         <param name="value">The data to store in the cache.</param>
         <param name="options">The cache options for the entry.</param>
-        <summary>Sets a string in the specified cache with the specified key.</summary>
+        <summary>
+            Sets a string in the specified cache with the specified key.
+            </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>
       </Docs>
@@ -360,7 +374,7 @@
       </Docs>
     </Member>
     <Member MemberName="SetStringAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SetStringAsync (this Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, string value, System.Threading.CancellationToken token = null);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SetStringAsync (this Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, string value, System.Threading.CancellationToken token = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task SetStringAsync(class Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, string value, valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.SetStringAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetStringAsync (cache As IDistributedCache, key As String, value As String, Optional token As CancellationToken = null) As Task" />
@@ -388,14 +402,16 @@
         <param name="key">The key to store the data in.</param>
         <param name="value">The data to store in the cache.</param>
         <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
-        <summary>Asynchronously sets a string in the specified cache with the specified key.</summary>
+        <summary>
+            Asynchronously sets a string in the specified cache with the specified key.
+            </summary>
         <returns>A task that represents the asynchronous set operation.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>
       </Docs>
     </Member>
     <Member MemberName="SetStringAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SetStringAsync (this Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, string value, Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions options, System.Threading.CancellationToken token = null);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SetStringAsync (this Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, string value, Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions options, System.Threading.CancellationToken token = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task SetStringAsync(class Microsoft.Extensions.Caching.Distributed.IDistributedCache cache, string key, string value, class Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions options, valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.SetStringAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.String,Microsoft.Extensions.Caching.Distributed.DistributedCacheEntryOptions,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SetStringAsync (cache As IDistributedCache, key As String, value As String, options As DistributedCacheEntryOptions, Optional token As CancellationToken = null) As Task" />
@@ -425,7 +441,9 @@
         <param name="value">The data to store in the cache.</param>
         <param name="options">The cache options for the entry.</param>
         <param name="token">Optional. A <see cref="T:System.Threading.CancellationToken" /> to cancel the operation.</param>
-        <summary>Asynchronously sets a string in the specified cache with the specified key.</summary>
+        <summary>
+            Asynchronously sets a string in the specified cache with the specified key.
+            </summary>
         <returns>A task that represents the asynchronous set operation.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="key" /> or <paramref name="value" /> is null.</exception>

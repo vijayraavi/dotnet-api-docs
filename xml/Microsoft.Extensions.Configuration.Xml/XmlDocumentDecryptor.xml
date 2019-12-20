@@ -20,7 +20,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Class responsible for encrypting and decrypting XML.</summary>
+    <summary>
+            Class responsible for encrypting and decrypting XML.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,7 +45,9 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Initializes a XmlDocumentDecryptor.</summary>
+        <summary>
+            Initializes a XmlDocumentDecryptor.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -75,7 +79,9 @@
       <Docs>
         <param name="input">To be added.</param>
         <param name="settings">To be added.</param>
-        <summary>Returns an XmlReader that decrypts data transparently.</summary>
+        <summary>
+            Returns an XmlReader that decrypts data transparently.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -106,7 +112,9 @@
       </Parameters>
       <Docs>
         <param name="document">The document.</param>
-        <summary>Creates a reader that can decrypt an encrypted XML document.</summary>
+        <summary>
+            Creates a reader that can decrypt an encrypted XML document.
+            </summary>
         <returns>An XmlReader which can read the document.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -133,7 +141,9 @@
         <ReturnType>Microsoft.Extensions.Configuration.Xml.XmlDocumentDecryptor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Accesses the singleton decryptor instance.</summary>
+        <summary>
+            Accesses the singleton decryptor instance.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

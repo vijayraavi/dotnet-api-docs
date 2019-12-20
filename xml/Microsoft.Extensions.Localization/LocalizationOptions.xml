@@ -20,7 +20,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Provides programmatic configuration for localization.</summary>
+    <summary>
+            Provides programmatic configuration for localization.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -43,7 +45,9 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Creates a new <see cref="T:Microsoft.Extensions.Localization.LocalizationOptions" />.</summary>
+        <summary>
+            Creates a new <see cref="T:Microsoft.Extensions.Localization.LocalizationOptions" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -69,7 +73,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The relative path under application root where resource files are located.</summary>
+        <summary>
+            The relative path under application root where resource files are located.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

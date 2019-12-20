@@ -24,7 +24,8 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>Base helper class for implementing an <see cref="T:Microsoft.Extensions.Configuration.IConfigurationProvider" /></summary>
+    <summary>
+            Base helper class for implementing an <see cref="T:Microsoft.Extensions.Configuration.IConfigurationProvider" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -47,7 +48,8 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Initializes a new <see cref="T:Microsoft.Extensions.Configuration.IConfigurationProvider" /></summary>
+        <summary>
+            Initializes a new <see cref="T:Microsoft.Extensions.Configuration.IConfigurationProvider" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -73,7 +75,9 @@
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The configuration key value pairs for this provider.</summary>
+        <summary>
+            The configuration key value pairs for this provider.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,7 +113,9 @@
       <Docs>
         <param name="earlierKeys">The earlier keys that other providers contain.</param>
         <param name="parentPath">The path for the parent IConfiguration.</param>
-        <summary>Returns the list of keys that this provider has.</summary>
+        <summary>
+            Returns the list of keys that this provider has.
+            </summary>
         <returns>The list of keys for this provider.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -140,7 +146,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Returns a <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" /> that can be used to listen when this provider is reloaded.</summary>
+        <summary>
+            Returns a <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" /> that can be used to listen when this provider is reloaded.
+            </summary>
         <returns>The <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,7 +179,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Loads (or reloads) the data for this provider.</summary>
+        <summary>
+            Loads (or reloads) the data for this provider.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -198,7 +208,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Triggers the reload change token and creates a new one.</summary>
+        <summary>
+            Triggers the reload change token and creates a new one.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -233,7 +245,9 @@
       <Docs>
         <param name="key">The configuration key to set.</param>
         <param name="value">The value to set.</param>
-        <summary>Sets a value for a given key.</summary>
+        <summary>
+            Sets a value for a given key.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -255,7 +269,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Generates a string representing this provider name and relevant details.</summary>
+        <summary>
+            Generates a string representing this provider name and relevant details.
+            </summary>
         <returns> The configuration name. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -291,7 +307,9 @@
       <Docs>
         <param name="key">The key to lookup.</param>
         <param name="value">The value found at key if one is found.</param>
-        <summary>Attempts to find a value with the given key, returns true if one is found, false otherwise.</summary>
+        <summary>
+            Attempts to find a value with the given key, returns true if one is found, false otherwise.
+            </summary>
         <returns>True if key has a value, false otherwise.</returns>
         <remarks>To be added.</remarks>
       </Docs>

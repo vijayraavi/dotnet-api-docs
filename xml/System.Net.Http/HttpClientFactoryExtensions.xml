@@ -18,7 +18,8 @@
   <Interfaces />
   <Docs>
     <summary>
-            Extensions methods for <see cref="T:System.Net.Http.IHttpClientFactory" />.</summary>
+            Extensions methods for <see cref="T:System.Net.Http.IHttpClientFactory" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -46,7 +47,8 @@
       <Docs>
         <param name="factory">The <see cref="T:System.Net.Http.IHttpClientFactory" />.</param>
         <summary>
-            Creates a new <see cref="T:System.Net.Http.HttpClient" /> using the default configuration.</summary>
+            Creates a new <see cref="T:System.Net.Http.HttpClient" /> using the default configuration.
+            </summary>
         <returns>An <see cref="T:System.Net.Http.HttpClient" /> configured using the default configuration.</returns>
         <remarks>To be added.</remarks>
       </Docs>

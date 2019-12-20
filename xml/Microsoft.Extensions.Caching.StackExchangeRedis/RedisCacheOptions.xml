@@ -20,7 +20,9 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>Configuration options for <see cref="T:Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache" />.</summary>
+    <summary>
+            Configuration options for <see cref="T:Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -61,7 +63,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The configuration used to connect to Redis.</summary>
+        <summary>
+            The configuration used to connect to Redis.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,8 +88,10 @@
         <ReturnType>StackExchange.Redis.ConfigurationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The configuration used to connect to Redis.
-            This is preferred over Configuration.</summary>
+        <summary>
+            The configuration used to connect to Redis.
+            This is preferred over Configuration.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -108,7 +114,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The Redis instance name.</summary>
+        <summary>
+            The Redis instance name.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

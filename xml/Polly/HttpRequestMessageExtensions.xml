@@ -17,7 +17,8 @@
   <Interfaces />
   <Docs>
     <summary>
-            Extension methods for <see cref="T:System.Net.Http.HttpRequestMessage" /> Polly integration.</summary>
+            Extension methods for <see cref="T:System.Net.Http.HttpRequestMessage" /> Polly integration.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -44,7 +45,8 @@
       <Docs>
         <param name="request">The <see cref="T:System.Net.Http.HttpRequestMessage" />.</param>
         <summary>
-            Gets the <see cref="T:Polly.Context" /> associated with the provided <see cref="T:System.Net.Http.HttpRequestMessage" />.</summary>
+            Gets the <see cref="T:Polly.Context" /> associated with the provided <see cref="T:System.Net.Http.HttpRequestMessage" />.
+            </summary>
         <returns>The <see cref="T:Polly.Context" /> if set, otherwise <c>null</c>.</returns>
         <remarks>
             The <see cref="T:Microsoft.Extensions.Http.PolicyHttpMessageHandler" /> will attach a context to the <see cref="T:System.Net.Http.HttpResponseMessage" /> prior
@@ -77,7 +79,8 @@
         <param name="request">The <see cref="T:System.Net.Http.HttpRequestMessage" />.</param>
         <param name="context">The <see cref="T:Polly.Context" />, may be <c>null</c>.</param>
         <summary>
-            Sets the <see cref="T:Polly.Context" /> associated with the provided <see cref="T:System.Net.Http.HttpRequestMessage" />.</summary>
+            Sets the <see cref="T:Polly.Context" /> associated with the provided <see cref="T:System.Net.Http.HttpRequestMessage" />.
+            </summary>
         <remarks>
             The <see cref="T:Microsoft.Extensions.Http.PolicyHttpMessageHandler" /> will attach a context to the <see cref="T:System.Net.Http.HttpResponseMessage" /> prior
             to executing a <see cref="T:Polly.Policy" />, if one does not already exist. The <see cref="T:Polly.Context" /> will be provided

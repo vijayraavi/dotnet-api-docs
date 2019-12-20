@@ -13,13 +13,15 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>Represents a health check, which can be used to check the status of a component in the application, such as a backend service, database or some internal
-            state.</summary>
+    <summary>
+            Represents a health check, which can be used to check the status of a component in the application, such as a backend service, database or some internal
+            state.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName="CheckHealthAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult&gt; CheckHealthAsync (Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext context, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult&gt; CheckHealthAsync (Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext context, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;valuetype Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult&gt; CheckHealthAsync(class Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext context, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheck.CheckHealthAsync(Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext,System.Threading.CancellationToken)" />
       <MemberSignature Language="F#" Value="abstract member CheckHealthAsync : Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult&gt;" Usage="iHealthCheck.CheckHealthAsync (context, cancellationToken)" />
@@ -40,7 +42,9 @@
       <Docs>
         <param name="context">A context object associated with the current execution.</param>
         <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> that can be used to cancel the health check.</param>
-        <summary>Runs the health check, returning the status of the component being checked.</summary>
+        <summary>
+            Runs the health check, returning the status of the component being checked.
+            </summary>
         <returns>A <see cref="T:System.Threading.Tasks.Task`1" /> that completes when the health check has finished, yielding the status of the component being checked.</returns>
         <remarks>To be added.</remarks>
       </Docs>

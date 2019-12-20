@@ -20,12 +20,14 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>A command line based <see cref="T:Microsoft.Extensions.Configuration.ConfigurationProvider" />.</summary>
+    <summary>
+            A command line based <see cref="T:Microsoft.Extensions.Configuration.ConfigurationProvider" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CommandLineConfigurationProvider (System.Collections.Generic.IEnumerable&lt;string&gt; args, System.Collections.Generic.IDictionary&lt;string,string&gt; switchMappings = null);" />
+      <MemberSignature Language="C#" Value="public CommandLineConfigurationProvider (System.Collections.Generic.IEnumerable&lt;string&gt; args, System.Collections.Generic.IDictionary&lt;string,string&gt; switchMappings = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;string&gt; args, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; switchMappings) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Configuration.CommandLine.CommandLineConfigurationProvider.#ctor(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IDictionary{System.String,System.String})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (args As IEnumerable(Of String), Optional switchMappings As IDictionary(Of String, String) = null)" />
@@ -48,7 +50,9 @@
       <Docs>
         <param name="args">The command line args.</param>
         <param name="switchMappings">The switch mappings.</param>
-        <summary>Initializes a new instance.</summary>
+        <summary>
+            Initializes a new instance.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -74,7 +78,9 @@
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The command line arguments.</summary>
+        <summary>
+            The command line arguments.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -102,7 +108,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Loads the configuration data from the command line args.</summary>
+        <summary>
+            Loads the configuration data from the command line args.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

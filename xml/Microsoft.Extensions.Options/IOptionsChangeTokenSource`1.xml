@@ -24,7 +24,9 @@
   <Interfaces />
   <Docs>
     <typeparam name="TOptions">Options type.</typeparam>
-    <summary>Used to fetch <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" /> used for tracking options changes.</summary>
+    <summary>
+            Used to fetch <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" /> used for tracking options changes.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -50,7 +52,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Returns a <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" /> which can be used to register a change notification callback.</summary>
+        <summary>
+            Returns a <see cref="T:Microsoft.Extensions.Primitives.IChangeToken" /> which can be used to register a change notification callback.
+            </summary>
         <returns>Change token.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -75,7 +79,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The name of the option instance being changed.</summary>
+        <summary>
+            The name of the option instance being changed.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

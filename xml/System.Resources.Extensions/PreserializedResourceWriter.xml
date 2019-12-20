@@ -1,9 +1,9 @@
 <Type Name="PreserializedResourceWriter" FullName="System.Resources.Extensions.PreserializedResourceWriter">
-  <TypeSignature Language="C#" Value="public sealed class PreserializedResourceWriter : System.Resources.IResourceWriter" />
+  <TypeSignature Language="C#" Value="public sealed class PreserializedResourceWriter : IDisposable, System.Resources.IResourceWriter" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PreserializedResourceWriter extends System.Object implements class System.IDisposable, class System.Resources.IResourceWriter" />
   <TypeSignature Language="DocId" Value="T:System.Resources.Extensions.PreserializedResourceWriter" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreserializedResourceWriter&#xA;Implements IResourceWriter" />
-  <TypeSignature Language="C++ CLI" Value="public ref class PreserializedResourceWriter sealed : System::Resources::IResourceWriter" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreserializedResourceWriter&#xA;Implements IDisposable, IResourceWriter" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PreserializedResourceWriter sealed : IDisposable, System::Resources::IResourceWriter" />
   <TypeSignature Language="F#" Value="type PreserializedResourceWriter = class&#xA;    interface IDisposable&#xA;    interface IResourceWriter" />
   <AssemblyInfo>
     <AssemblyName>System.Resources.Extensions</AssemblyName>
@@ -108,7 +108,7 @@
       </Docs>
     </Member>
     <Member MemberName="AddBinaryFormattedResource">
-      <MemberSignature Language="C#" Value="public void AddBinaryFormattedResource (string name, byte[] value, string typeName = null);" />
+      <MemberSignature Language="C#" Value="public void AddBinaryFormattedResource (string name, byte[] value, string typeName = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddBinaryFormattedResource(string name, unsigned int8[] value, string typeName) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.Extensions.PreserializedResourceWriter.AddBinaryFormattedResource(System.String,System.Byte[],System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub AddBinaryFormattedResource (name As String, value As Byte(), Optional typeName As String = null)" />
@@ -145,9 +145,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void AddResource(System::String ^ name, cli::array &lt;System::Byte&gt; ^ value);" />
       <MemberSignature Language="F#" Value="abstract member AddResource : string * byte[] -&gt; unit&#xA;override this.AddResource : string * byte[] -&gt; unit" Usage="preserializedResourceWriter.AddResource (name, value)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Resources.IResourceWriter.AddResource(System.String,System.Byte[])</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -185,9 +182,6 @@ The resources are not written until <xref:System.Resources.Extensions.Preseriali
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void AddResource(System::String ^ name, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="abstract member AddResource : string * obj -&gt; unit&#xA;override this.AddResource : string * obj -&gt; unit" Usage="preserializedResourceWriter.AddResource (name, value)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Resources.IResourceWriter.AddResource(System.String,System.Object)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -226,9 +220,6 @@ The resources are not written until <xref:System.Resources.Extensions.Preseriali
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void AddResource(System::String ^ name, System::String ^ value);" />
       <MemberSignature Language="F#" Value="abstract member AddResource : string * string -&gt; unit&#xA;override this.AddResource : string * string -&gt; unit" Usage="preserializedResourceWriter.AddResource (name, value)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Resources.IResourceWriter.AddResource(System.String,System.String)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -368,9 +359,6 @@ If the type is a primitive type, the value will be converted using <xref:System.
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Close();" />
       <MemberSignature Language="F#" Value="abstract member Close : unit -&gt; unit&#xA;override this.Close : unit -&gt; unit" Usage="preserializedResourceWriter.Close " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Resources.IResourceWriter.Close</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -394,9 +382,6 @@ If the type is a primitive type, the value will be converted using <xref:System.
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="preserializedResourceWriter.Dispose " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -420,9 +405,6 @@ If the type is a primitive type, the value will be converted using <xref:System.
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Generate();" />
       <MemberSignature Language="F#" Value="abstract member Generate : unit -&gt; unit&#xA;override this.Generate : unit -&gt; unit" Usage="preserializedResourceWriter.Generate " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Resources.IResourceWriter.Generate</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

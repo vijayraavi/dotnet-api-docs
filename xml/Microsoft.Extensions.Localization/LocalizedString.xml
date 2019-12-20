@@ -20,7 +20,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>A locale specific string.</summary>
+    <summary>
+            A locale specific string.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,7 +51,9 @@
       <Docs>
         <param name="name">The name of the string in the resource it was loaded from.</param>
         <param name="value">The actual string.</param>
-        <summary>Creates a new <see cref="T:Microsoft.Extensions.Localization.LocalizedString" />.</summary>
+        <summary>
+            Creates a new <see cref="T:Microsoft.Extensions.Localization.LocalizedString" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -80,7 +84,9 @@
         <param name="name">The name of the string in the resource it was loaded from.</param>
         <param name="value">The actual string.</param>
         <param name="resourceNotFound">Whether the string was not found in a resource. Set this to <c>true</c> to indicate an alternate string value was used.</param>
-        <summary>Creates a new <see cref="T:Microsoft.Extensions.Localization.LocalizedString" />.</summary>
+        <summary>
+            Creates a new <see cref="T:Microsoft.Extensions.Localization.LocalizedString" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -111,7 +117,9 @@
         <param name="value">The actual string.</param>
         <param name="resourceNotFound">Whether the string was not found in a resource. Set this to <c>true</c> to indicate an alternate string value was used.</param>
         <param name="searchedLocation">The location which was searched for a localization value.</param>
-        <summary>Creates a new <see cref="T:Microsoft.Extensions.Localization.LocalizedString" />.</summary>
+        <summary>
+            Creates a new <see cref="T:Microsoft.Extensions.Localization.LocalizedString" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,7 +145,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The name of the string in the resource it was loaded from.</summary>
+        <summary>
+            The name of the string in the resource it was loaded from.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -167,7 +177,9 @@
       </Parameters>
       <Docs>
         <param name="localizedString">The string to be implicitly converted.</param>
-        <summary>Implicitly converts the <see cref="T:Microsoft.Extensions.Localization.LocalizedString" /> to a <see cref="T:System.String" />.</summary>
+        <summary>
+            Implicitly converts the <see cref="T:Microsoft.Extensions.Localization.LocalizedString" /> to a <see cref="T:System.String" />.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -194,7 +206,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Whether the string was not found in a resource. If <c>true</c>, an alternate string value was used.</summary>
+        <summary>
+            Whether the string was not found in a resource. If <c>true</c>, an alternate string value was used.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -219,7 +233,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The location which was searched for a localization value.</summary>
+        <summary>
+            The location which was searched for a localization value.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -247,7 +263,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Returns the actual string.</summary>
+        <summary>
+            Returns the actual string.
+            </summary>
         <returns>The actual string.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -274,7 +292,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The actual string.</summary>
+        <summary>
+            The actual string.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -146,7 +146,7 @@ Dim coll As New Microsoft.VisualBasic.Collection()
       </Docs>
     </Member>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public void Add (object Item, string Key = null, object Before = null, object After = null);" />
+      <MemberSignature Language="C#" Value="public void Add (object Item, string Key = default, object Before = default, object After = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(object Item, string Key, object Before, object After) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Collection.Add(System.Object,System.String,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (Item As Object, Optional Key As String = null, Optional Before As Object = null, Optional After As Object = null)" />

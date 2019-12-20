@@ -17,7 +17,9 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>Represents a service that provides localized strings.</summary>
+    <summary>
+            Represents a service that provides localized strings.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -49,7 +51,9 @@
         <param name="includeParentCultures">
             A <see cref="T:System.Boolean" /> indicating whether to include strings from parent cultures.
             </param>
-        <summary>Gets all string resources.</summary>
+        <summary>
+            Gets all string resources.
+            </summary>
         <returns>The strings.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,7 +84,9 @@
       </Parameters>
       <Docs>
         <param name="name">The name of the string resource.</param>
-        <summary>Gets the string resource with the given name.</summary>
+        <summary>
+            Gets the string resource with the given name.
+            </summary>
         <value>The string resource as a <see cref="T:Microsoft.Extensions.Localization.LocalizedString" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -119,7 +125,9 @@
       <Docs>
         <param name="name">The name of the string resource.</param>
         <param name="arguments">The values to format the string with.</param>
-        <summary>Gets the string resource with the given name and formatted with the supplied arguments.</summary>
+        <summary>
+            Gets the string resource with the given name and formatted with the supplied arguments.
+            </summary>
         <value>The formatted string resource as a <see cref="T:Microsoft.Extensions.Localization.LocalizedString" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -155,7 +163,9 @@
       </Parameters>
       <Docs>
         <param name="culture">The <see cref="T:System.Globalization.CultureInfo" /> to use.</param>
-        <summary>Creates a new <see cref="T:Microsoft.Extensions.Localization.IStringLocalizer" /> for a specific <see cref="T:System.Globalization.CultureInfo" />.</summary>
+        <summary>
+            Creates a new <see cref="T:Microsoft.Extensions.Localization.IStringLocalizer" /> for a specific <see cref="T:System.Globalization.CultureInfo" />.
+            </summary>
         <returns>A culture-specific <see cref="T:Microsoft.Extensions.Localization.IStringLocalizer" />.</returns>
         <remarks>To be added.</remarks>
       </Docs>

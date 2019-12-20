@@ -20,7 +20,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Extension methods for the <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory" /> class.</summary>
+    <summary>
+            Extension methods for the <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory" /> class.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -82,7 +84,9 @@
       </Parameters>
       <Docs>
         <param name="builder">The extension method argument.</param>
-        <summary>Adds an event logger named 'EventLog' to the factory.</summary>
+        <summary>
+            Adds an event logger named 'EventLog' to the factory.
+            </summary>
         <returns>The <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" /> so that additional calls can be chained.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -185,7 +189,9 @@
       <Docs>
         <param name="builder">The extension method argument.</param>
         <param name="settings">The <see cref="T:Microsoft.Extensions.Logging.EventLog.EventLogSettings" />.</param>
-        <summary>Adds an event logger. Use <paramref name="settings" /> to enable logging for specific <see cref="T:Microsoft.Extensions.Logging.LogLevel" />s.</summary>
+        <summary>
+            Adds an event logger. Use <paramref name="settings" /> to enable logging for specific <see cref="T:Microsoft.Extensions.Logging.LogLevel" />s.
+            </summary>
         <returns>The <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" /> so that additional calls can be chained.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -213,7 +219,9 @@
       <Docs>
         <param name="builder">The extension method argument.</param>
         <param name="configure">A delegate to configure the <see cref="T:Microsoft.Extensions.Logging.EventLog.EventLogSettings" />.</param>
-        <summary>Adds an event logger. Use <paramref name="configure" /> to enable logging for specific <see cref="T:Microsoft.Extensions.Logging.LogLevel" />s.</summary>
+        <summary>
+            Adds an event logger. Use <paramref name="configure" /> to enable logging for specific <see cref="T:Microsoft.Extensions.Logging.LogLevel" />s.
+            </summary>
         <returns>The <see cref="T:Microsoft.Extensions.Logging.ILoggingBuilder" /> so that additional calls can be chained.</returns>
         <remarks>To be added.</remarks>
       </Docs>

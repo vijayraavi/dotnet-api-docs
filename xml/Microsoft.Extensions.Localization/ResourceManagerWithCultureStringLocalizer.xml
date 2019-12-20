@@ -25,8 +25,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>An <see cref="T:Microsoft.Extensions.Localization.IStringLocalizer" /> that uses the <see cref="T:System.Resources.ResourceManager" /> and
-            <see cref="T:System.Resources.ResourceReader" /> to provide localized strings for a specific <see cref="T:System.Globalization.CultureInfo" />.</summary>
+    <summary>
+            An <see cref="T:Microsoft.Extensions.Localization.IStringLocalizer" /> that uses the <see cref="T:System.Resources.ResourceManager" /> and
+            <see cref="T:System.Resources.ResourceReader" /> to provide localized strings for a specific <see cref="T:System.Globalization.CultureInfo" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -89,7 +91,9 @@
         <param name="resourceNamesCache">Cache of the list of strings for a given resource assembly name.</param>
         <param name="culture">The specific <see cref="T:System.Globalization.CultureInfo" /> to use.</param>
         <param name="logger">The <see cref="T:Microsoft.Extensions.Logging.ILogger" />.</param>
-        <summary>Creates a new <see cref="T:Microsoft.Extensions.Localization.ResourceManagerWithCultureStringLocalizer" />.</summary>
+        <summary>
+            Creates a new <see cref="T:Microsoft.Extensions.Localization.ResourceManagerWithCultureStringLocalizer" />.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

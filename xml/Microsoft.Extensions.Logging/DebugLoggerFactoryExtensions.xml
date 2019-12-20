@@ -20,7 +20,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Extension methods for the <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory" /> class.</summary>
+    <summary>
+            Extension methods for the <see cref="T:Microsoft.Extensions.Logging.ILoggerFactory" /> class.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -82,7 +84,9 @@
       </Parameters>
       <Docs>
         <param name="builder">The extension method argument.</param>
-        <summary>Adds a debug logger named 'Debug' to the factory.</summary>
+        <summary>
+            Adds a debug logger named 'Debug' to the factory.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

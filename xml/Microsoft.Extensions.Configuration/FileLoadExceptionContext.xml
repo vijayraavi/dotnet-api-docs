@@ -19,7 +19,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Contains information about a file load exception.</summary>
+    <summary>
+            Contains information about a file load exception.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -66,7 +68,9 @@
         <ReturnType>System.Exception</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The exception that occured in Load.</summary>
+        <summary>
+            The exception that occured in Load.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -92,7 +96,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>If true, the exception will not be rethrown.</summary>
+        <summary>
+            If true, the exception will not be rethrown.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -118,7 +124,9 @@
         <ReturnType>Microsoft.Extensions.Configuration.FileConfigurationProvider</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The <see cref="T:Microsoft.Extensions.Configuration.FileConfigurationProvider" /> that caused the exception.</summary>
+        <summary>
+            The <see cref="T:Microsoft.Extensions.Configuration.FileConfigurationProvider" /> that caused the exception.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

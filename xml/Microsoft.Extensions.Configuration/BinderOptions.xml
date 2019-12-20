@@ -17,7 +17,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>Options class used by the <see cref="T:Microsoft.Extensions.Configuration.ConfigurationBinder" />.</summary>
+    <summary>
+            Options class used by the <see cref="T:Microsoft.Extensions.Configuration.ConfigurationBinder" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -60,8 +62,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>When false (the default), the binder will only attempt to set public properties.
-            If true, the binder will attempt to set all non read-only properties.</summary>
+        <summary>
+            When false (the default), the binder will only attempt to set public properties.
+            If true, the binder will attempt to set all non read-only properties.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

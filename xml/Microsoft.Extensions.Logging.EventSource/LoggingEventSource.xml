@@ -20,7 +20,8 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary> The LoggingEventSource is the bridge from all ILogger based logging to EventSource/EventListener logging.
+    <summary>
+             The LoggingEventSource is the bridge from all ILogger based logging to EventSource/EventListener logging.
             
              You turn this logging on by enabling the EventSource called
             
