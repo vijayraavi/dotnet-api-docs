@@ -32,7 +32,7 @@
   <Members>
     <Member MemberName="CheckForSyncLockOnValueType">
       <MemberSignature Language="C#" Value="public static void CheckForSyncLockOnValueType (object Expression);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CheckForSyncLockOnValueType(object Expression) cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CheckForSyncLockOnValueType(object Expression) cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.CheckForSyncLockOnValueType(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub CheckForSyncLockOnValueType (Expression As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void CheckForSyncLockOnValueType(System::Object ^ Expression);" />

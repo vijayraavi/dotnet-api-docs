@@ -217,10 +217,10 @@ This key/value pair is included in the collection returned by the <see cref="P:S
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Current As Activity" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Diagnostics::Activity ^ Current { System::Diagnostics::Activity ^ get(); };" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2" />
       <MemberSignature Language="F#" Value="member this.Current : System.Diagnostics.Activity" Usage="System.Diagnostics.Activity.Current" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2" />
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Activity Current { get; set; }" FrameworkAlternate="netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Property Current As Activity" FrameworkAlternate="netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Diagnostics::Activity ^ Current { System::Diagnostics::Activity ^ get(); void set(System::Diagnostics::Activity ^ value); };" FrameworkAlternate="netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="F#" Value="member this.Current : System.Diagnostics.Activity with get, set" Usage="System.Diagnostics.Activity.Current" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Activity Current { get; set; }" FrameworkAlternate="netcore-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Property Current As Activity" FrameworkAlternate="netcore-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Diagnostics::Activity ^ Current { System::Diagnostics::Activity ^ get(); void set(System::Diagnostics::Activity ^ value); };" FrameworkAlternate="netcore-3.0" />
+      <MemberSignature Language="F#" Value="member this.Current : System.Diagnostics.Activity with get, set" Usage="System.Diagnostics.Activity.Current" FrameworkAlternate="netcore-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>

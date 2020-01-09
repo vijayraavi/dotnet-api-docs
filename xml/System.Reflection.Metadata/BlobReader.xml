@@ -184,10 +184,10 @@ Doesn't change the current position.
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Offset As Integer" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Offset { int get(); };" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
       <MemberSignature Language="F#" Value="member this.Offset : int" Usage="System.Reflection.Metadata.BlobReader.Offset" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
-      <MemberSignature Language="C#" Value="public int Offset { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="VB.NET" Value="Public Property Offset As Integer" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Offset { int get(); void set(int value); };" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="F#" Value="member this.Offset : int with get, set" Usage="System.Reflection.Metadata.BlobReader.Offset" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public int Offset { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Property Offset As Integer" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Offset { int get(); void set(int value); };" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
+      <MemberSignature Language="F#" Value="member this.Offset : int with get, set" Usage="System.Reflection.Metadata.BlobReader.Offset" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>

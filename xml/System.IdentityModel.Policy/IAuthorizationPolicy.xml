@@ -56,8 +56,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="evaluationContext" Type="System.IdentityModel.Policy.EvaluationContext" Index="0" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
-        <Parameter Name="state" Type="System.Object" RefType="ref" Index="1" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+        <Parameter Name="evaluationContext" Type="System.IdentityModel.Policy.EvaluationContext" />
+        <Parameter Name="state" Type="System.Object" RefType="ref" />
       </Parameters>
       <Docs>
         <param name="evaluationContext">An <see cref="T:System.IdentityModel.Policy.EvaluationContext" /> that contains the claim set that the authorization policy evaluates.</param>

@@ -290,7 +290,7 @@ This method either returns the wrapped task object, if one exists, or it manufac
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="abstract member Equals : obj -&gt; bool&#xA;override this.Equals : obj -&gt; bool" Usage="valueTask.Equals obj" FrameworkAlternate="netcore-1.0;netcore-1.1" />
-      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="valueTask.Equals obj" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="valueTask.Equals obj" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks.Extensions</AssemblyName>
@@ -329,7 +329,7 @@ This method either returns the wrapped task object, if one exists, or it manufac
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As ValueTask(Of TResult)) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(System::Threading::Tasks::ValueTask&lt;TResult&gt; other);" />
       <MemberSignature Language="F#" Value="abstract member Equals : System.Threading.Tasks.ValueTask&lt;'Result&gt; -&gt; bool&#xA;override this.Equals : System.Threading.Tasks.ValueTask&lt;'Result&gt; -&gt; bool" Usage="valueTask.Equals other" FrameworkAlternate="netcore-1.0;netcore-1.1" />
-      <MemberSignature Language="F#" Value="override this.Equals : System.Threading.Tasks.ValueTask&lt;'Result&gt; -&gt; bool" Usage="valueTask.Equals other" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="F#" Value="override this.Equals : System.Threading.Tasks.ValueTask&lt;'Result&gt; -&gt; bool" Usage="valueTask.Equals other" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -405,7 +405,7 @@ This method either returns the wrapped task object, if one exists, or it manufac
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="abstract member GetHashCode : unit -&gt; int&#xA;override this.GetHashCode : unit -&gt; int" Usage="valueTask.GetHashCode " FrameworkAlternate="netcore-1.0;netcore-1.1" />
-      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="valueTask.GetHashCode " FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="valueTask.GetHashCode " FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks.Extensions</AssemblyName>
@@ -728,7 +728,7 @@ If this <xref:System.Threading.Tasks.ValueTask%601> has completed successfully, 
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="abstract member ToString : unit -&gt; string&#xA;override this.ToString : unit -&gt; string" Usage="valueTask.ToString " FrameworkAlternate="netcore-1.0;netcore-1.1" />
-      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="valueTask.ToString " FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="valueTask.ToString " FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks.Extensions</AssemblyName>

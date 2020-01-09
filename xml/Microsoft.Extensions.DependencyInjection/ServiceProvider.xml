@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Extensions.DependencyInjection.ServiceProvider" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ServiceProvider&#xA;Implements IAsyncDisposable, IDisposable, IServiceProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class ServiceProvider sealed : IAsyncDisposable, IDisposable, IServiceProvider" />
-  <TypeSignature Language="F#" Value="type ServiceProvider = class&#xA;    interface IAsyncDisposable&#xA;    interface IDisposable&#xA;    interface IServiceProvider" />
+  <TypeSignature Language="F#" Value="type ServiceProvider = class&#xA;    interface IServiceProvider&#xA;    interface IDisposable&#xA;    interface IAsyncDisposable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Extensions.DependencyInjection</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

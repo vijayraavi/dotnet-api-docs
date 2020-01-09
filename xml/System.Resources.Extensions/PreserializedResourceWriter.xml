@@ -382,6 +382,9 @@ If the type is a primitive type, the value will be converted using <xref:System.
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="preserializedResourceWriter.Dispose " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

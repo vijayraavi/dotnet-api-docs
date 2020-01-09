@@ -40,7 +40,7 @@
   <Members>
     <Member MemberName="ClearProjectError">
       <MemberSignature Language="C#" Value="public static void ClearProjectError ();" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ClearProjectError() cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ClearProjectError() cil managed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ProjectData.ClearProjectError" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub ClearProjectError ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void ClearProjectError();" />
@@ -85,7 +85,7 @@
     </Member>
     <Member MemberName="CreateProjectError">
       <MemberSignature Language="C#" Value="public static Exception CreateProjectError (int hr);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Exception CreateProjectError(int32 hr) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Exception CreateProjectError(int32 hr) cil managed" FrameworkAlternate="netcore-3.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ProjectData.CreateProjectError(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateProjectError (hr As Integer) As Exception" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Exception ^ CreateProjectError(int hr);" />
@@ -126,7 +126,7 @@
     </Member>
     <Member MemberName="EndApp">
       <MemberSignature Language="C#" Value="public static void EndApp ();" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void EndApp() cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void EndApp() cil managed" FrameworkAlternate="netcore-3.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ProjectData.EndApp" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub EndApp ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void EndApp();" />

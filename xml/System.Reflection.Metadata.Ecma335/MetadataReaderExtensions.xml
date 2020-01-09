@@ -31,7 +31,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Iterator Function GetEditAndContinueLogEntries (reader As MetadataReader) As IEnumerable(Of EditAndContinueLogEntry)" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IEnumerable&lt;System::Reflection::Metadata::Ecma335::EditAndContinueLogEntry&gt; ^ GetEditAndContinueLogEntries(System::Reflection::Metadata::MetadataReader ^ reader);" />
       <MemberSignature Language="F#" Value="static member GetEditAndContinueLogEntries : System.Reflection.Metadata.MetadataReader -&gt; seq&lt;System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry&gt;" Usage="System.Reflection.Metadata.Ecma335.MetadataReaderExtensions.GetEditAndContinueLogEntries reader" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetEditAndContinueLogEntries (reader As MetadataReader) As IEnumerable(Of EditAndContinueLogEntry)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetEditAndContinueLogEntries (reader As MetadataReader) As IEnumerable(Of EditAndContinueLogEntry)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -71,7 +71,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Iterator Function GetEditAndContinueMapEntries (reader As MetadataReader) As IEnumerable(Of EntityHandle)" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IEnumerable&lt;System::Reflection::Metadata::EntityHandle&gt; ^ GetEditAndContinueMapEntries(System::Reflection::Metadata::MetadataReader ^ reader);" />
       <MemberSignature Language="F#" Value="static member GetEditAndContinueMapEntries : System.Reflection.Metadata.MetadataReader -&gt; seq&lt;System.Reflection.Metadata.EntityHandle&gt;" Usage="System.Reflection.Metadata.Ecma335.MetadataReaderExtensions.GetEditAndContinueMapEntries reader" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetEditAndContinueMapEntries (reader As MetadataReader) As IEnumerable(Of EntityHandle)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetEditAndContinueMapEntries (reader As MetadataReader) As IEnumerable(Of EntityHandle)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -370,7 +370,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Iterator Function GetTypesWithEvents (reader As MetadataReader) As IEnumerable(Of TypeDefinitionHandle)" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IEnumerable&lt;System::Reflection::Metadata::TypeDefinitionHandle&gt; ^ GetTypesWithEvents(System::Reflection::Metadata::MetadataReader ^ reader);" />
       <MemberSignature Language="F#" Value="static member GetTypesWithEvents : System.Reflection.Metadata.MetadataReader -&gt; seq&lt;System.Reflection.Metadata.TypeDefinitionHandle&gt;" Usage="System.Reflection.Metadata.Ecma335.MetadataReaderExtensions.GetTypesWithEvents reader" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTypesWithEvents (reader As MetadataReader) As IEnumerable(Of TypeDefinitionHandle)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTypesWithEvents (reader As MetadataReader) As IEnumerable(Of TypeDefinitionHandle)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -410,7 +410,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Iterator Function GetTypesWithProperties (reader As MetadataReader) As IEnumerable(Of TypeDefinitionHandle)" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IEnumerable&lt;System::Reflection::Metadata::TypeDefinitionHandle&gt; ^ GetTypesWithProperties(System::Reflection::Metadata::MetadataReader ^ reader);" />
       <MemberSignature Language="F#" Value="static member GetTypesWithProperties : System.Reflection.Metadata.MetadataReader -&gt; seq&lt;System.Reflection.Metadata.TypeDefinitionHandle&gt;" Usage="System.Reflection.Metadata.Ecma335.MetadataReaderExtensions.GetTypesWithProperties reader" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTypesWithProperties (reader As MetadataReader) As IEnumerable(Of TypeDefinitionHandle)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetTypesWithProperties (reader As MetadataReader) As IEnumerable(Of TypeDefinitionHandle)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>

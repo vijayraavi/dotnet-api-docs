@@ -46,7 +46,7 @@
   <Members>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public MyGroupCollectionAttribute (string typeToCollect, string createInstanceMethodName, string disposeInstanceMethodName, string defaultInstanceAlias);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string typeToCollect, string createInstanceMethodName, string disposeInstanceMethodName, string defaultInstanceAlias) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string typeToCollect, string createInstanceMethodName, string disposeInstanceMethodName, string defaultInstanceAlias) cil managed" FrameworkAlternate="netcore-3.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.MyGroupCollectionAttribute.#ctor(System.String,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (typeToCollect As String, createInstanceMethodName As String, disposeInstanceMethodName As String, defaultInstanceAlias As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; MyGroupCollectionAttribute(System::String ^ typeToCollect, System::String ^ createInstanceMethodName, System::String ^ disposeInstanceMethodName, System::String ^ defaultInstanceAlias);" />

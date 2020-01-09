@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Extensions.Configuration.ConfigurationRoot" />
   <TypeSignature Language="VB.NET" Value="Public Class ConfigurationRoot&#xA;Implements IConfigurationRoot, IDisposable" />
   <TypeSignature Language="C++ CLI" Value="public ref class ConfigurationRoot : IDisposable, Microsoft::Extensions::Configuration::IConfigurationRoot" />
-  <TypeSignature Language="F#" Value="type ConfigurationRoot = class&#xA;    interface IConfiguration&#xA;    interface IConfigurationRoot&#xA;    interface IDisposable" />
+  <TypeSignature Language="F#" Value="type ConfigurationRoot = class&#xA;    interface IConfigurationRoot&#xA;    interface IConfiguration&#xA;    interface IDisposable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Extensions.Configuration</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
