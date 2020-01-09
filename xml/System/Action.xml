@@ -31,6 +31,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="dotnet-uwp-10.0">System.MulticastDelegate</BaseTypeName>
   </Base>
   <Attributes>
     <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8">

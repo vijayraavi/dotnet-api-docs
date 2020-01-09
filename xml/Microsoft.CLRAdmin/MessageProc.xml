@@ -11,6 +11,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netframework-1.1">System.MulticastDelegate</BaseTypeName>
   </Base>
   <Parameters>
     <Parameter Name="hWnd" Type="System.IntPtr" />

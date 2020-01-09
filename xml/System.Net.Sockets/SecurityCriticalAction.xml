@@ -11,6 +11,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netframework-4.5">System.MulticastDelegate</BaseTypeName>
   </Base>
   <Attributes>
     <Attribute>

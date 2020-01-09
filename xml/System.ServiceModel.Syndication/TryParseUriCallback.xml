@@ -13,6 +13,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="dotnet-plat-ext-2.1">System.MulticastDelegate</BaseTypeName>
   </Base>
   <Parameters>
     <Parameter Name="data" Type="System.ServiceModel.Syndication.XmlUriData" />

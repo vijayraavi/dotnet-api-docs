@@ -24,6 +24,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-2.0">System.MulticastDelegate</BaseTypeName>
   </Base>
   <Attributes>
     <Attribute FrameworkAlternate="netcore-2.0">

@@ -35,6 +35,7 @@
   </TypeParameters>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="dotnet-uwp-10.0">System.MulticastDelegate</BaseTypeName>
   </Base>
   <Parameters>
     <Parameter Name="obj" Type="T" />

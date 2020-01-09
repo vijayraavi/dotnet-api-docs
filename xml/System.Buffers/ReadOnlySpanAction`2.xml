@@ -24,6 +24,7 @@
   </TypeParameters>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-2.1">System.MulticastDelegate</BaseTypeName>
   </Base>
   <Parameters>
     <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" />

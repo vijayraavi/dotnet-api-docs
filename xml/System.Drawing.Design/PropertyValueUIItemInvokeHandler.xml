@@ -17,6 +17,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-3.0">System.MulticastDelegate</BaseTypeName>
   </Base>
   <Parameters>
     <Parameter Name="context" Type="System.ComponentModel.ITypeDescriptorContext" />

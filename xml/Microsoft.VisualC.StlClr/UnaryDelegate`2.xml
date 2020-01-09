@@ -16,6 +16,7 @@
   </TypeParameters>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netframework-3.5">System.MulticastDelegate</BaseTypeName>
   </Base>
   <Parameters>
     <Parameter Name="" Type="TArg" Index="0" FrameworkAlternate="netframework-3.5;netframework-4.0" />

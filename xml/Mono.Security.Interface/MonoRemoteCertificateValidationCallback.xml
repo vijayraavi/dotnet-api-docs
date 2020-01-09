@@ -11,6 +11,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="xamarinandroid-7.1">System.MulticastDelegate</BaseTypeName>
   </Base>
   <Parameters>
     <Parameter Name="targetHost" Type="System.String" />
