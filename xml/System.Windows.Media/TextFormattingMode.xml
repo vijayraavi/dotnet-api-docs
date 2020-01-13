@@ -13,6 +13,9 @@
     <AssemblyName>WindowsBase</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="PresentationCore" FromVersion="4.0.0.0" To="WindowsBase" ToVersion="4.0.0.0" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>

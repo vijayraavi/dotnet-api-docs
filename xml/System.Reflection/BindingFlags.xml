@@ -31,6 +31,13 @@
     <AssemblyName>System.Reflection.TypeExtensions</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Reflection.TypeExtensions" FromVersion="4.1.0.0" To="System.Reflection" ToVersion="4.1.0.0" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+    <TypeForwarding From="System.Reflection" FromVersion="4.2.0.0" To="System.Runtime" ToVersion="4.2.0.0" FrameworkAlternate="netcore-2.0" />
+    <TypeForwarding From="System.Reflection.TypeExtensions" FromVersion="4.1.2.0" To="netstandard" ToVersion="2.0.0.0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+    <TypeForwarding From="System.Reflection" FromVersion="4.2.1.0" To="System.Runtime" ToVersion="4.2.1.0" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.Reflection" FromVersion="4.2.2.0" To="System.Runtime" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>

@@ -30,6 +30,14 @@
   <AssemblyInfo>
     <AssemblyName>System.IO.FileSystem.Primitives</AssemblyName>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.IO.FileSystem" FromVersion="4.1.0.0" To="System.Runtime" ToVersion="4.2.0.0" FrameworkAlternate="netcore-2.0" />
+    <TypeForwarding From="System.IO.FileSystem.Primitives" FromVersion="4.1.0.0" To="System.Runtime" ToVersion="4.2.0.0" FrameworkAlternate="netcore-2.0" />
+    <TypeForwarding From="System.IO.FileSystem" FromVersion="4.1.1.0" To="System.Runtime" ToVersion="4.2.1.0" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.IO.FileSystem.Primitives" FromVersion="4.1.1.0" To="System.Runtime" ToVersion="4.2.1.0" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.IO.FileSystem" FromVersion="4.1.2.0" To="System.Runtime" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
+    <TypeForwarding From="System.IO.FileSystem.Primitives" FromVersion="4.1.2.0" To="System.Runtime" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Runtime.InteropServices.SafeHandle</BaseTypeName>
     <BaseTypeName FrameworkAlternate="netframework-4.5">Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid</BaseTypeName>

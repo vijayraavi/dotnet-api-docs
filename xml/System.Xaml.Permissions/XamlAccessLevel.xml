@@ -18,6 +18,10 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Xaml" FromVersion="4.0.0.0" To="System.Windows.Extensions" ToVersion="4.0.0.0" FrameworkAlternate="netcore-3.0" />
+    <TypeForwarding From="System.Xaml" FromVersion="4.0.0.0" To="System.Windows.Extensions" ToVersion="4.0.1.0" FrameworkAlternate="netcore-3.1" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
