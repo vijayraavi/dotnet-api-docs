@@ -760,7 +760,7 @@
       <MemberSignature Language="DocId" Value="M:System.Net.Security.SslStream.AuthenticateAsClientAsync(System.Net.Security.SslClientAuthenticationOptions,System.Threading.CancellationToken)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ AuthenticateAsClientAsync(System::Net::Security::SslClientAuthenticationOptions ^ sslClientAuthenticationOptions, System::Threading::CancellationToken cancellationToken);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberSignature Language="F#" Value="member this.AuthenticateAsClientAsync : System.Net.Security.SslClientAuthenticationOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="sslStream.AuthenticateAsClientAsync (sslClientAuthenticationOptions, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AuthenticateAsClientAsync (System.Net.Security.SslClientAuthenticationOptions sslClientAuthenticationOptions, System.Threading.CancellationToken cancellationToken = null);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AuthenticateAsClientAsync (System.Net.Security.SslClientAuthenticationOptions sslClientAuthenticationOptions, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Security</AssemblyName>
@@ -1201,7 +1201,7 @@
       <MemberSignature Language="DocId" Value="M:System.Net.Security.SslStream.AuthenticateAsServerAsync(System.Net.Security.SslServerAuthenticationOptions,System.Threading.CancellationToken)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task ^ AuthenticateAsServerAsync(System::Net::Security::SslServerAuthenticationOptions ^ sslServerAuthenticationOptions, System::Threading::CancellationToken cancellationToken);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberSignature Language="F#" Value="member this.AuthenticateAsServerAsync : System.Net.Security.SslServerAuthenticationOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="sslStream.AuthenticateAsServerAsync (sslServerAuthenticationOptions, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AuthenticateAsServerAsync (System.Net.Security.SslServerAuthenticationOptions sslServerAuthenticationOptions, System.Threading.CancellationToken cancellationToken = null);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task AuthenticateAsServerAsync (System.Net.Security.SslServerAuthenticationOptions sslServerAuthenticationOptions, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Security</AssemblyName>
@@ -3652,7 +3652,7 @@ This property gets the cipher suite that is going to be used in the communicatio
       </Docs>
     </Member>
     <Member MemberName="ReadAsync">
-      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.ValueTask&lt;int&gt; ReadAsync (Memory&lt;byte&gt; buffer, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.ValueTask&lt;int&gt; ReadAsync (Memory&lt;byte&gt; buffer, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;int32&gt; ReadAsync(valuetype System.Memory`1&lt;unsigned int8&gt; buffer, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Security.SslStream.ReadAsync(System.Memory{System.Byte},System.Threading.CancellationToken)" />
       <MemberSignature Language="F#" Value="override this.ReadAsync : Memory&lt;byte&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;int&gt;" Usage="sslStream.ReadAsync (buffer, cancellationToken)" />
@@ -4288,7 +4288,7 @@ This property gets the cipher suite that is going to be used in the communicatio
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
-      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.ValueTask WriteAsync (ReadOnlyMemory&lt;byte&gt; buffer, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="C#" Value="public override System.Threading.Tasks.ValueTask WriteAsync (ReadOnlyMemory&lt;byte&gt; buffer, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype System.Threading.Tasks.ValueTask WriteAsync(valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; buffer, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Security.SslStream.WriteAsync(System.ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)" />
       <MemberSignature Language="F#" Value="override this.WriteAsync : ReadOnlyMemory&lt;byte&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask" Usage="sslStream.WriteAsync (buffer, cancellationToken)" />

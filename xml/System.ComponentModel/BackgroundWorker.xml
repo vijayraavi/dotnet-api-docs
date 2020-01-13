@@ -256,9 +256,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="backgroundWorker.Dispose " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.EventBasedAsync</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>

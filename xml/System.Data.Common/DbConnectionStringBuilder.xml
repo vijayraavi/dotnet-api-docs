@@ -1521,9 +1521,6 @@ jet oledb:system database=system.mdw
       <MemberSignature Language="C++ CLI" Value="property bool System::Collections::IDictionary::IsFixedSize { bool get(); };" />
       <MemberSignature Language="F#" Usage="System.Collections.IDictionary.IsFixedSize" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.IDictionary.IsFixedSize</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1552,9 +1549,6 @@ jet oledb:system database=system.mdw
       <MemberSignature Language="C++ CLI" Value="property bool System::Collections::IDictionary::IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Usage="System.Collections.IDictionary.IsReadOnly" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.IDictionary.IsReadOnly</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -2330,7 +2324,8 @@ jet oledb:system database=system.mdw
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbConnectionStringBuilder.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
-      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="dbConnectionStringBuilder.ToString " />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="dbConnectionStringBuilder.ToString " FrameworkAlternate="dotnet-uwp-10.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="abstract member ToString : unit -&gt; string&#xA;override this.ToString : unit -&gt; string" Usage="dbConnectionStringBuilder.ToString " FrameworkAlternate="netcore-1.0;netcore-1.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>

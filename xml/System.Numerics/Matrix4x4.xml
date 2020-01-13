@@ -1617,7 +1617,8 @@
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.Equals(System.Numerics.Matrix4x4)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As Matrix4x4) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(System::Numerics::Matrix4x4 other);" />
-      <MemberSignature Language="F#" Value="override this.Equals : System.Numerics.Matrix4x4 -&gt; bool" Usage="matrix4x4.Equals other" />
+      <MemberSignature Language="F#" Value="override this.Equals : System.Numerics.Matrix4x4 -&gt; bool" Usage="matrix4x4.Equals other" FrameworkAlternate="dotnet-uwp-10.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="abstract member Equals : System.Numerics.Matrix4x4 -&gt; bool&#xA;override this.Equals : System.Numerics.Matrix4x4 -&gt; bool" Usage="matrix4x4.Equals other" FrameworkAlternate="netcore-1.0;netcore-1.1" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -1667,7 +1668,8 @@
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="matrix4x4.Equals obj" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="matrix4x4.Equals obj" FrameworkAlternate="dotnet-uwp-10.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="abstract member Equals : obj -&gt; bool&#xA;override this.Equals : obj -&gt; bool" Usage="matrix4x4.Equals obj" FrameworkAlternate="netcore-1.0;netcore-1.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>
@@ -1764,7 +1766,8 @@
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
-      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="matrix4x4.GetHashCode " />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="matrix4x4.GetHashCode " FrameworkAlternate="dotnet-uwp-10.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="abstract member GetHashCode : unit -&gt; int&#xA;override this.GetHashCode : unit -&gt; int" Usage="matrix4x4.GetHashCode " FrameworkAlternate="netcore-1.0;netcore-1.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>
@@ -3080,7 +3083,8 @@
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
-      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="matrix4x4.ToString " />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="matrix4x4.ToString " FrameworkAlternate="dotnet-uwp-10.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="abstract member ToString : unit -&gt; string&#xA;override this.ToString : unit -&gt; string" Usage="matrix4x4.ToString " FrameworkAlternate="netcore-1.0;netcore-1.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>

@@ -534,9 +534,6 @@
       <MemberSignature Language="C++ CLI" Value="property bool System::Collections::ICollection::IsSynchronized { bool get(); };" />
       <MemberSignature Language="F#" Usage="System.Collections.ICollection.IsSynchronized" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.IsSynchronized</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -564,9 +561,6 @@
       <MemberSignature Language="C++ CLI" Value="property System::Object ^ System::Collections::ICollection::SyncRoot { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Usage="System.Collections.ICollection.SyncRoot" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.SyncRoot</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
