@@ -129,7 +129,7 @@
       </Docs>
     </Member>
     <Member MemberName="CurrentGlobalSpeed">
-      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; CurrentGlobalSpeed { get; }" />
+      <MemberSignature Language="C#" Value="public double? CurrentGlobalSpeed { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; CurrentGlobalSpeed" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Clock.CurrentGlobalSpeed" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentGlobalSpeed As Nullable(Of Double)" />
@@ -213,7 +213,7 @@
       </Docs>
     </Member>
     <Member MemberName="CurrentIteration">
-      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; CurrentIteration { get; }" />
+      <MemberSignature Language="C#" Value="public int? CurrentIteration { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; CurrentIteration" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Clock.CurrentIteration" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentIteration As Nullable(Of Integer)" />
@@ -252,7 +252,7 @@
       </Docs>
     </Member>
     <Member MemberName="CurrentProgress">
-      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; CurrentProgress { get; }" />
+      <MemberSignature Language="C#" Value="public double? CurrentProgress { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; CurrentProgress" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Clock.CurrentProgress" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentProgress As Nullable(Of Double)" />
@@ -370,7 +370,7 @@
       </Docs>
     </Member>
     <Member MemberName="CurrentTime">
-      <MemberSignature Language="C#" Value="public Nullable&lt;TimeSpan&gt; CurrentTime { get; }" />
+      <MemberSignature Language="C#" Value="public TimeSpan? CurrentTime { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; CurrentTime" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Clock.CurrentTime" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CurrentTime As Nullable(Of TimeSpan)" />

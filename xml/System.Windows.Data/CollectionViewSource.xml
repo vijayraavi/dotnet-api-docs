@@ -556,7 +556,7 @@
       </Docs>
     </Member>
     <Member MemberName="IsLiveFiltering">
-      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsLiveFiltering { get; }" />
+      <MemberSignature Language="C#" Value="public bool? IsLiveFiltering { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsLiveFiltering" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Data.CollectionViewSource.IsLiveFiltering" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLiveFiltering As Nullable(Of Boolean)" />
@@ -673,7 +673,7 @@
       </Docs>
     </Member>
     <Member MemberName="IsLiveGrouping">
-      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsLiveGrouping { get; }" />
+      <MemberSignature Language="C#" Value="public bool? IsLiveGrouping { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsLiveGrouping" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Data.CollectionViewSource.IsLiveGrouping" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLiveGrouping As Nullable(Of Boolean)" />
@@ -790,7 +790,7 @@
       </Docs>
     </Member>
     <Member MemberName="IsLiveSorting">
-      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsLiveSorting { get; }" />
+      <MemberSignature Language="C#" Value="public bool? IsLiveSorting { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsLiveSorting" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Data.CollectionViewSource.IsLiveSorting" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLiveSorting As Nullable(Of Boolean)" />

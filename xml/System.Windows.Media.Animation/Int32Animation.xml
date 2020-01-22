@@ -1,10 +1,11 @@
 <Type Name="Int32Animation" FullName="System.Windows.Media.Animation.Int32Animation">
   <TypeSignature Language="C#" Value="public class Int32Animation : System.Windows.Media.Animation.Int32AnimationBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi Int32Animation extends System.Windows.Media.Animation.Int32AnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Int32Animation extends System.Windows.Media.Animation.Int32AnimationBase" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Animation.Int32Animation" />
   <TypeSignature Language="VB.NET" Value="Public Class Int32Animation&#xA;Inherits Int32AnimationBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class Int32Animation : System::Windows::Media::Animation::Int32AnimationBase" />
   <TypeSignature Language="F#" Value="type Int32Animation = class&#xA;    inherit Int32AnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi Int32Animation extends System.Windows.Media.Animation.Int32AnimationBase" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -182,7 +183,7 @@
       </Docs>
     </Member>
     <Member MemberName="By">
-      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; By { get; set; }" />
+      <MemberSignature Language="C#" Value="public int? By { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; By" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Int32Animation.By" />
       <MemberSignature Language="VB.NET" Value="Public Property By As Nullable(Of Integer)" />
@@ -368,7 +369,7 @@
       </Docs>
     </Member>
     <Member MemberName="From">
-      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; From { get; set; }" />
+      <MemberSignature Language="C#" Value="public int? From { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; From" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Int32Animation.From" />
       <MemberSignature Language="VB.NET" Value="Public Property From As Nullable(Of Integer)" />
@@ -570,7 +571,7 @@
       </Docs>
     </Member>
     <Member MemberName="To">
-      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; To { get; set; }" />
+      <MemberSignature Language="C#" Value="public int? To { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; To" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Int32Animation.To" />
       <MemberSignature Language="VB.NET" Value="Public Property To As Nullable(Of Integer)" />

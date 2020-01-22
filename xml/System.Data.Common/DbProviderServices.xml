@@ -136,7 +136,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateDatabase">
-      <MemberSignature Language="C#" Value="public void CreateDatabase (System.Data.Common.DbConnection connection, Nullable&lt;int&gt; commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
+      <MemberSignature Language="C#" Value="public void CreateDatabase (System.Data.Common.DbConnection connection, int? commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CreateDatabase(class System.Data.Common.DbConnection connection, valuetype System.Nullable`1&lt;int32&gt; commandTimeout, class System.Data.Metadata.Edm.StoreItemCollection storeItemCollection) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbProviderServices.CreateDatabase(System.Data.Common.DbConnection,System.Nullable{System.Int32},System.Data.Metadata.Edm.StoreItemCollection)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CreateDatabase(System::Data::Common::DbConnection ^ connection, Nullable&lt;int&gt; commandTimeout, System::Data::Metadata::Edm::StoreItemCollection ^ storeItemCollection);" />
@@ -227,7 +227,7 @@
       </Docs>
     </Member>
     <Member MemberName="DatabaseExists">
-      <MemberSignature Language="C#" Value="public bool DatabaseExists (System.Data.Common.DbConnection connection, Nullable&lt;int&gt; commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
+      <MemberSignature Language="C#" Value="public bool DatabaseExists (System.Data.Common.DbConnection connection, int? commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool DatabaseExists(class System.Data.Common.DbConnection connection, valuetype System.Nullable`1&lt;int32&gt; commandTimeout, class System.Data.Metadata.Edm.StoreItemCollection storeItemCollection) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbProviderServices.DatabaseExists(System.Data.Common.DbConnection,System.Nullable{System.Int32},System.Data.Metadata.Edm.StoreItemCollection)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool DatabaseExists(System::Data::Common::DbConnection ^ connection, Nullable&lt;int&gt; commandTimeout, System::Data::Metadata::Edm::StoreItemCollection ^ storeItemCollection);" />
@@ -261,7 +261,7 @@
       </Docs>
     </Member>
     <Member MemberName="DbCreateDatabase">
-      <MemberSignature Language="C#" Value="protected virtual void DbCreateDatabase (System.Data.Common.DbConnection connection, Nullable&lt;int&gt; commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
+      <MemberSignature Language="C#" Value="protected virtual void DbCreateDatabase (System.Data.Common.DbConnection connection, int? commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void DbCreateDatabase(class System.Data.Common.DbConnection connection, valuetype System.Nullable`1&lt;int32&gt; commandTimeout, class System.Data.Metadata.Edm.StoreItemCollection storeItemCollection) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbProviderServices.DbCreateDatabase(System.Data.Common.DbConnection,System.Nullable{System.Int32},System.Data.Metadata.Edm.StoreItemCollection)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void DbCreateDatabase(System::Data::Common::DbConnection ^ connection, Nullable&lt;int&gt; commandTimeout, System::Data::Metadata::Edm::StoreItemCollection ^ storeItemCollection);" />
@@ -314,7 +314,7 @@
       </Docs>
     </Member>
     <Member MemberName="DbDatabaseExists">
-      <MemberSignature Language="C#" Value="protected virtual bool DbDatabaseExists (System.Data.Common.DbConnection connection, Nullable&lt;int&gt; commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
+      <MemberSignature Language="C#" Value="protected virtual bool DbDatabaseExists (System.Data.Common.DbConnection connection, int? commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool DbDatabaseExists(class System.Data.Common.DbConnection connection, valuetype System.Nullable`1&lt;int32&gt; commandTimeout, class System.Data.Metadata.Edm.StoreItemCollection storeItemCollection) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbProviderServices.DbDatabaseExists(System.Data.Common.DbConnection,System.Nullable{System.Int32},System.Data.Metadata.Edm.StoreItemCollection)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual bool DbDatabaseExists(System::Data::Common::DbConnection ^ connection, Nullable&lt;int&gt; commandTimeout, System::Data::Metadata::Edm::StoreItemCollection ^ storeItemCollection);" />
@@ -343,7 +343,7 @@
       </Docs>
     </Member>
     <Member MemberName="DbDeleteDatabase">
-      <MemberSignature Language="C#" Value="protected virtual void DbDeleteDatabase (System.Data.Common.DbConnection connection, Nullable&lt;int&gt; commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
+      <MemberSignature Language="C#" Value="protected virtual void DbDeleteDatabase (System.Data.Common.DbConnection connection, int? commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void DbDeleteDatabase(class System.Data.Common.DbConnection connection, valuetype System.Nullable`1&lt;int32&gt; commandTimeout, class System.Data.Metadata.Edm.StoreItemCollection storeItemCollection) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbProviderServices.DbDeleteDatabase(System.Data.Common.DbConnection,System.Nullable{System.Int32},System.Data.Metadata.Edm.StoreItemCollection)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void DbDeleteDatabase(System::Data::Common::DbConnection ^ connection, Nullable&lt;int&gt; commandTimeout, System::Data::Metadata::Edm::StoreItemCollection ^ storeItemCollection);" />
@@ -395,7 +395,7 @@
       </Docs>
     </Member>
     <Member MemberName="DeleteDatabase">
-      <MemberSignature Language="C#" Value="public void DeleteDatabase (System.Data.Common.DbConnection connection, Nullable&lt;int&gt; commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
+      <MemberSignature Language="C#" Value="public void DeleteDatabase (System.Data.Common.DbConnection connection, int? commandTimeout, System.Data.Metadata.Edm.StoreItemCollection storeItemCollection);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteDatabase(class System.Data.Common.DbConnection connection, valuetype System.Nullable`1&lt;int32&gt; commandTimeout, class System.Data.Metadata.Edm.StoreItemCollection storeItemCollection) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbProviderServices.DeleteDatabase(System.Data.Common.DbConnection,System.Nullable{System.Int32},System.Data.Metadata.Edm.StoreItemCollection)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DeleteDatabase(System::Data::Common::DbConnection ^ connection, Nullable&lt;int&gt; commandTimeout, System::Data::Metadata::Edm::StoreItemCollection ^ storeItemCollection);" />

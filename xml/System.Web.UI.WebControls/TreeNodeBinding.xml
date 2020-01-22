@@ -1372,7 +1372,7 @@
       </Docs>
     </Member>
     <Member MemberName="ShowCheckBox">
-      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ShowCheckBox { get; set; }" />
+      <MemberSignature Language="C#" Value="public bool? ShowCheckBox { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ShowCheckBox" />
       <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.TreeNodeBinding.ShowCheckBox" />
       <MemberSignature Language="VB.NET" Value="Public Property ShowCheckBox As Nullable(Of Boolean)" />

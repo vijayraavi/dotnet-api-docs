@@ -128,7 +128,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateDateTimeOffsetTypeUsage">
-      <MemberSignature Language="C#" Value="public static System.Data.Metadata.Edm.TypeUsage CreateDateTimeOffsetTypeUsage (System.Data.Metadata.Edm.PrimitiveType primitiveType, Nullable&lt;byte&gt; precision);" />
+      <MemberSignature Language="C#" Value="public static System.Data.Metadata.Edm.TypeUsage CreateDateTimeOffsetTypeUsage (System.Data.Metadata.Edm.PrimitiveType primitiveType, byte? precision);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Data.Metadata.Edm.TypeUsage CreateDateTimeOffsetTypeUsage(class System.Data.Metadata.Edm.PrimitiveType primitiveType, valuetype System.Nullable`1&lt;unsigned int8&gt; precision) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Metadata.Edm.TypeUsage.CreateDateTimeOffsetTypeUsage(System.Data.Metadata.Edm.PrimitiveType,System.Nullable{System.Byte})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Data::Metadata::Edm::TypeUsage ^ CreateDateTimeOffsetTypeUsage(System::Data::Metadata::Edm::PrimitiveType ^ primitiveType, Nullable&lt;System::Byte&gt; precision);" />
@@ -155,7 +155,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateDateTimeTypeUsage">
-      <MemberSignature Language="C#" Value="public static System.Data.Metadata.Edm.TypeUsage CreateDateTimeTypeUsage (System.Data.Metadata.Edm.PrimitiveType primitiveType, Nullable&lt;byte&gt; precision);" />
+      <MemberSignature Language="C#" Value="public static System.Data.Metadata.Edm.TypeUsage CreateDateTimeTypeUsage (System.Data.Metadata.Edm.PrimitiveType primitiveType, byte? precision);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Data.Metadata.Edm.TypeUsage CreateDateTimeTypeUsage(class System.Data.Metadata.Edm.PrimitiveType primitiveType, valuetype System.Nullable`1&lt;unsigned int8&gt; precision) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Metadata.Edm.TypeUsage.CreateDateTimeTypeUsage(System.Data.Metadata.Edm.PrimitiveType,System.Nullable{System.Byte})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Data::Metadata::Edm::TypeUsage ^ CreateDateTimeTypeUsage(System::Data::Metadata::Edm::PrimitiveType ^ primitiveType, Nullable&lt;System::Byte&gt; precision);" />
@@ -379,7 +379,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateTimeTypeUsage">
-      <MemberSignature Language="C#" Value="public static System.Data.Metadata.Edm.TypeUsage CreateTimeTypeUsage (System.Data.Metadata.Edm.PrimitiveType primitiveType, Nullable&lt;byte&gt; precision);" />
+      <MemberSignature Language="C#" Value="public static System.Data.Metadata.Edm.TypeUsage CreateTimeTypeUsage (System.Data.Metadata.Edm.PrimitiveType primitiveType, byte? precision);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Data.Metadata.Edm.TypeUsage CreateTimeTypeUsage(class System.Data.Metadata.Edm.PrimitiveType primitiveType, valuetype System.Nullable`1&lt;unsigned int8&gt; precision) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Metadata.Edm.TypeUsage.CreateTimeTypeUsage(System.Data.Metadata.Edm.PrimitiveType,System.Nullable{System.Byte})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Data::Metadata::Edm::TypeUsage ^ CreateTimeTypeUsage(System::Data::Metadata::Edm::PrimitiveType ^ primitiveType, Nullable&lt;System::Byte&gt; precision);" />

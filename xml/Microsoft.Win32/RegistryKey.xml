@@ -1,10 +1,16 @@
 <Type Name="RegistryKey" FullName="Microsoft.Win32.RegistryKey">
-  <TypeSignature Language="C#" Value="public sealed class RegistryKey : MarshalByRefObject, IDisposable" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RegistryKey extends System.MarshalByRefObject implements class System.IDisposable" />
+  <TypeSignature Language="C#" Value="public sealed class RegistryKey : MarshalByRefObject, IDisposable" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RegistryKey extends System.MarshalByRefObject implements class System.IDisposable" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Win32.RegistryKey" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RegistryKey&#xA;Inherits MarshalByRefObject&#xA;Implements IDisposable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class RegistryKey sealed : MarshalByRefObject, IDisposable" />
-  <TypeSignature Language="F#" Value="type RegistryKey = class&#xA;    inherit MarshalByRefObject&#xA;    interface IDisposable" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RegistryKey&#xA;Inherits MarshalByRefObject&#xA;Implements IDisposable" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RegistryKey sealed : MarshalByRefObject, IDisposable" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type RegistryKey = class&#xA;    inherit MarshalByRefObject&#xA;    interface IDisposable" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+  <TypeSignature Language="C#" Value="public sealed class RegistryKey : IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1;xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RegistryKey extends System.Object implements class System.IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1;xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RegistryKey&#xA;Implements IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1;xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RegistryKey sealed : IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1;xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="F#" Value="type RegistryKey = class&#xA;    interface IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1;xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RegistryKey extends System.MarshalByRefObject implements class System.IDisposable" FrameworkAlternate="xamarinmac-3.0" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Win32.Registry</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -22,8 +28,8 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.Object</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="netframework-4.5">System.MarshalByRefObject</BaseTypeName>
+    <BaseTypeName>System.MarshalByRefObject</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-1.0;netcore-1.1;xamarinandroid-7.1;xamarinios-10.8">System.Object</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
@@ -2871,7 +2877,8 @@ This method has the same effect as calling <xref:Microsoft.Win32.RegistryKey.Clo
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.RegistryKey.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
-      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="registryKey.ToString " />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="registryKey.ToString " FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="abstract member ToString : unit -&gt; string&#xA;override this.ToString : unit -&gt; string" Usage="registryKey.ToString " FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Win32.Registry</AssemblyName>

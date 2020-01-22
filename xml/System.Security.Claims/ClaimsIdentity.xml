@@ -1,10 +1,11 @@
 <Type Name="ClaimsIdentity" FullName="System.Security.Claims.ClaimsIdentity">
   <TypeSignature Language="C#" Value="public class ClaimsIdentity : System.Security.Principal.IIdentity" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ClaimsIdentity extends System.Object implements class System.Security.Principal.IIdentity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClaimsIdentity extends System.Object implements class System.Security.Principal.IIdentity" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
   <TypeSignature Language="DocId" Value="T:System.Security.Claims.ClaimsIdentity" />
   <TypeSignature Language="VB.NET" Value="Public Class ClaimsIdentity&#xA;Implements IIdentity" />
   <TypeSignature Language="C++ CLI" Value="public ref class ClaimsIdentity : System::Security::Principal::IIdentity" />
   <TypeSignature Language="F#" Value="type ClaimsIdentity = class&#xA;    interface IIdentity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ClaimsIdentity extends System.Object implements class System.Security.Principal.IIdentity" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <AssemblyInfo>
     <AssemblyName>System.Security.Claims</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>

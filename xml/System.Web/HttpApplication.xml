@@ -4,7 +4,8 @@
   <TypeSignature Language="DocId" Value="T:System.Web.HttpApplication" />
   <TypeSignature Language="VB.NET" Value="Public Class HttpApplication&#xA;Implements IComponent, IDisposable, IHttpAsyncHandler" />
   <TypeSignature Language="C++ CLI" Value="public ref class HttpApplication : IDisposable, System::ComponentModel::IComponent, System::Web::IHttpAsyncHandler" />
-  <TypeSignature Language="F#" Value="type HttpApplication = class&#xA;    interface IComponent&#xA;    interface IDisposable&#xA;    interface IHttpAsyncHandler&#xA;    interface IHttpHandler" />
+  <TypeSignature Language="F#" Value="type HttpApplication = class&#xA;    interface IHttpAsyncHandler&#xA;    interface IHttpHandler&#xA;    interface IComponent&#xA;    interface IDisposable" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0" />
+  <TypeSignature Language="F#" Value="type HttpApplication = class&#xA;    interface IComponent&#xA;    interface IDisposable&#xA;    interface IHttpAsyncHandler&#xA;    interface IHttpHandler" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>System.Web</AssemblyName>
     <AssemblyVersion>1.0.5000.0</AssemblyVersion>

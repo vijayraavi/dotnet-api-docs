@@ -64,7 +64,7 @@
       </Docs>
     </Member>
     <Member MemberName="AutoGenerateEnumFields">
-      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; AutoGenerateEnumFields { get; set; }" />
+      <MemberSignature Language="C#" Value="public bool? AutoGenerateEnumFields { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; AutoGenerateEnumFields" />
       <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.AutoFieldsGenerator.AutoGenerateEnumFields" />
       <MemberSignature Language="VB.NET" Value="Public Property AutoGenerateEnumFields As Nullable(Of Boolean)" />

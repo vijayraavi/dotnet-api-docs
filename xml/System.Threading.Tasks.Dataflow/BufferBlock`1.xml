@@ -4,7 +4,8 @@
   <TypeSignature Language="DocId" Value="T:System.Threading.Tasks.Dataflow.BufferBlock`1" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class BufferBlock(Of T)&#xA;Implements IPropagatorBlock(Of T, T), IReceivableSourceBlock(Of T), ISourceBlock(Of T), ITargetBlock(Of T)" />
   <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class BufferBlock sealed : System::Threading::Tasks::Dataflow::IPropagatorBlock&lt;T, T&gt;, System::Threading::Tasks::Dataflow::IReceivableSourceBlock&lt;T&gt;, System::Threading::Tasks::Dataflow::ISourceBlock&lt;T&gt;, System::Threading::Tasks::Dataflow::ITargetBlock&lt;T&gt;" />
-  <TypeSignature Language="F#" Value="type BufferBlock&lt;'T&gt; = class&#xA;    interface IDataflowBlock&#xA;    interface IPropagatorBlock&lt;'T, 'T&gt;&#xA;    interface ISourceBlock&lt;'T&gt;&#xA;    interface ITargetBlock&lt;'T&gt;&#xA;    interface IReceivableSourceBlock&lt;'T&gt;" />
+  <TypeSignature Language="F#" Value="type BufferBlock&lt;'T&gt; = class&#xA;    interface IPropagatorBlock&lt;'T, 'T&gt;&#xA;    interface ITargetBlock&lt;'T&gt;&#xA;    interface IDataflowBlock&#xA;    interface ISourceBlock&lt;'T&gt;&#xA;    interface IReceivableSourceBlock&lt;'T&gt;" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="F#" Value="type BufferBlock&lt;'T&gt; = class&#xA;    interface IDataflowBlock&#xA;    interface IPropagatorBlock&lt;'T, 'T&gt;&#xA;    interface ISourceBlock&lt;'T&gt;&#xA;    interface ITargetBlock&lt;'T&gt;&#xA;    interface IReceivableSourceBlock&lt;'T&gt;" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <AssemblyInfo>
     <AssemblyName>System.Threading.Tasks.Dataflow</AssemblyName>
     <AssemblyVersion>4.5.25.0</AssemblyVersion>
@@ -490,7 +491,8 @@
       <MemberSignature Language="DocId" Value="M:System.Threading.Tasks.Dataflow.BufferBlock`1.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
-      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="bufferBlock.ToString " />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="bufferBlock.ToString " FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="F#" Value="abstract member ToString : unit -&gt; string&#xA;override this.ToString : unit -&gt; string" Usage="bufferBlock.ToString " FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks.Dataflow</AssemblyName>

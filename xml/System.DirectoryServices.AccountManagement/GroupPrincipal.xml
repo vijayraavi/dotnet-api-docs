@@ -310,7 +310,7 @@ ctx.Dispose();
       </Docs>
     </Member>
     <Member MemberName="GroupScope">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.DirectoryServices.AccountManagement.GroupScope&gt; GroupScope { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.DirectoryServices.AccountManagement.GroupScope? GroupScope { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DirectoryServices.AccountManagement.GroupScope&gt; GroupScope" />
       <MemberSignature Language="DocId" Value="P:System.DirectoryServices.AccountManagement.GroupPrincipal.GroupScope" />
       <MemberSignature Language="VB.NET" Value="Public Property GroupScope As Nullable(Of GroupScope)" />
@@ -334,7 +334,7 @@ ctx.Dispose();
       </Docs>
     </Member>
     <Member MemberName="IsSecurityGroup">
-      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsSecurityGroup { get; set; }" />
+      <MemberSignature Language="C#" Value="public bool? IsSecurityGroup { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsSecurityGroup" />
       <MemberSignature Language="DocId" Value="P:System.DirectoryServices.AccountManagement.GroupPrincipal.IsSecurityGroup" />
       <MemberSignature Language="VB.NET" Value="Public Property IsSecurityGroup As Nullable(Of Boolean)" />

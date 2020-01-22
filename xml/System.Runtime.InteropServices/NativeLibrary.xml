@@ -112,7 +112,7 @@ This is a simple wrapper around OS calls and does not perform any name mangling.
       </Docs>
     </Member>
     <Member MemberName="Load">
-      <MemberSignature Language="C#" Value="public static IntPtr Load (string libraryName, System.Reflection.Assembly assembly, Nullable&lt;System.Runtime.InteropServices.DllImportSearchPath&gt; searchPath);" />
+      <MemberSignature Language="C#" Value="public static IntPtr Load (string libraryName, System.Reflection.Assembly assembly, System.Runtime.InteropServices.DllImportSearchPath? searchPath);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig native int Load(string libraryName, class System.Reflection.Assembly assembly, valuetype System.Nullable`1&lt;valuetype System.Runtime.InteropServices.DllImportSearchPath&gt; searchPath) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.NativeLibrary.Load(System.String,System.Reflection.Assembly,System.Nullable{System.Runtime.InteropServices.DllImportSearchPath})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static IntPtr Load(System::String ^ libraryName, System::Reflection::Assembly ^ assembly, Nullable&lt;System::Runtime::InteropServices::DllImportSearchPath&gt; searchPath);" />
@@ -258,7 +258,7 @@ Only one resolver can be registered per assembly. Trying to register a second re
       </Docs>
     </Member>
     <Member MemberName="TryLoad">
-      <MemberSignature Language="C#" Value="public static bool TryLoad (string libraryName, System.Reflection.Assembly assembly, Nullable&lt;System.Runtime.InteropServices.DllImportSearchPath&gt; searchPath, out IntPtr handle);" />
+      <MemberSignature Language="C#" Value="public static bool TryLoad (string libraryName, System.Reflection.Assembly assembly, System.Runtime.InteropServices.DllImportSearchPath? searchPath, out IntPtr handle);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryLoad(string libraryName, class System.Reflection.Assembly assembly, valuetype System.Nullable`1&lt;valuetype System.Runtime.InteropServices.DllImportSearchPath&gt; searchPath, [out] native int&amp; handle) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.NativeLibrary.TryLoad(System.String,System.Reflection.Assembly,System.Nullable{System.Runtime.InteropServices.DllImportSearchPath},System.IntPtr@)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryLoad(System::String ^ libraryName, System::Reflection::Assembly ^ assembly, Nullable&lt;System::Runtime::InteropServices::DllImportSearchPath&gt; searchPath, [Runtime::InteropServices::Out] IntPtr % handle);" />

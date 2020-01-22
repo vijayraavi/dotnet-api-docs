@@ -1,10 +1,11 @@
 <Type Name="Dispatcher" FullName="System.Windows.Threading.Dispatcher">
   <TypeSignature Language="C#" Value="public sealed class Dispatcher" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Dispatcher extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Dispatcher extends System.Object" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Threading.Dispatcher" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Dispatcher" />
   <TypeSignature Language="C++ CLI" Value="public ref class Dispatcher sealed" />
   <TypeSignature Language="F#" Value="type Dispatcher = class" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Dispatcher extends System.Object" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>WindowsBase</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

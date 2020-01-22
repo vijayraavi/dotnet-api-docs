@@ -1,10 +1,20 @@
 <Type Name="GenericTypeParameterBuilder" FullName="System.Reflection.Emit.GenericTypeParameterBuilder">
-  <TypeSignature Language="C#" Value="public sealed class GenericTypeParameterBuilder : System.Reflection.TypeInfo" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit GenericTypeParameterBuilder extends System.Reflection.TypeInfo" />
+  <TypeSignature Language="C#" Value="public sealed class GenericTypeParameterBuilder : System.Reflection.TypeInfo" FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GenericTypeParameterBuilder extends System.Reflection.TypeInfo" FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <TypeSignature Language="DocId" Value="T:System.Reflection.Emit.GenericTypeParameterBuilder" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GenericTypeParameterBuilder&#xA;Inherits TypeInfo" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GenericTypeParameterBuilder sealed : System::Reflection::TypeInfo" />
-  <TypeSignature Language="F#" Value="type GenericTypeParameterBuilder = class&#xA;    inherit TypeInfo" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GenericTypeParameterBuilder&#xA;Inherits TypeInfo" FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GenericTypeParameterBuilder sealed : System::Reflection::TypeInfo" FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type GenericTypeParameterBuilder = class&#xA;    inherit TypeInfo" FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C#" Value="public sealed class GenericTypeParameterBuilder : Type" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netstandard-2.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GenericTypeParameterBuilder extends System.Type" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netstandard-2.1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GenericTypeParameterBuilder&#xA;Inherits Type" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netstandard-2.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GenericTypeParameterBuilder sealed : Type" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netstandard-2.1" />
+  <TypeSignature Language="F#" Value="type GenericTypeParameterBuilder = class&#xA;    inherit Type" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netstandard-2.1" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit GenericTypeParameterBuilder extends System.Reflection.TypeInfo" FrameworkAlternate="xamarinandroid-7.1;xamarinmac-3.0" />
+  <TypeSignature Language="C#" Value="public abstract class GenericTypeParameterBuilder : System.Reflection.TypeInfo" FrameworkAlternate="xamarinios-10.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit GenericTypeParameterBuilder extends System.Reflection.TypeInfo" FrameworkAlternate="xamarinios-10.8" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class GenericTypeParameterBuilder&#xA;Inherits TypeInfo" FrameworkAlternate="xamarinios-10.8" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GenericTypeParameterBuilder abstract : System::Reflection::TypeInfo" FrameworkAlternate="xamarinios-10.8" />
   <AssemblyInfo>
     <AssemblyName>System.Reflection.Emit</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -24,7 +34,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Reflection.TypeInfo</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="netcore-2.0">System.Type</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netstandard-2.1">System.Type</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>

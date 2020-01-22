@@ -4,7 +4,8 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Media3D.Viewport3DVisual" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Viewport3DVisual&#xA;Inherits Visual" />
   <TypeSignature Language="C++ CLI" Value="public ref class Viewport3DVisual sealed : System::Windows::Media::Visual" />
-  <TypeSignature Language="F#" Value="type Viewport3DVisual = class&#xA;    inherit Visual&#xA;    interface DUCE.IResource" />
+  <TypeSignature Language="F#" Value="type Viewport3DVisual = class&#xA;    inherit Visual" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="F#" Value="type Viewport3DVisual = class&#xA;    inherit Visual&#xA;    interface DUCE.IResource" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

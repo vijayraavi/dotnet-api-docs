@@ -1,10 +1,27 @@
 <Type Name="Thread" FullName="System.Threading.Thread">
-  <TypeSignature Language="C#" Value="public sealed class Thread : System.Runtime.ConstrainedExecution.CriticalFinalizerObject, System.Runtime.InteropServices._Thread" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Thread extends System.Runtime.ConstrainedExecution.CriticalFinalizerObject implements class System.Runtime.InteropServices._Thread" />
+  <TypeSignature Language="C#" Value="public sealed class Thread" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Thread extends System.Object" FrameworkAlternate="netcore-1.0;netcore-1.1" />
   <TypeSignature Language="DocId" Value="T:System.Threading.Thread" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Thread&#xA;Inherits CriticalFinalizerObject&#xA;Implements _Thread" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Thread sealed : System::Runtime::ConstrainedExecution::CriticalFinalizerObject, System::Runtime::InteropServices::_Thread" />
-  <TypeSignature Language="F#" Value="type Thread = class&#xA;    inherit CriticalFinalizerObject&#xA;    interface _Thread" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Thread" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Thread sealed" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="F#" Value="type Thread = class" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C#" Value="public sealed class Thread : System.Runtime.ConstrainedExecution.CriticalFinalizerObject" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Thread extends System.Runtime.ConstrainedExecution.CriticalFinalizerObject" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Thread&#xA;Inherits CriticalFinalizerObject" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Thread sealed : System::Runtime::ConstrainedExecution::CriticalFinalizerObject" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="F#" Value="type Thread = class&#xA;    inherit CriticalFinalizerObject" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="C#" Value="public sealed class Thread : System.Runtime.InteropServices._Thread" FrameworkAlternate="netframework-1.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Thread extends System.Object implements class System.Runtime.InteropServices._Thread" FrameworkAlternate="netframework-1.1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Thread&#xA;Implements _Thread" FrameworkAlternate="netframework-1.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Thread sealed : System::Runtime::InteropServices::_Thread" FrameworkAlternate="netframework-1.1" />
+  <TypeSignature Language="F#" Value="type Thread = class&#xA;    interface _Thread" FrameworkAlternate="netframework-1.1" />
+  <TypeSignature Language="C#" Value="public sealed class Thread : System.Runtime.ConstrainedExecution.CriticalFinalizerObject, System.Runtime.InteropServices._Thread" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Thread extends System.Runtime.ConstrainedExecution.CriticalFinalizerObject implements class System.Runtime.InteropServices._Thread" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Thread&#xA;Inherits CriticalFinalizerObject&#xA;Implements _Thread" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Thread sealed : System::Runtime::ConstrainedExecution::CriticalFinalizerObject, System::Runtime::InteropServices::_Thread" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type Thread = class&#xA;    inherit CriticalFinalizerObject&#xA;    interface _Thread" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Thread extends System.Runtime.ConstrainedExecution.CriticalFinalizerObject" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Thread extends System.Runtime.ConstrainedExecution.CriticalFinalizerObject implements class System.Runtime.InteropServices._Thread" FrameworkAlternate="xamarinmac-3.0" />
   <AssemblyInfo>
     <AssemblyName>System.Threading.Thread</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -26,7 +43,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="netframework-4.5">System.Runtime.ConstrainedExecution.CriticalFinalizerObject</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Runtime.ConstrainedExecution.CriticalFinalizerObject</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>

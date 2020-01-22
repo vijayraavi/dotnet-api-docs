@@ -106,7 +106,7 @@
       </Docs>
     </Member>
     <Member MemberName="ExpiredItemsDeletionInterval">
-      <MemberSignature Language="C#" Value="public Nullable&lt;TimeSpan&gt; ExpiredItemsDeletionInterval { get; set; }" />
+      <MemberSignature Language="C#" Value="public TimeSpan? ExpiredItemsDeletionInterval { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; ExpiredItemsDeletionInterval" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.ExpiredItemsDeletionInterval" />
       <MemberSignature Language="VB.NET" Value="Public Property ExpiredItemsDeletionInterval As Nullable(Of TimeSpan)" />

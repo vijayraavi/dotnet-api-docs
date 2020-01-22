@@ -1,10 +1,31 @@
 <Type Name="DbCommand" FullName="System.Data.Common.DbCommand">
-  <TypeSignature Language="C#" Value="public abstract class DbCommand : System.ComponentModel.Component, IDisposable, System.Data.IDbCommand" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbCommand extends System.ComponentModel.Component implements class System.Data.IDbCommand, class System.IDisposable" />
+  <TypeSignature Language="C#" Value="public abstract class DbCommand : IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbCommand extends System.Object implements class System.IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
   <TypeSignature Language="DocId" Value="T:System.Data.Common.DbCommand" />
-  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbCommand&#xA;Inherits Component&#xA;Implements IDbCommand, IDisposable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DbCommand abstract : System::ComponentModel::Component, IDisposable, System::Data::IDbCommand" />
-  <TypeSignature Language="F#" Value="type DbCommand = class&#xA;    inherit Component&#xA;    interface IDbCommand&#xA;    interface IDisposable" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbCommand&#xA;Implements IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbCommand abstract : IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
+  <TypeSignature Language="F#" Value="type DbCommand = class&#xA;    interface IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
+  <TypeSignature Language="C#" Value="public abstract class DbCommand : System.Data.IDbCommand" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbCommand extends System.Object implements class System.Data.IDbCommand, class System.IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbCommand&#xA;Implements IDbCommand" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbCommand abstract : System::Data::IDbCommand" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="F#" Value="type DbCommand = class&#xA;    interface IDbCommand&#xA;    interface IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C#" Value="public abstract class DbCommand : System.ComponentModel.Component, IDisposable, System.Data.IDbCommand" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbCommand extends System.ComponentModel.Component implements class System.Data.IDbCommand, class System.IDisposable" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbCommand&#xA;Inherits Component&#xA;Implements IDbCommand, IDisposable" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbCommand abstract : System::ComponentModel::Component, IDisposable, System::Data::IDbCommand" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type DbCommand = class&#xA;    inherit Component&#xA;    interface IDbCommand&#xA;    interface IDisposable" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C#" Value="public abstract class DbCommand : System.ComponentModel.Component, IAsyncDisposable, IDisposable, System.Data.IDbCommand" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbCommand extends System.ComponentModel.Component implements class System.Data.IDbCommand, class System.IAsyncDisposable, class System.IDisposable" FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbCommand&#xA;Inherits Component&#xA;Implements IAsyncDisposable, IDbCommand, IDisposable" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbCommand abstract : System::ComponentModel::Component, IAsyncDisposable, IDisposable, System::Data::IDbCommand" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="F#" Value="type DbCommand = class&#xA;    inherit Component&#xA;    interface IDbCommand&#xA;    interface IDisposable&#xA;    interface IAsyncDisposable" FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="C#" Value="public abstract class DbCommand : System.ComponentModel.Component, System.Data.IDbCommand" FrameworkAlternate="netstandard-2.0" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbCommand&#xA;Inherits Component&#xA;Implements IDbCommand" FrameworkAlternate="netstandard-2.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbCommand abstract : System::ComponentModel::Component, System::Data::IDbCommand" FrameworkAlternate="netstandard-2.0" />
+  <TypeSignature Language="C#" Value="public abstract class DbCommand : System.ComponentModel.Component, IAsyncDisposable, System.Data.IDbCommand" FrameworkAlternate="netstandard-2.1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbCommand&#xA;Inherits Component&#xA;Implements IAsyncDisposable, IDbCommand" FrameworkAlternate="netstandard-2.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbCommand abstract : System::ComponentModel::Component, IAsyncDisposable, System::Data::IDbCommand" FrameworkAlternate="netstandard-2.1" />
   <AssemblyInfo>
     <AssemblyName>System.Data.Common</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -26,7 +47,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="netframework-4.5">System.ComponentModel.Component</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.ComponentModel.Component</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
@@ -576,9 +597,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="dbCommand.Dispose " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1502,7 +1520,7 @@
       </Docs>
     </Member>
     <Member MemberName="PrepareAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task PrepareAsync (System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task PrepareAsync (System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task PrepareAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbCommand.PrepareAsync(System.Threading.CancellationToken)" />
       <MemberSignature Language="F#" Value="abstract member PrepareAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&#xA;override this.PrepareAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="dbCommand.PrepareAsync cancellationToken" />

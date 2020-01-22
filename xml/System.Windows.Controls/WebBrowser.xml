@@ -1,10 +1,16 @@
 <Type Name="WebBrowser" FullName="System.Windows.Controls.WebBrowser">
-  <TypeSignature Language="C#" Value="public sealed class WebBrowser : System.Windows.Interop.ActiveXHost" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WebBrowser extends System.Windows.Interop.ActiveXHost" />
+  <TypeSignature Language="C#" Value="public sealed class WebBrowser : System.Windows.Interop.ActiveXHost" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit WebBrowser extends System.Windows.Interop.ActiveXHost" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.WebBrowser" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class WebBrowser&#xA;Inherits ActiveXHost" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WebBrowser sealed : System::Windows::Interop::ActiveXHost" />
-  <TypeSignature Language="F#" Value="type WebBrowser = class&#xA;    inherit ActiveXHost" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class WebBrowser&#xA;Inherits ActiveXHost" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebBrowser sealed : System::Windows::Interop::ActiveXHost" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="F#" Value="type WebBrowser = class&#xA;    inherit ActiveXHost" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="C#" Value="public sealed class WebBrowser : System.Windows.Interop.ActiveXHost, System.Windows.Interop.IKeyboardInputSink" FrameworkAlternate="netframework-3.0;netframework-3.5" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WebBrowser extends System.Windows.Interop.ActiveXHost implements class System.Windows.Interop.IKeyboardInputSink" FrameworkAlternate="netframework-3.0;netframework-3.5" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class WebBrowser&#xA;Inherits ActiveXHost&#xA;Implements IKeyboardInputSink" FrameworkAlternate="netframework-3.0;netframework-3.5" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebBrowser sealed : System::Windows::Interop::ActiveXHost, System::Windows::Interop::IKeyboardInputSink" FrameworkAlternate="netframework-3.0;netframework-3.5" />
+  <TypeSignature Language="F#" Value="type WebBrowser = class&#xA;    inherit ActiveXHost&#xA;    interface IKeyboardInputSink" FrameworkAlternate="netframework-3.0;netframework-3.5" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WebBrowser extends System.Windows.Interop.ActiveXHost" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

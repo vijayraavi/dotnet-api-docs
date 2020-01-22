@@ -833,7 +833,11 @@ db.ExecuteCommand("UPDATE Products SET QuantityPerUnit = {0} WHERE ProductID = {
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TResult&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TResult" />
+        <TypeParameter Name="TResult">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+          </Constraints>
+        </TypeParameter>
       </TypeParameters>
       <Parameters>
         <Parameter Name="query" Type="System.String" />

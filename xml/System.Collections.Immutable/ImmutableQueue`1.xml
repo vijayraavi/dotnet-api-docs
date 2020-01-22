@@ -1,10 +1,14 @@
 <Type Name="ImmutableQueue&lt;T&gt;" FullName="System.Collections.Immutable.ImmutableQueue&lt;T&gt;">
-  <TypeSignature Language="C#" Value="public sealed class ImmutableQueue&lt;T&gt; : System.Collections.Generic.IEnumerable&lt;T&gt;, System.Collections.Immutable.IImmutableQueue&lt;T&gt;" />
+  <TypeSignature Language="C#" Value="public sealed class ImmutableQueue&lt;T&gt; : System.Collections.Generic.IEnumerable&lt;T&gt;, System.Collections.Immutable.IImmutableQueue&lt;T&gt;" FrameworkAlternate="dotnet-uwp-10.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ImmutableQueue`1&lt;T&gt; extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;!T&gt;, class System.Collections.IEnumerable, class System.Collections.Immutable.IImmutableQueue`1&lt;!T&gt;" />
   <TypeSignature Language="DocId" Value="T:System.Collections.Immutable.ImmutableQueue`1" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImmutableQueue(Of T)&#xA;Implements IEnumerable(Of T), IImmutableQueue(Of T)" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class ImmutableQueue sealed : System::Collections::Generic::IEnumerable&lt;T&gt;, System::Collections::Immutable::IImmutableQueue&lt;T&gt;" />
-  <TypeSignature Language="F#" Value="type ImmutableQueue&lt;'T&gt; = class&#xA;    interface seq&lt;'T&gt;&#xA;    interface IEnumerable&#xA;    interface IImmutableQueue&lt;'T&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImmutableQueue(Of T)&#xA;Implements IEnumerable(Of T), IImmutableQueue(Of T)" FrameworkAlternate="dotnet-uwp-10.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class ImmutableQueue sealed : System::Collections::Generic::IEnumerable&lt;T&gt;, System::Collections::Immutable::IImmutableQueue&lt;T&gt;" FrameworkAlternate="dotnet-uwp-10.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="F#" Value="type ImmutableQueue&lt;'T&gt; = class&#xA;    interface IImmutableQueue&lt;'T&gt;&#xA;    interface seq&lt;'T&gt;&#xA;    interface IEnumerable" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C#" Value="public sealed class ImmutableQueue&lt;T&gt; : System.Collections.Immutable.IImmutableQueue&lt;T&gt;" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImmutableQueue(Of T)&#xA;Implements IImmutableQueue(Of T)" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class ImmutableQueue sealed : System::Collections::Immutable::IImmutableQueue&lt;T&gt;" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="F#" Value="type ImmutableQueue&lt;'T&gt; = class&#xA;    interface seq&lt;'T&gt;&#xA;    interface IEnumerable&#xA;    interface IImmutableQueue&lt;'T&gt;" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <AssemblyInfo>
     <AssemblyName>System.Collections.Immutable</AssemblyName>
     <AssemblyVersion>1.1.37.0</AssemblyVersion>

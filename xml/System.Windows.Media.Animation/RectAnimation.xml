@@ -1,10 +1,11 @@
 <Type Name="RectAnimation" FullName="System.Windows.Media.Animation.RectAnimation">
   <TypeSignature Language="C#" Value="public class RectAnimation : System.Windows.Media.Animation.RectAnimationBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi RectAnimation extends System.Windows.Media.Animation.RectAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RectAnimation extends System.Windows.Media.Animation.RectAnimationBase" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Animation.RectAnimation" />
   <TypeSignature Language="VB.NET" Value="Public Class RectAnimation&#xA;Inherits RectAnimationBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class RectAnimation : System::Windows::Media::Animation::RectAnimationBase" />
   <TypeSignature Language="F#" Value="type RectAnimation = class&#xA;    inherit RectAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi RectAnimation extends System.Windows.Media.Animation.RectAnimationBase" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -182,7 +183,7 @@
       </Docs>
     </Member>
     <Member MemberName="By">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Rect&gt; By { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Rect? By { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Rect&gt; By" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.RectAnimation.By" />
       <MemberSignature Language="VB.NET" Value="Public Property By As Nullable(Of Rect)" />
@@ -383,7 +384,7 @@
       </Docs>
     </Member>
     <Member MemberName="From">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Rect&gt; From { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Rect? From { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Rect&gt; From" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.RectAnimation.From" />
       <MemberSignature Language="VB.NET" Value="Public Property From As Nullable(Of Rect)" />
@@ -598,7 +599,7 @@
       </Docs>
     </Member>
     <Member MemberName="To">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Rect&gt; To { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Rect? To { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Rect&gt; To" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.RectAnimation.To" />
       <MemberSignature Language="VB.NET" Value="Public Property To As Nullable(Of Rect)" />

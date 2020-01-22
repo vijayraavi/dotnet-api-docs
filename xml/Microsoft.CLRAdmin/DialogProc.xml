@@ -9,6 +9,7 @@
     <AssemblyName>mscorcfg</AssemblyName>
     <AssemblyVersion>1.0.5000.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeParameters />
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
   </Base>
