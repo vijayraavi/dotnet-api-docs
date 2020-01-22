@@ -1035,7 +1035,7 @@
       </Docs>
     </Member>
     <Member MemberName="Expanded">
-      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; Expanded { get; set; }" />
+      <MemberSignature Language="C#" Value="public bool? Expanded { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; Expanded" />
       <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.TreeNode.Expanded" />
       <MemberSignature Language="VB.NET" Value="Public Property Expanded As Nullable(Of Boolean)" />
@@ -1758,7 +1758,7 @@ if( TreeView1.Nodes[0].Expanded == true ) { //some work here}
       </Docs>
     </Member>
     <Member MemberName="ShowCheckBox">
-      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ShowCheckBox { get; set; }" />
+      <MemberSignature Language="C#" Value="public bool? ShowCheckBox { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; ShowCheckBox" />
       <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.TreeNode.ShowCheckBox" />
       <MemberSignature Language="VB.NET" Value="Public Property ShowCheckBox As Nullable(Of Boolean)" />

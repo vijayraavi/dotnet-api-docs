@@ -1,10 +1,11 @@
 <Type Name="UIElement3D" FullName="System.Windows.UIElement3D">
   <TypeSignature Language="C#" Value="public abstract class UIElement3D : System.Windows.Media.Media3D.Visual3D, System.Windows.IInputElement" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract UIElement3D extends System.Windows.Media.Media3D.Visual3D implements class System.Windows.IInputElement" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit UIElement3D extends System.Windows.Media.Media3D.Visual3D implements class System.Windows.IInputElement" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Windows.UIElement3D" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class UIElement3D&#xA;Inherits Visual3D&#xA;Implements IInputElement" />
   <TypeSignature Language="C++ CLI" Value="public ref class UIElement3D abstract : System::Windows::Media::Media3D::Visual3D, System::Windows::IInputElement" />
   <TypeSignature Language="F#" Value="type UIElement3D = class&#xA;    inherit Visual3D&#xA;    interface IInputElement" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract UIElement3D extends System.Windows.Media.Media3D.Visual3D implements class System.Windows.IInputElement" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

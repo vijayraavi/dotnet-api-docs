@@ -98,7 +98,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected Timeline (Nullable&lt;TimeSpan&gt; beginTime);" />
+      <MemberSignature Language="C#" Value="protected Timeline (TimeSpan? beginTime);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; beginTime) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.Timeline.#ctor(System.Nullable{System.TimeSpan})" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (beginTime As Nullable(Of TimeSpan))" />
@@ -121,7 +121,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected Timeline (Nullable&lt;TimeSpan&gt; beginTime, System.Windows.Duration duration);" />
+      <MemberSignature Language="C#" Value="protected Timeline (TimeSpan? beginTime, System.Windows.Duration duration);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; beginTime, valuetype System.Windows.Duration duration) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.Timeline.#ctor(System.Nullable{System.TimeSpan},System.Windows.Duration)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; Timeline(Nullable&lt;TimeSpan&gt; beginTime, System::Windows::Duration duration);" />
@@ -153,7 +153,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected Timeline (Nullable&lt;TimeSpan&gt; beginTime, System.Windows.Duration duration, System.Windows.Media.Animation.RepeatBehavior repeatBehavior);" />
+      <MemberSignature Language="C#" Value="protected Timeline (TimeSpan? beginTime, System.Windows.Duration duration, System.Windows.Media.Animation.RepeatBehavior repeatBehavior);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; beginTime, valuetype System.Windows.Duration duration, valuetype System.Windows.Media.Animation.RepeatBehavior repeatBehavior) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.Timeline.#ctor(System.Nullable{System.TimeSpan},System.Windows.Duration,System.Windows.Media.Animation.RepeatBehavior)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; Timeline(Nullable&lt;TimeSpan&gt; beginTime, System::Windows::Duration duration, System::Windows::Media::Animation::RepeatBehavior repeatBehavior);" />
@@ -350,7 +350,7 @@
       </Docs>
     </Member>
     <Member MemberName="BeginTime">
-      <MemberSignature Language="C#" Value="public Nullable&lt;TimeSpan&gt; BeginTime { get; set; }" />
+      <MemberSignature Language="C#" Value="public TimeSpan? BeginTime { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; BeginTime" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Timeline.BeginTime" />
       <MemberSignature Language="VB.NET" Value="Public Property BeginTime As Nullable(Of TimeSpan)" />
@@ -1213,7 +1213,7 @@ The following example uses the DesiredFrameRate property to limit several animat
       </Docs>
     </Member>
     <Member MemberName="GetDesiredFrameRate">
-      <MemberSignature Language="C#" Value="public static Nullable&lt;int&gt; GetDesiredFrameRate (System.Windows.Media.Animation.Timeline timeline);" />
+      <MemberSignature Language="C#" Value="public static int? GetDesiredFrameRate (System.Windows.Media.Animation.Timeline timeline);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Nullable`1&lt;int32&gt; GetDesiredFrameRate(class System.Windows.Media.Animation.Timeline timeline) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.Timeline.GetDesiredFrameRate(System.Windows.Media.Animation.Timeline)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Nullable&lt;int&gt; GetDesiredFrameRate(System::Windows::Media::Animation::Timeline ^ timeline);" />
@@ -1472,7 +1472,7 @@ The following example uses the DesiredFrameRate property to limit several animat
       </Docs>
     </Member>
     <Member MemberName="SetDesiredFrameRate">
-      <MemberSignature Language="C#" Value="public static void SetDesiredFrameRate (System.Windows.Media.Animation.Timeline timeline, Nullable&lt;int&gt; desiredFrameRate);" />
+      <MemberSignature Language="C#" Value="public static void SetDesiredFrameRate (System.Windows.Media.Animation.Timeline timeline, int? desiredFrameRate);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetDesiredFrameRate(class System.Windows.Media.Animation.Timeline timeline, valuetype System.Nullable`1&lt;int32&gt; desiredFrameRate) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.Timeline.SetDesiredFrameRate(System.Windows.Media.Animation.Timeline,System.Nullable{System.Int32})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetDesiredFrameRate(System::Windows::Media::Animation::Timeline ^ timeline, Nullable&lt;int&gt; desiredFrameRate);" />

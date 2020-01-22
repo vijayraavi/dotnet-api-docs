@@ -632,7 +632,7 @@
       </Docs>
     </Member>
     <Member MemberName="CommandTimeout">
-      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; CommandTimeout { get; set; }" />
+      <MemberSignature Language="C#" Value="public int? CommandTimeout { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; CommandTimeout" />
       <MemberSignature Language="DocId" Value="P:System.Data.Objects.ObjectContext.CommandTimeout" />
       <MemberSignature Language="VB.NET" Value="Public Property CommandTimeout As Nullable(Of Integer)" />

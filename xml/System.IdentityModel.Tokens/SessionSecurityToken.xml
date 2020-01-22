@@ -1,10 +1,15 @@
 <Type Name="SessionSecurityToken" FullName="System.IdentityModel.Tokens.SessionSecurityToken">
-  <TypeSignature Language="C#" Value="public class SessionSecurityToken : System.IdentityModel.Tokens.SecurityToken" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SessionSecurityToken extends System.IdentityModel.Tokens.SecurityToken" />
+  <TypeSignature Language="C#" Value="public class SessionSecurityToken : System.IdentityModel.Tokens.SecurityToken, System.Runtime.Serialization.ISerializable" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SessionSecurityToken extends System.IdentityModel.Tokens.SecurityToken implements class System.Runtime.Serialization.ISerializable" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <TypeSignature Language="DocId" Value="T:System.IdentityModel.Tokens.SessionSecurityToken" />
-  <TypeSignature Language="VB.NET" Value="Public Class SessionSecurityToken&#xA;Inherits SecurityToken" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SessionSecurityToken : System::IdentityModel::Tokens::SecurityToken" />
-  <TypeSignature Language="F#" Value="type SessionSecurityToken = class&#xA;    inherit SecurityToken" />
+  <TypeSignature Language="VB.NET" Value="Public Class SessionSecurityToken&#xA;Inherits SecurityToken&#xA;Implements ISerializable" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SessionSecurityToken : System::IdentityModel::Tokens::SecurityToken, System::Runtime::Serialization::ISerializable" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="F#" Value="type SessionSecurityToken = class&#xA;    inherit SecurityToken&#xA;    interface ISerializable" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="C#" Value="public class SessionSecurityToken : System.IdentityModel.Tokens.SecurityToken" FrameworkAlternate="xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SessionSecurityToken extends System.IdentityModel.Tokens.SecurityToken" FrameworkAlternate="xamarinmac-3.0" />
+  <TypeSignature Language="VB.NET" Value="Public Class SessionSecurityToken&#xA;Inherits SecurityToken" FrameworkAlternate="xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SessionSecurityToken : System::IdentityModel::Tokens::SecurityToken" FrameworkAlternate="xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type SessionSecurityToken = class&#xA;    inherit SecurityToken" FrameworkAlternate="xamarinmac-3.0" />
   <AssemblyInfo>
     <AssemblyName>System.IdentityModel</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -234,7 +239,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SessionSecurityToken (System.Security.Claims.ClaimsPrincipal claimsPrincipal, string context, Nullable&lt;DateTime&gt; validFrom, Nullable&lt;DateTime&gt; validTo);" />
+      <MemberSignature Language="C#" Value="public SessionSecurityToken (System.Security.Claims.ClaimsPrincipal claimsPrincipal, string context, DateTime? validFrom, DateTime? validTo);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Security.Claims.ClaimsPrincipal claimsPrincipal, string context, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; validFrom, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; validTo) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IdentityModel.Tokens.SessionSecurityToken.#ctor(System.Security.Claims.ClaimsPrincipal,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; SessionSecurityToken(System::Security::Claims::ClaimsPrincipal ^ claimsPrincipal, System::String ^ context, Nullable&lt;DateTime&gt; validFrom, Nullable&lt;DateTime&gt; validTo);" />
@@ -290,7 +295,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SessionSecurityToken (System.Security.Claims.ClaimsPrincipal claimsPrincipal, string context, string endpointId, Nullable&lt;DateTime&gt; validFrom, Nullable&lt;DateTime&gt; validTo);" />
+      <MemberSignature Language="C#" Value="public SessionSecurityToken (System.Security.Claims.ClaimsPrincipal claimsPrincipal, string context, string endpointId, DateTime? validFrom, DateTime? validTo);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Security.Claims.ClaimsPrincipal claimsPrincipal, string context, string endpointId, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; validFrom, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; validTo) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IdentityModel.Tokens.SessionSecurityToken.#ctor(System.Security.Claims.ClaimsPrincipal,System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; SessionSecurityToken(System::Security::Claims::ClaimsPrincipal ^ claimsPrincipal, System::String ^ context, System::String ^ endpointId, Nullable&lt;DateTime&gt; validFrom, Nullable&lt;DateTime&gt; validTo);" />
@@ -492,7 +497,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SessionSecurityToken (System.Security.Claims.ClaimsPrincipal claimsPrincipal, System.Xml.UniqueId contextId, string context, string endpointId, Nullable&lt;DateTime&gt; validFrom, Nullable&lt;DateTime&gt; validTo, System.IdentityModel.Tokens.SymmetricSecurityKey key);" />
+      <MemberSignature Language="C#" Value="public SessionSecurityToken (System.Security.Claims.ClaimsPrincipal claimsPrincipal, System.Xml.UniqueId contextId, string context, string endpointId, DateTime? validFrom, DateTime? validTo, System.IdentityModel.Tokens.SymmetricSecurityKey key);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Security.Claims.ClaimsPrincipal claimsPrincipal, class System.Xml.UniqueId contextId, string context, string endpointId, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; validFrom, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; validTo, class System.IdentityModel.Tokens.SymmetricSecurityKey key) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IdentityModel.Tokens.SessionSecurityToken.#ctor(System.Security.Claims.ClaimsPrincipal,System.Xml.UniqueId,System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.IdentityModel.Tokens.SymmetricSecurityKey)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; SessionSecurityToken(System::Security::Claims::ClaimsPrincipal ^ claimsPrincipal, System::Xml::UniqueId ^ contextId, System::String ^ context, System::String ^ endpointId, Nullable&lt;DateTime&gt; validFrom, Nullable&lt;DateTime&gt; validTo, System::IdentityModel::Tokens::SymmetricSecurityKey ^ key);" />

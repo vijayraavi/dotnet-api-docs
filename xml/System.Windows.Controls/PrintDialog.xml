@@ -460,7 +460,7 @@
       </Docs>
     </Member>
     <Member MemberName="ShowDialog">
-      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; ShowDialog ();" />
+      <MemberSignature Language="C#" Value="public bool? ShowDialog ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Nullable`1&lt;bool&gt; ShowDialog() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Controls.PrintDialog.ShowDialog" />
       <MemberSignature Language="VB.NET" Value="Public Function ShowDialog () As Nullable(Of Boolean)" />

@@ -1,10 +1,15 @@
 <Type Name="DataContractJsonSerializer" FullName="System.Runtime.Serialization.Json.DataContractJsonSerializer">
-  <TypeSignature Language="C#" Value="public sealed class DataContractJsonSerializer : System.Runtime.Serialization.XmlObjectSerializer" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DataContractJsonSerializer extends System.Runtime.Serialization.XmlObjectSerializer" />
+  <TypeSignature Language="C#" Value="public sealed class DataContractJsonSerializer" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DataContractJsonSerializer extends System.Object" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
   <TypeSignature Language="DocId" Value="T:System.Runtime.Serialization.Json.DataContractJsonSerializer" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DataContractJsonSerializer&#xA;Inherits XmlObjectSerializer" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DataContractJsonSerializer sealed : System::Runtime::Serialization::XmlObjectSerializer" />
-  <TypeSignature Language="F#" Value="type DataContractJsonSerializer = class&#xA;    inherit XmlObjectSerializer" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DataContractJsonSerializer" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DataContractJsonSerializer sealed" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="F#" Value="type DataContractJsonSerializer = class" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C#" Value="public sealed class DataContractJsonSerializer : System.Runtime.Serialization.XmlObjectSerializer" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DataContractJsonSerializer extends System.Runtime.Serialization.XmlObjectSerializer" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DataContractJsonSerializer&#xA;Inherits XmlObjectSerializer" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DataContractJsonSerializer sealed : System::Runtime::Serialization::XmlObjectSerializer" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type DataContractJsonSerializer = class&#xA;    inherit XmlObjectSerializer" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <AssemblyInfo>
     <AssemblyName>System.Runtime.Serialization.Json</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -26,9 +31,15 @@
     <AssemblyName>System.ServiceModel.Web</AssemblyName>
     <AssemblyVersion>3.5.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Runtime.Serialization" FromVersion="4.0.0.0" To="System.Runtime.Serialization.Json" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
+    <TypeForwarding From="System.ServiceModel.Web" FromVersion="4.0.0.0" To="System.Runtime.Serialization.Json" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
+    <TypeForwarding From="System.ServiceModel.Web" FromVersion="4.0.0.0" To="System.Runtime.Serialization" ToVersion="4.0.0.0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+    <TypeForwarding From="System.ServiceModel.Web" FromVersion="2.0.5.0" To="System.Runtime.Serialization" ToVersion="2.0.5.0" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="netframework-4.5">System.Runtime.Serialization.XmlObjectSerializer</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Runtime.Serialization.XmlObjectSerializer</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>

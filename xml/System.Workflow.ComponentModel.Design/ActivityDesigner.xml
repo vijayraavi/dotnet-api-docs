@@ -4,7 +4,8 @@
   <TypeSignature Language="DocId" Value="T:System.Workflow.ComponentModel.Design.ActivityDesigner" />
   <TypeSignature Language="VB.NET" Value="Public Class ActivityDesigner&#xA;Implements IDesignerFilter, IDisposable, IPersistUIState, IRootDesigner, IToolboxUser, IWorkflowRootDesigner" />
   <TypeSignature Language="C++ CLI" Value="public ref class ActivityDesigner : IDisposable, System::ComponentModel::Design::IDesignerFilter, System::ComponentModel::Design::IRootDesigner, System::Drawing::Design::IToolboxUser, System::Workflow::ComponentModel::Design::IPersistUIState, System::Workflow::ComponentModel::Design::IWorkflowRootDesigner" />
-  <TypeSignature Language="F#" Value="type ActivityDesigner = class&#xA;    interface IDisposable&#xA;    interface IDesignerFilter&#xA;    interface IDesigner&#xA;    interface IToolboxUser&#xA;    interface IPersistUIState&#xA;    interface IWorkflowRootDesigner&#xA;    interface IRootDesigner" />
+  <TypeSignature Language="F#" Value="type ActivityDesigner = class&#xA;    interface IDesignerFilter&#xA;    interface IToolboxUser&#xA;    interface IPersistUIState&#xA;    interface IWorkflowRootDesigner&#xA;    interface IRootDesigner&#xA;    interface IDesigner&#xA;    interface IDisposable" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2" />
+  <TypeSignature Language="F#" Value="type ActivityDesigner = class&#xA;    interface IDisposable&#xA;    interface IDesignerFilter&#xA;    interface IDesigner&#xA;    interface IToolboxUser&#xA;    interface IPersistUIState&#xA;    interface IWorkflowRootDesigner&#xA;    interface IRootDesigner" FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>System.Workflow.ComponentModel</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

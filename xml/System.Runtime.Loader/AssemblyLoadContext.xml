@@ -1,10 +1,14 @@
 <Type Name="AssemblyLoadContext" FullName="System.Runtime.Loader.AssemblyLoadContext">
-  <TypeSignature Language="C#" Value="public abstract class AssemblyLoadContext" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AssemblyLoadContext extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class AssemblyLoadContext" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AssemblyLoadContext extends System.Object" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;xamarinandroid-7.1;xamarinios-10.8" />
   <TypeSignature Language="DocId" Value="T:System.Runtime.Loader.AssemblyLoadContext" />
-  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AssemblyLoadContext" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AssemblyLoadContext abstract" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AssemblyLoadContext" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;xamarinandroid-7.1;xamarinios-10.8" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AssemblyLoadContext abstract" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;xamarinandroid-7.1;xamarinios-10.8" />
   <TypeSignature Language="F#" Value="type AssemblyLoadContext = class" />
+  <TypeSignature Language="C#" Value="public class AssemblyLoadContext" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AssemblyLoadContext extends System.Object" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="VB.NET" Value="Public Class AssemblyLoadContext" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AssemblyLoadContext" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <AssemblyInfo>
     <AssemblyName>System.Runtime.Loader</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>

@@ -1,10 +1,11 @@
 <Type Name="ThicknessAnimation" FullName="System.Windows.Media.Animation.ThicknessAnimation">
   <TypeSignature Language="C#" Value="public class ThicknessAnimation : System.Windows.Media.Animation.ThicknessAnimationBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi ThicknessAnimation extends System.Windows.Media.Animation.ThicknessAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ThicknessAnimation extends System.Windows.Media.Animation.ThicknessAnimationBase" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Animation.ThicknessAnimation" />
   <TypeSignature Language="VB.NET" Value="Public Class ThicknessAnimation&#xA;Inherits ThicknessAnimationBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class ThicknessAnimation : System::Windows::Media::Animation::ThicknessAnimationBase" />
   <TypeSignature Language="F#" Value="type ThicknessAnimation = class&#xA;    inherit ThicknessAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ThicknessAnimation extends System.Windows.Media.Animation.ThicknessAnimationBase" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -182,7 +183,7 @@
       </Docs>
     </Member>
     <Member MemberName="By">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Thickness&gt; By { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Thickness? By { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Thickness&gt; By" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.ThicknessAnimation.By" />
       <MemberSignature Language="VB.NET" Value="Public Property By As Nullable(Of Thickness)" />
@@ -380,7 +381,7 @@
       </Docs>
     </Member>
     <Member MemberName="From">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Thickness&gt; From { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Thickness? From { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Thickness&gt; From" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.ThicknessAnimation.From" />
       <MemberSignature Language="VB.NET" Value="Public Property From As Nullable(Of Thickness)" />
@@ -592,7 +593,7 @@
       </Docs>
     </Member>
     <Member MemberName="To">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Thickness&gt; To { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Thickness? To { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Thickness&gt; To" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.ThicknessAnimation.To" />
       <MemberSignature Language="VB.NET" Value="Public Property To As Nullable(Of Thickness)" />

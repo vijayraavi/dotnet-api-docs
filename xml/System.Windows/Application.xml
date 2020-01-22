@@ -1,10 +1,16 @@
 <Type Name="Application" FullName="System.Windows.Application">
-  <TypeSignature Language="C#" Value="public class Application : System.Windows.Threading.DispatcherObject, System.Windows.Markup.IQueryAmbient" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi Application extends System.Windows.Threading.DispatcherObject implements class System.Windows.Markup.IQueryAmbient" />
+  <TypeSignature Language="C#" Value="public class Application : System.Windows.Threading.DispatcherObject, System.Windows.Markup.IQueryAmbient" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Application extends System.Windows.Threading.DispatcherObject implements class System.Windows.Markup.IQueryAmbient" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Application" />
-  <TypeSignature Language="VB.NET" Value="Public Class Application&#xA;Inherits DispatcherObject&#xA;Implements IQueryAmbient" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Application : System::Windows::Threading::DispatcherObject, System::Windows::Markup::IQueryAmbient" />
-  <TypeSignature Language="F#" Value="type Application = class&#xA;    inherit DispatcherObject&#xA;    interface IQueryAmbient" />
+  <TypeSignature Language="VB.NET" Value="Public Class Application&#xA;Inherits DispatcherObject&#xA;Implements IQueryAmbient" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Application : System::Windows::Threading::DispatcherObject, System::Windows::Markup::IQueryAmbient" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="F#" Value="type Application = class&#xA;    inherit DispatcherObject&#xA;    interface IQueryAmbient" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="C#" Value="public class Application : System.Windows.Threading.DispatcherObject" FrameworkAlternate="netframework-3.0;netframework-3.5" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi Application extends System.Windows.Threading.DispatcherObject" FrameworkAlternate="netframework-3.0;netframework-3.5" />
+  <TypeSignature Language="VB.NET" Value="Public Class Application&#xA;Inherits DispatcherObject" FrameworkAlternate="netframework-3.0;netframework-3.5" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Application : System::Windows::Threading::DispatcherObject" FrameworkAlternate="netframework-3.0;netframework-3.5" />
+  <TypeSignature Language="F#" Value="type Application = class&#xA;    inherit DispatcherObject" FrameworkAlternate="netframework-3.0;netframework-3.5" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi Application extends System.Windows.Threading.DispatcherObject implements class System.Windows.Markup.IQueryAmbient" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

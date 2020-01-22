@@ -191,7 +191,7 @@
       </Docs>
     </Member>
     <Member MemberName="SizeLimit">
-      <MemberSignature Language="C#" Value="public Nullable&lt;long&gt; SizeLimit { get; set; }" />
+      <MemberSignature Language="C#" Value="public long? SizeLimit { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; SizeLimit" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.SizeLimit" />
       <MemberSignature Language="VB.NET" Value="Public Property SizeLimit As Nullable(Of Long)" />

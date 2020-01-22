@@ -1,10 +1,16 @@
 <Type Name="ClientWebSocket" FullName="System.Net.WebSockets.ClientWebSocket">
-  <TypeSignature Language="C#" Value="public class ClientWebSocket : System.Net.WebSockets.WebSocket, IDisposable" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClientWebSocket extends System.Net.WebSockets.WebSocket implements class System.IDisposable" />
+  <TypeSignature Language="C#" Value="public sealed class ClientWebSocket : System.Net.WebSockets.WebSocket" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ClientWebSocket extends System.Net.WebSockets.WebSocket" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
   <TypeSignature Language="DocId" Value="T:System.Net.WebSockets.ClientWebSocket" />
-  <TypeSignature Language="VB.NET" Value="Public Class ClientWebSocket&#xA;Inherits WebSocket&#xA;Implements IDisposable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class ClientWebSocket : System::Net::WebSockets::WebSocket, IDisposable" />
-  <TypeSignature Language="F#" Value="type ClientWebSocket = class&#xA;    inherit WebSocket&#xA;    interface IDisposable" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ClientWebSocket&#xA;Inherits WebSocket" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClientWebSocket sealed : System::Net::WebSockets::WebSocket" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="F#" Value="type ClientWebSocket = class&#xA;    inherit WebSocket" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ClientWebSocket extends System.Net.WebSockets.WebSocket" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="C#" Value="public class ClientWebSocket : System.Net.WebSockets.WebSocket, IDisposable" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClientWebSocket extends System.Net.WebSockets.WebSocket implements class System.IDisposable" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClientWebSocket&#xA;Inherits WebSocket&#xA;Implements IDisposable" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClientWebSocket : System::Net::WebSockets::WebSocket, IDisposable" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type ClientWebSocket = class&#xA;    inherit WebSocket&#xA;    interface IDisposable" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <AssemblyInfo>
     <AssemblyName>System.Net.WebSockets.Client</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -218,7 +224,7 @@
       </Docs>
     </Member>
     <Member MemberName="CloseStatus">
-      <MemberSignature Language="C#" Value="public override Nullable&lt;System.Net.WebSockets.WebSocketCloseStatus&gt; CloseStatus { get; }" />
+      <MemberSignature Language="C#" Value="public override System.Net.WebSockets.WebSocketCloseStatus? CloseStatus { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Net.WebSockets.WebSocketCloseStatus&gt; CloseStatus" />
       <MemberSignature Language="DocId" Value="P:System.Net.WebSockets.ClientWebSocket.CloseStatus" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property CloseStatus As Nullable(Of WebSocketCloseStatus)" />

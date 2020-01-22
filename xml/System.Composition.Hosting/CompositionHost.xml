@@ -101,9 +101,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="compositionHost.Dispose " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Composition.Hosting</AssemblyName>
         <AssemblyVersion>1.0.31.0</AssemblyVersion>

@@ -1,10 +1,31 @@
 <Type Name="DbConnection" FullName="System.Data.Common.DbConnection">
-  <TypeSignature Language="C#" Value="public abstract class DbConnection : System.ComponentModel.Component, IDisposable, System.Data.IDbConnection" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbConnection extends System.ComponentModel.Component implements class System.Data.IDbConnection, class System.IDisposable" />
+  <TypeSignature Language="C#" Value="public abstract class DbConnection : IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbConnection extends System.Object implements class System.IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
   <TypeSignature Language="DocId" Value="T:System.Data.Common.DbConnection" />
-  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbConnection&#xA;Inherits Component&#xA;Implements IDbConnection, IDisposable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DbConnection abstract : System::ComponentModel::Component, IDisposable, System::Data::IDbConnection" />
-  <TypeSignature Language="F#" Value="type DbConnection = class&#xA;    inherit Component&#xA;    interface IDbConnection&#xA;    interface IDisposable" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbConnection&#xA;Implements IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbConnection abstract : IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
+  <TypeSignature Language="F#" Value="type DbConnection = class&#xA;    interface IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
+  <TypeSignature Language="C#" Value="public abstract class DbConnection : System.Data.IDbConnection" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbConnection extends System.Object implements class System.Data.IDbConnection, class System.IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbConnection&#xA;Implements IDbConnection" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbConnection abstract : System::Data::IDbConnection" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="F#" Value="type DbConnection = class&#xA;    interface IDbConnection&#xA;    interface IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C#" Value="public abstract class DbConnection : System.ComponentModel.Component, IDisposable, System.Data.IDbConnection" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbConnection extends System.ComponentModel.Component implements class System.Data.IDbConnection, class System.IDisposable" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbConnection&#xA;Inherits Component&#xA;Implements IDbConnection, IDisposable" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbConnection abstract : System::ComponentModel::Component, IDisposable, System::Data::IDbConnection" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type DbConnection = class&#xA;    inherit Component&#xA;    interface IDbConnection&#xA;    interface IDisposable" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C#" Value="public abstract class DbConnection : System.ComponentModel.Component, IAsyncDisposable, IDisposable, System.Data.IDbConnection" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbConnection extends System.ComponentModel.Component implements class System.Data.IDbConnection, class System.IAsyncDisposable, class System.IDisposable" FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbConnection&#xA;Inherits Component&#xA;Implements IAsyncDisposable, IDbConnection, IDisposable" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbConnection abstract : System::ComponentModel::Component, IAsyncDisposable, IDisposable, System::Data::IDbConnection" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="F#" Value="type DbConnection = class&#xA;    inherit Component&#xA;    interface IDbConnection&#xA;    interface IDisposable&#xA;    interface IAsyncDisposable" FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="C#" Value="public abstract class DbConnection : System.ComponentModel.Component, System.Data.IDbConnection" FrameworkAlternate="netstandard-2.0" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbConnection&#xA;Inherits Component&#xA;Implements IDbConnection" FrameworkAlternate="netstandard-2.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbConnection abstract : System::ComponentModel::Component, System::Data::IDbConnection" FrameworkAlternate="netstandard-2.0" />
+  <TypeSignature Language="C#" Value="public abstract class DbConnection : System.ComponentModel.Component, IAsyncDisposable, System.Data.IDbConnection" FrameworkAlternate="netstandard-2.1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbConnection&#xA;Inherits Component&#xA;Implements IAsyncDisposable, IDbConnection" FrameworkAlternate="netstandard-2.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DbConnection abstract : System::ComponentModel::Component, IAsyncDisposable, System::Data::IDbConnection" FrameworkAlternate="netstandard-2.1" />
   <AssemblyInfo>
     <AssemblyName>System.Data.Common</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -26,7 +47,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="netframework-4.5">System.ComponentModel.Component</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.ComponentModel.Component</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
@@ -277,7 +298,7 @@
       </Docs>
     </Member>
     <Member MemberName="BeginTransactionAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask&lt;System.Data.Common.DbTransaction&gt; BeginTransactionAsync (System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask&lt;System.Data.Common.DbTransaction&gt; BeginTransactionAsync (System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Threading.Tasks.ValueTask`1&lt;class System.Data.Common.DbTransaction&gt; BeginTransactionAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbConnection.BeginTransactionAsync(System.Threading.CancellationToken)" />
       <MemberSignature Language="F#" Value="member this.BeginTransactionAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.Data.Common.DbTransaction&gt;" Usage="dbConnection.BeginTransactionAsync cancellationToken" />
@@ -319,7 +340,7 @@
       </Docs>
     </Member>
     <Member MemberName="BeginTransactionAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask&lt;System.Data.Common.DbTransaction&gt; BeginTransactionAsync (System.Data.IsolationLevel isolationLevel, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask&lt;System.Data.Common.DbTransaction&gt; BeginTransactionAsync (System.Data.IsolationLevel isolationLevel, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Threading.Tasks.ValueTask`1&lt;class System.Data.Common.DbTransaction&gt; BeginTransactionAsync(valuetype System.Data.IsolationLevel isolationLevel, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbConnection.BeginTransactionAsync(System.Data.IsolationLevel,System.Threading.CancellationToken)" />
       <MemberSignature Language="F#" Value="member this.BeginTransactionAsync : System.Data.IsolationLevel * System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;System.Data.Common.DbTransaction&gt;" Usage="dbConnection.BeginTransactionAsync (isolationLevel, cancellationToken)" />
@@ -411,7 +432,7 @@
       </Docs>
     </Member>
     <Member MemberName="ChangeDatabaseAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task ChangeDatabaseAsync (string databaseName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task ChangeDatabaseAsync (string databaseName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task ChangeDatabaseAsync(string databaseName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbConnection.ChangeDatabaseAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="F#" Value="abstract member ChangeDatabaseAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&#xA;override this.ChangeDatabaseAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="dbConnection.ChangeDatabaseAsync (databaseName, cancellationToken)" />
@@ -880,9 +901,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="dbConnection.Dispose " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

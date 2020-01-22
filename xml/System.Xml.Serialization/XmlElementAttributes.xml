@@ -1,10 +1,18 @@
 <Type Name="XmlElementAttributes" FullName="System.Xml.Serialization.XmlElementAttributes">
-  <TypeSignature Language="C#" Value="public class XmlElementAttributes : System.Collections.CollectionBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XmlElementAttributes extends System.Collections.CollectionBase" />
+  <TypeSignature Language="C#" Value="public class XmlElementAttributes : System.Collections.IList" FrameworkAlternate="dotnet-uwp-10.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XmlElementAttributes extends System.Object implements class System.Collections.ICollection, class System.Collections.IEnumerable, class System.Collections.IList" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
   <TypeSignature Language="DocId" Value="T:System.Xml.Serialization.XmlElementAttributes" />
-  <TypeSignature Language="VB.NET" Value="Public Class XmlElementAttributes&#xA;Inherits CollectionBase" />
-  <TypeSignature Language="C++ CLI" Value="public ref class XmlElementAttributes : System::Collections::CollectionBase" />
-  <TypeSignature Language="F#" Value="type XmlElementAttributes = class&#xA;    inherit CollectionBase" />
+  <TypeSignature Language="VB.NET" Value="Public Class XmlElementAttributes&#xA;Implements IList" FrameworkAlternate="dotnet-uwp-10.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class XmlElementAttributes : System::Collections::IList" FrameworkAlternate="dotnet-uwp-10.0" />
+  <TypeSignature Language="F#" Value="type XmlElementAttributes = class&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C#" Value="public class XmlElementAttributes : System.Collections.ICollection, System.Collections.IEnumerable, System.Collections.IList" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="VB.NET" Value="Public Class XmlElementAttributes&#xA;Implements ICollection, IEnumerable, IList" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class XmlElementAttributes : System::Collections::ICollection, System::Collections::IEnumerable, System::Collections::IList" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C#" Value="public class XmlElementAttributes : System.Collections.CollectionBase" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XmlElementAttributes extends System.Collections.CollectionBase" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="VB.NET" Value="Public Class XmlElementAttributes&#xA;Inherits CollectionBase" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class XmlElementAttributes : System::Collections::CollectionBase" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type XmlElementAttributes = class&#xA;    inherit CollectionBase" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <AssemblyInfo>
     <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
     <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -27,9 +35,15 @@
   <AssemblyInfo>
     <AssemblyName>System.Xml.Serialization</AssemblyName>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Xml" FromVersion="4.0.0.0" To="System.Xml.XmlSerializer" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
+    <TypeForwarding From="System.Xml.Serialization" FromVersion="4.0.0.0" To="System.Xml.XmlSerializer" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
+    <TypeForwarding From="System.Xml.Serialization" FromVersion="4.0.0.0" To="System.Xml" ToVersion="4.0.0.0" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+    <TypeForwarding From="System.Xml.Serialization" FromVersion="2.0.5.0" To="System.Xml" ToVersion="2.0.5.0" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="netframework-4.5">System.Collections.CollectionBase</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Collections.CollectionBase</BaseTypeName>
   </Base>
   <Interfaces>
   </Interfaces>
@@ -162,9 +176,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Clear();" />
       <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="xmlElementAttributes.Clear " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -283,9 +294,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Count : int" Usage="System.Xml.Serialization.XmlElementAttributes.Count" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -316,9 +324,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::IEnumerator ^ GetEnumerator();" />
       <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.IEnumerator&#xA;override this.GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="xmlElementAttributes.GetEnumerator " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -525,9 +530,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemoveAt(int index);" />
       <MemberSignature Language="F#" Value="abstract member RemoveAt : int -&gt; unit&#xA;override this.RemoveAt : int -&gt; unit" Usage="xmlElementAttributes.RemoveAt index" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IList.RemoveAt(System.Int32)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -559,9 +561,6 @@
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlElementAttributes.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" />
       <MemberSignature Language="C++ CLI" Value=" virtual void System.Collections.ICollection.CopyTo(Array ^ array, int index) = System::Collections::ICollection::CopyTo;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.ICollection.CopyTo(System.Array,System.Int32)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -597,9 +596,6 @@
       <MemberSignature Language="C++ CLI" Value="property bool System::Collections::ICollection::IsSynchronized { bool get(); };" />
       <MemberSignature Language="F#" Usage="System.Collections.ICollection.IsSynchronized" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.IsSynchronized</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -630,9 +626,6 @@
       <MemberSignature Language="C++ CLI" Value="property System::Object ^ System::Collections::ICollection::SyncRoot { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Usage="System.Collections.ICollection.SyncRoot" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.SyncRoot</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -662,9 +655,6 @@
       <MemberSignature Language="VB.NET" Value="Function Add (value As Object) As Integer Implements IList.Add" />
       <MemberSignature Language="C++ CLI" Value=" virtual int System.Collections.IList.Add(System::Object ^ value) = System::Collections::IList::Add;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IList.Add(System.Object)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -698,9 +688,6 @@
       <MemberSignature Language="VB.NET" Value="Function Contains (value As Object) As Boolean Implements IList.Contains" />
       <MemberSignature Language="C++ CLI" Value=" virtual bool System.Collections.IList.Contains(System::Object ^ value) = System::Collections::IList::Contains;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IList.Contains(System.Object)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -734,9 +721,6 @@
       <MemberSignature Language="VB.NET" Value="Function IndexOf (value As Object) As Integer Implements IList.IndexOf" />
       <MemberSignature Language="C++ CLI" Value=" virtual int System.Collections.IList.IndexOf(System::Object ^ value) = System::Collections::IList::IndexOf;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IList.IndexOf(System.Object)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -770,9 +754,6 @@
       <MemberSignature Language="VB.NET" Value="Sub Insert (index As Integer, value As Object) Implements IList.Insert" />
       <MemberSignature Language="C++ CLI" Value=" virtual void System.Collections.IList.Insert(int index, System::Object ^ value) = System::Collections::IList::Insert;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IList.Insert(System.Int32,System.Object)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -808,9 +789,6 @@
       <MemberSignature Language="C++ CLI" Value="property bool System::Collections::IList::IsFixedSize { bool get(); };" />
       <MemberSignature Language="F#" Usage="System.Collections.IList.IsFixedSize" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.IList.IsFixedSize</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -841,9 +819,6 @@
       <MemberSignature Language="C++ CLI" Value="property bool System::Collections::IList::IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Usage="System.Collections.IList.IsReadOnly" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.IList.IsReadOnly</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -874,9 +849,6 @@
       <MemberSignature Language="C++ CLI" Value="property System::Object ^ System::Collections::IList::Item[int] { System::Object ^ get(int index); void set(int index, System::Object ^ value); };" />
       <MemberSignature Language="F#" Usage="System.Collections.IList.Item" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.IList.Item(System.Int32)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -910,9 +882,6 @@
       <MemberSignature Language="VB.NET" Value="Sub Remove (value As Object) Implements IList.Remove" />
       <MemberSignature Language="C++ CLI" Value=" virtual void System.Collections.IList.Remove(System::Object ^ value) = System::Collections::IList::Remove;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.IList.Remove(System.Object)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>

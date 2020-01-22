@@ -1,10 +1,11 @@
 <Type Name="SizeAnimation" FullName="System.Windows.Media.Animation.SizeAnimation">
   <TypeSignature Language="C#" Value="public class SizeAnimation : System.Windows.Media.Animation.SizeAnimationBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi SizeAnimation extends System.Windows.Media.Animation.SizeAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SizeAnimation extends System.Windows.Media.Animation.SizeAnimationBase" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Animation.SizeAnimation" />
   <TypeSignature Language="VB.NET" Value="Public Class SizeAnimation&#xA;Inherits SizeAnimationBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class SizeAnimation : System::Windows::Media::Animation::SizeAnimationBase" />
   <TypeSignature Language="F#" Value="type SizeAnimation = class&#xA;    inherit SizeAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi SizeAnimation extends System.Windows.Media.Animation.SizeAnimationBase" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -182,7 +183,7 @@
       </Docs>
     </Member>
     <Member MemberName="By">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Size&gt; By { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Size? By { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Size&gt; By" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.SizeAnimation.By" />
       <MemberSignature Language="VB.NET" Value="Public Property By As Nullable(Of Size)" />
@@ -380,7 +381,7 @@
       </Docs>
     </Member>
     <Member MemberName="From">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Size&gt; From { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Size? From { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Size&gt; From" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.SizeAnimation.From" />
       <MemberSignature Language="VB.NET" Value="Public Property From As Nullable(Of Size)" />
@@ -594,7 +595,7 @@
       </Docs>
     </Member>
     <Member MemberName="To">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Size&gt; To { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Size? To { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Size&gt; To" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.SizeAnimation.To" />
       <MemberSignature Language="VB.NET" Value="Public Property To As Nullable(Of Size)" />

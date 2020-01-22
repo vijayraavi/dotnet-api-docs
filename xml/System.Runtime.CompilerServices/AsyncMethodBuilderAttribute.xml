@@ -19,13 +19,20 @@
     <AssemblyName>netstandard</AssemblyName>
     <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.Threading.Tasks.Extensions" FromVersion="4.3.0.0" To="System.Runtime" ToVersion="4.2.1.0" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0" />
+    <TypeForwarding From="System.Threading.Tasks.Extensions" FromVersion="4.3.1.0" To="System.Runtime" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netstandard-2.1;netcore-1.1;netcore-3.0;netcore-3.1">
+    <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netstandard-2.1;netcore-3.0;netcore-3.1">
       <AttributeName>System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Delegate | System.AttributeTargets.Enum | System.AttributeTargets.Interface | System.AttributeTargets.Struct, AllowMultiple=false, Inherited=false)</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="netcore-1.1">
+      <AttributeName>System.AttributeUsage</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

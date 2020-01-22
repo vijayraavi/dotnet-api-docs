@@ -1,10 +1,11 @@
 <Type Name="SingleAnimation" FullName="System.Windows.Media.Animation.SingleAnimation">
   <TypeSignature Language="C#" Value="public class SingleAnimation : System.Windows.Media.Animation.SingleAnimationBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi SingleAnimation extends System.Windows.Media.Animation.SingleAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SingleAnimation extends System.Windows.Media.Animation.SingleAnimationBase" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Animation.SingleAnimation" />
   <TypeSignature Language="VB.NET" Value="Public Class SingleAnimation&#xA;Inherits SingleAnimationBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class SingleAnimation : System::Windows::Media::Animation::SingleAnimationBase" />
   <TypeSignature Language="F#" Value="type SingleAnimation = class&#xA;    inherit SingleAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi SingleAnimation extends System.Windows.Media.Animation.SingleAnimationBase" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -182,7 +183,7 @@
       </Docs>
     </Member>
     <Member MemberName="By">
-      <MemberSignature Language="C#" Value="public Nullable&lt;float&gt; By { get; set; }" />
+      <MemberSignature Language="C#" Value="public float? By { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float32&gt; By" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.SingleAnimation.By" />
       <MemberSignature Language="VB.NET" Value="Public Property By As Nullable(Of Single)" />
@@ -368,7 +369,7 @@
       </Docs>
     </Member>
     <Member MemberName="From">
-      <MemberSignature Language="C#" Value="public Nullable&lt;float&gt; From { get; set; }" />
+      <MemberSignature Language="C#" Value="public float? From { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float32&gt; From" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.SingleAnimation.From" />
       <MemberSignature Language="VB.NET" Value="Public Property From As Nullable(Of Single)" />
@@ -568,7 +569,7 @@
       </Docs>
     </Member>
     <Member MemberName="To">
-      <MemberSignature Language="C#" Value="public Nullable&lt;float&gt; To { get; set; }" />
+      <MemberSignature Language="C#" Value="public float? To { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float32&gt; To" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.SingleAnimation.To" />
       <MemberSignature Language="VB.NET" Value="Public Property To As Nullable(Of Single)" />

@@ -1,10 +1,11 @@
 <Type Name="Point3DAnimation" FullName="System.Windows.Media.Animation.Point3DAnimation">
   <TypeSignature Language="C#" Value="public class Point3DAnimation : System.Windows.Media.Animation.Point3DAnimationBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi Point3DAnimation extends System.Windows.Media.Animation.Point3DAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Point3DAnimation extends System.Windows.Media.Animation.Point3DAnimationBase" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Animation.Point3DAnimation" />
   <TypeSignature Language="VB.NET" Value="Public Class Point3DAnimation&#xA;Inherits Point3DAnimationBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class Point3DAnimation : System::Windows::Media::Animation::Point3DAnimationBase" />
   <TypeSignature Language="F#" Value="type Point3DAnimation = class&#xA;    inherit Point3DAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi Point3DAnimation extends System.Windows.Media.Animation.Point3DAnimationBase" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -181,7 +182,7 @@
       </Docs>
     </Member>
     <Member MemberName="By">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Media.Media3D.Point3D&gt; By { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Media3D.Point3D? By { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Media.Media3D.Point3D&gt; By" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Point3DAnimation.By" />
       <MemberSignature Language="VB.NET" Value="Public Property By As Nullable(Of Point3D)" />
@@ -379,7 +380,7 @@
       </Docs>
     </Member>
     <Member MemberName="From">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Media.Media3D.Point3D&gt; From { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Media3D.Point3D? From { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Media.Media3D.Point3D&gt; From" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Point3DAnimation.From" />
       <MemberSignature Language="VB.NET" Value="Public Property From As Nullable(Of Point3D)" />
@@ -592,7 +593,7 @@
       </Docs>
     </Member>
     <Member MemberName="To">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.Windows.Media.Media3D.Point3D&gt; To { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Media.Media3D.Point3D? To { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Windows.Media.Media3D.Point3D&gt; To" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Point3DAnimation.To" />
       <MemberSignature Language="VB.NET" Value="Public Property To As Nullable(Of Point3D)" />

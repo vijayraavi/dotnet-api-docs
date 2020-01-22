@@ -1,10 +1,30 @@
 <Type Name="TypeBuilder" FullName="System.Reflection.Emit.TypeBuilder">
-  <TypeSignature Language="C#" Value="public sealed class TypeBuilder : System.Reflection.TypeInfo, System.Runtime.InteropServices._TypeBuilder" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit TypeBuilder extends System.Reflection.TypeInfo implements class System.Runtime.InteropServices._TypeBuilder" />
+  <TypeSignature Language="C#" Value="public sealed class TypeBuilder : System.Reflection.TypeInfo" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TypeBuilder extends System.Reflection.TypeInfo" FrameworkAlternate="netcore-1.0;netcore-1.1" />
   <TypeSignature Language="DocId" Value="T:System.Reflection.Emit.TypeBuilder" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TypeBuilder&#xA;Inherits TypeInfo&#xA;Implements _TypeBuilder" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TypeBuilder sealed : System::Reflection::TypeInfo, System::Runtime::InteropServices::_TypeBuilder" />
-  <TypeSignature Language="F#" Value="type TypeBuilder = class&#xA;    inherit TypeInfo&#xA;    interface _TypeBuilder" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TypeBuilder&#xA;Inherits TypeInfo" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TypeBuilder sealed : System::Reflection::TypeInfo" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+  <TypeSignature Language="F#" Value="type TypeBuilder = class&#xA;    inherit TypeInfo" FrameworkAlternate="netcore-1.0;netcore-1.1;xamarinios-10.8" />
+  <TypeSignature Language="C#" Value="public sealed class TypeBuilder : Type" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TypeBuilder extends System.Type" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TypeBuilder&#xA;Inherits Type" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TypeBuilder sealed : Type" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="F#" Value="type TypeBuilder = class&#xA;    inherit Type" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="C#" Value="public sealed class TypeBuilder : Type, System.Runtime.InteropServices._TypeBuilder" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TypeBuilder extends System.Type implements class System.Runtime.InteropServices._TypeBuilder" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TypeBuilder&#xA;Inherits Type&#xA;Implements _TypeBuilder" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TypeBuilder sealed : Type, System::Runtime::InteropServices::_TypeBuilder" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0" />
+  <TypeSignature Language="F#" Value="type TypeBuilder = class&#xA;    inherit Type&#xA;    interface _TypeBuilder" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0" />
+  <TypeSignature Language="C#" Value="public sealed class TypeBuilder : System.Reflection.TypeInfo, System.Runtime.InteropServices._TypeBuilder" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TypeBuilder extends System.Reflection.TypeInfo implements class System.Runtime.InteropServices._TypeBuilder" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TypeBuilder&#xA;Inherits TypeInfo&#xA;Implements _TypeBuilder" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TypeBuilder sealed : System::Reflection::TypeInfo, System::Runtime::InteropServices::_TypeBuilder" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type TypeBuilder = class&#xA;    inherit TypeInfo&#xA;    interface _TypeBuilder" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit TypeBuilder extends System.Reflection.TypeInfo implements class System.Runtime.InteropServices._TypeBuilder" FrameworkAlternate="xamarinandroid-7.1;xamarinmac-3.0" />
+  <TypeSignature Language="C#" Value="public abstract class TypeBuilder : System.Reflection.TypeInfo" FrameworkAlternate="xamarinios-10.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TypeBuilder extends System.Reflection.TypeInfo" FrameworkAlternate="xamarinios-10.8" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class TypeBuilder&#xA;Inherits TypeInfo" FrameworkAlternate="xamarinios-10.8" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TypeBuilder abstract : System::Reflection::TypeInfo" FrameworkAlternate="xamarinios-10.8" />
   <AssemblyInfo>
     <AssemblyName>System.Reflection.Emit</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -25,7 +45,7 @@
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Reflection.TypeInfo</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="netcore-2.0">System.Type</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netstandard-2.1">System.Type</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>

@@ -61,7 +61,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ParallelTimeline (Nullable&lt;TimeSpan&gt; beginTime);" />
+      <MemberSignature Language="C#" Value="public ParallelTimeline (TimeSpan? beginTime);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; beginTime) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.ParallelTimeline.#ctor(System.Nullable{System.TimeSpan})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (beginTime As Nullable(Of TimeSpan))" />
@@ -88,7 +88,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ParallelTimeline (Nullable&lt;TimeSpan&gt; beginTime, System.Windows.Duration duration);" />
+      <MemberSignature Language="C#" Value="public ParallelTimeline (TimeSpan? beginTime, System.Windows.Duration duration);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; beginTime, valuetype System.Windows.Duration duration) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.ParallelTimeline.#ctor(System.Nullable{System.TimeSpan},System.Windows.Duration)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; ParallelTimeline(Nullable&lt;TimeSpan&gt; beginTime, System::Windows::Duration duration);" />
@@ -116,7 +116,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ParallelTimeline (Nullable&lt;TimeSpan&gt; beginTime, System.Windows.Duration duration, System.Windows.Media.Animation.RepeatBehavior repeatBehavior);" />
+      <MemberSignature Language="C#" Value="public ParallelTimeline (TimeSpan? beginTime, System.Windows.Duration duration, System.Windows.Media.Animation.RepeatBehavior repeatBehavior);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; beginTime, valuetype System.Windows.Duration duration, valuetype System.Windows.Media.Animation.RepeatBehavior repeatBehavior) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.ParallelTimeline.#ctor(System.Nullable{System.TimeSpan},System.Windows.Duration,System.Windows.Media.Animation.RepeatBehavior)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; ParallelTimeline(Nullable&lt;TimeSpan&gt; beginTime, System::Windows::Duration duration, System::Windows::Media::Animation::RepeatBehavior repeatBehavior);" />

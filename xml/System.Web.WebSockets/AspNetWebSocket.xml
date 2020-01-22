@@ -138,7 +138,7 @@
       </Docs>
     </Member>
     <Member MemberName="CloseStatus">
-      <MemberSignature Language="C#" Value="public override Nullable&lt;System.Net.WebSockets.WebSocketCloseStatus&gt; CloseStatus { get; }" />
+      <MemberSignature Language="C#" Value="public override System.Net.WebSockets.WebSocketCloseStatus? CloseStatus { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Net.WebSockets.WebSocketCloseStatus&gt; CloseStatus" />
       <MemberSignature Language="DocId" Value="P:System.Web.WebSockets.AspNetWebSocket.CloseStatus" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property CloseStatus As Nullable(Of WebSocketCloseStatus)" />

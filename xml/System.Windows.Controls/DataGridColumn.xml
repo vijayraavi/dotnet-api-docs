@@ -1399,7 +1399,7 @@
       </Docs>
     </Member>
     <Member MemberName="SortDirection">
-      <MemberSignature Language="C#" Value="public Nullable&lt;System.ComponentModel.ListSortDirection&gt; SortDirection { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.ComponentModel.ListSortDirection? SortDirection { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.ComponentModel.ListSortDirection&gt; SortDirection" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Controls.DataGridColumn.SortDirection" />
       <MemberSignature Language="VB.NET" Value="Public Property SortDirection As Nullable(Of ListSortDirection)" />
