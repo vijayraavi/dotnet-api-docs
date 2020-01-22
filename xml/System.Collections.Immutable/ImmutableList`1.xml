@@ -148,6 +148,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int BinarySearch(T item);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.BinarySearch : 'T -&gt; int" Usage="immutableList.BinarySearch item" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.BinarySearch(`0)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -183,6 +186,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int BinarySearch(T item, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.BinarySearch : 'T * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; int" Usage="immutableList.BinarySearch (item, comparer)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.BinarySearch(`0,System.Collections.Generic.IComparer{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -220,6 +226,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int BinarySearch(int index, int count, T item, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.BinarySearch : int * int * 'T * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; int" Usage="immutableList.BinarySearch (index, count, item, comparer)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.BinarySearch(System.Int32,System.Int32,`0,System.Collections.Generic.IComparer{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -327,6 +336,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TOutput&gt;&#xA; System::Collections::Immutable::ImmutableList&lt;TOutput&gt; ^ ConvertAll(Func&lt;T, TOutput&gt; ^ converter);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.ConvertAll : Func&lt;'T, 'Output&gt; -&gt; System.Collections.Immutable.ImmutableList&lt;'Output&gt;" Usage="immutableList.ConvertAll converter" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.ConvertAll``1(System.Func{`0,``0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -365,6 +377,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CopyTo(cli::array &lt;T&gt; ^ array);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.CopyTo : 'T[] -&gt; unit" Usage="immutableList.CopyTo array" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.CopyTo(`0[])</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -397,6 +412,7 @@
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.CopyTo(`0[],System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -433,6 +449,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CopyTo(int index, cli::array &lt;T&gt; ^ array, int arrayIndex, int count);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.CopyTo : int * 'T[] * int * int -&gt; unit" Usage="immutableList.CopyTo (index, array, arrayIndex, count)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.CopyTo(System.Int32,`0[],System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -470,8 +489,9 @@
       <MemberSignature Language="F#" Value="member this.Count : int" Usage="System.Collections.Immutable.ImmutableList&lt;'T&gt;.Count" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
         <InterfaceMember>P:System.Collections.Generic.IReadOnlyCollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.Immutable.IOrderedCollection`1.Count</InterfaceMember>
         <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
@@ -530,6 +550,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Exists(Predicate&lt;T&gt; ^ match);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.Exists : Predicate&lt;'T&gt; -&gt; bool" Usage="immutableList.Exists match" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.Exists(System.Predicate{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -565,6 +588,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; T Find(Predicate&lt;T&gt; ^ match);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.Find : Predicate&lt;'T&gt; -&gt; 'T" Usage="immutableList.Find match" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.Find(System.Predicate{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -599,6 +625,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Immutable::ImmutableList&lt;T&gt; ^ FindAll(Predicate&lt;T&gt; ^ match);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.FindAll : Predicate&lt;'T&gt; -&gt; System.Collections.Immutable.ImmutableList&lt;'T&gt;" Usage="immutableList.FindAll match" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.FindAll(System.Predicate{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -633,6 +662,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int FindIndex(Predicate&lt;T&gt; ^ match);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.FindIndex : Predicate&lt;'T&gt; -&gt; int" Usage="immutableList.FindIndex match" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.FindIndex(System.Predicate{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -667,6 +699,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int FindIndex(int startIndex, Predicate&lt;T&gt; ^ match);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.FindIndex : int * Predicate&lt;'T&gt; -&gt; int" Usage="immutableList.FindIndex (startIndex, match)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.FindIndex(System.Int32,System.Predicate{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -703,6 +738,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int FindIndex(int startIndex, int count, Predicate&lt;T&gt; ^ match);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.FindIndex : int * int * Predicate&lt;'T&gt; -&gt; int" Usage="immutableList.FindIndex (startIndex, count, match)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.FindIndex(System.Int32,System.Int32,System.Predicate{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -741,6 +779,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; T FindLast(Predicate&lt;T&gt; ^ match);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.FindLast : Predicate&lt;'T&gt; -&gt; 'T" Usage="immutableList.FindLast match" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.FindLast(System.Predicate{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -775,6 +816,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int FindLastIndex(Predicate&lt;T&gt; ^ match);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.FindLastIndex : Predicate&lt;'T&gt; -&gt; int" Usage="immutableList.FindLastIndex match" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.FindLastIndex(System.Predicate{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -809,6 +853,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int FindLastIndex(int startIndex, Predicate&lt;T&gt; ^ match);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.FindLastIndex : int * Predicate&lt;'T&gt; -&gt; int" Usage="immutableList.FindLastIndex (startIndex, match)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.FindLastIndex(System.Int32,System.Predicate{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -845,6 +892,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int FindLastIndex(int startIndex, int count, Predicate&lt;T&gt; ^ match);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.FindLastIndex : int * int * Predicate&lt;'T&gt; -&gt; int" Usage="immutableList.FindLastIndex (startIndex, count, match)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.FindLastIndex(System.Int32,System.Int32,System.Predicate{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -883,6 +933,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ForEach(Action&lt;T&gt; ^ action);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.ForEach : Action&lt;'T&gt; -&gt; unit" Usage="immutableList.ForEach action" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.ForEach(System.Action{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -956,6 +1009,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Immutable::ImmutableList&lt;T&gt; ^ GetRange(int index, int count);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.GetRange : int * int -&gt; System.Collections.Immutable.ImmutableList&lt;'T&gt;" Usage="immutableList.GetRange (index, count)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.GetRange(System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -1164,6 +1220,7 @@
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.IReadOnlyList`1.Item(System.Int32)</InterfaceMember>
+        <InterfaceMember>P:System.Collections.Immutable.IOrderedCollection`1.Item(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -3162,6 +3219,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TrueForAll(Predicate&lt;T&gt; ^ match);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.TrueForAll : Predicate&lt;'T&gt; -&gt; bool" Usage="immutableList.TrueForAll match" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Immutable.IImmutableListQueries`1.TrueForAll(System.Predicate{`0})</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
         <AssemblyVersion>1.1.37.0</AssemblyVersion>

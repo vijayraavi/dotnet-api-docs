@@ -379,6 +379,7 @@
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Windows.Forms.IWin32Window.Handle</InterfaceMember>
+        <InterfaceMember>P:System.Windows.Forms.IHandle.Handle</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>

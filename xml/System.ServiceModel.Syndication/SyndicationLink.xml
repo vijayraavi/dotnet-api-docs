@@ -232,6 +232,7 @@
       <MemberSignature Language="F#" Value="member this.AttributeExtensions : System.Collections.Generic.Dictionary&lt;System.Xml.XmlQualifiedName, string&gt;" Usage="System.ServiceModel.Syndication.SyndicationLink.AttributeExtensions" />
       <MemberType>Property</MemberType>
       <Implements>
+        <InterfaceMember>P:System.ServiceModel.Syndication.IExtensibleSyndicationObject.AttributeExtensions</InterfaceMember>
         <InterfaceMember>P:System.ServiceModel.Syndication.ISyndicationElement.AttributeExtensions</InterfaceMember>
       </Implements>
       <AssemblyInfo>
@@ -655,6 +656,7 @@
       <MemberSignature Language="F#" Value="member this.ElementExtensions : System.ServiceModel.Syndication.SyndicationElementExtensionCollection" Usage="System.ServiceModel.Syndication.SyndicationLink.ElementExtensions" />
       <MemberType>Property</MemberType>
       <Implements>
+        <InterfaceMember>P:System.ServiceModel.Syndication.IExtensibleSyndicationObject.ElementExtensions</InterfaceMember>
         <InterfaceMember>P:System.ServiceModel.Syndication.ISyndicationElement.ElementExtensions</InterfaceMember>
       </Implements>
       <AssemblyInfo>

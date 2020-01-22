@@ -558,6 +558,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnItemDataBind(System::Web::UI::MobileControls::ListDataBindEventArgs ^ e);" />
       <MemberSignature Language="F#" Value="abstract member OnItemDataBind : System.Web.UI.MobileControls.ListDataBindEventArgs -&gt; unit&#xA;override this.OnItemDataBind : System.Web.UI.MobileControls.ListDataBindEventArgs -&gt; unit" Usage="selectionList.OnItemDataBind e" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.MobileControls.IListControl.OnItemDataBind(System.Web.UI.MobileControls.ListDataBindEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>

@@ -324,6 +324,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ Attribute(System::String ^ name);" />
       <MemberSignature Language="F#" Value="member this.Attribute : string -&gt; string" Usage="securityElement.Attribute name" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Security.ISecurityElementFactory.Attribute(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>

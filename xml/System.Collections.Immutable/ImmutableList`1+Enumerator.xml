@@ -33,11 +33,8 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;dotnet-uwp-10.0;netcore-3.0;netcore-3.1">
+    <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;dotnet-uwp-10.0;netcore-3.0;netcore-3.1;netcore-1.0;netcore-1.1">
       <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-      <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -68,6 +65,7 @@
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.IEnumerator`1.Current</InterfaceMember>
+        <InterfaceMember>P:System.Collections.Immutable.IStrongEnumerator`1.Current</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -128,6 +126,7 @@
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerator.MoveNext</InterfaceMember>
+        <InterfaceMember>M:System.Collections.Immutable.IStrongEnumerator`1.MoveNext</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>

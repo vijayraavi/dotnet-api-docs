@@ -3804,6 +3804,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnGiveFeedback(System::Windows::Forms::GiveFeedbackEventArgs ^ giveFeedbackEvent);" />
       <MemberSignature Language="F#" Value="abstract member OnGiveFeedback : System.Windows.Forms.GiveFeedbackEventArgs -&gt; unit&#xA;override this.OnGiveFeedback : System.Windows.Forms.GiveFeedbackEventArgs -&gt; unit" Usage="toolStripItem.OnGiveFeedback giveFeedbackEvent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Forms.ISupportOleDropSource.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -4488,6 +4491,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnQueryContinueDrag(System::Windows::Forms::QueryContinueDragEventArgs ^ queryContinueDragEvent);" />
       <MemberSignature Language="F#" Value="abstract member OnQueryContinueDrag : System.Windows.Forms.QueryContinueDragEventArgs -&gt; unit&#xA;override this.OnQueryContinueDrag : System.Windows.Forms.QueryContinueDragEventArgs -&gt; unit" Usage="toolStripItem.OnQueryContinueDrag queryContinueDragEvent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Forms.ISupportOleDropSource.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

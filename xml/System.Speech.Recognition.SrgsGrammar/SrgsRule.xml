@@ -340,6 +340,9 @@ document.Root = winnerRule;
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BaseClass { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BaseClass : string with get, set" Usage="System.Speech.Recognition.SrgsGrammar.SrgsRule.BaseClass" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Speech.Internal.SrgsParser.IRule.BaseClass</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Speech</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>

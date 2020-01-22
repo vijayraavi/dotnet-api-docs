@@ -226,6 +226,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Data::Services::DataServiceProcessingPipeline ^ ProcessingPipeline { System::Data::Services::DataServiceProcessingPipeline ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ProcessingPipeline : System.Data.Services.DataServiceProcessingPipeline" Usage="System.Data.Services.DataService&lt;'T&gt;.ProcessingPipeline" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Data.Services.IDataService.ProcessingPipeline</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Services</AssemblyName>
         <AssemblyVersion>3.5.0.0</AssemblyVersion>

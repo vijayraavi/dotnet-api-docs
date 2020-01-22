@@ -6018,6 +6018,7 @@ MyControl.Font = New Font(MyControl.Font, _
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Windows.Forms.IWin32Window.Handle</InterfaceMember>
+        <InterfaceMember>P:System.Windows.Forms.IHandle.Handle</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -10498,6 +10499,9 @@ MyControl.Font = New Font(MyControl.Font, _
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnGiveFeedback(System::Windows::Forms::GiveFeedbackEventArgs ^ gfbevent);" />
       <MemberSignature Language="F#" Value="abstract member OnGiveFeedback : System.Windows.Forms.GiveFeedbackEventArgs -&gt; unit&#xA;override this.OnGiveFeedback : System.Windows.Forms.GiveFeedbackEventArgs -&gt; unit" Usage="control.OnGiveFeedback gfbevent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Forms.ISupportOleDropSource.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -12535,6 +12539,9 @@ MyControl.Font = New Font(MyControl.Font, _
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnQueryContinueDrag(System::Windows::Forms::QueryContinueDragEventArgs ^ qcdevent);" />
       <MemberSignature Language="F#" Value="abstract member OnQueryContinueDrag : System.Windows.Forms.QueryContinueDragEventArgs -&gt; unit&#xA;override this.OnQueryContinueDrag : System.Windows.Forms.QueryContinueDragEventArgs -&gt; unit" Usage="control.OnQueryContinueDrag qcdevent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Forms.ISupportOleDropSource.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>

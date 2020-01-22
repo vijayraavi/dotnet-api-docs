@@ -57,6 +57,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ GetProjectedPropertyValue(System::String ^ propertyName);" />
       <MemberSignature Language="F#" Value="abstract member GetProjectedPropertyValue : string -&gt; obj&#xA;override this.GetProjectedPropertyValue : string -&gt; obj" Usage="projectedWrapper.GetProjectedPropertyValue propertyName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Data.Services.IProjectedResult.GetProjectedPropertyValue(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Services</AssemblyName>
         <AssemblyVersion>3.5.0.0</AssemblyVersion>

@@ -219,6 +219,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExpressionText { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ExpressionText : string with get, set" Usage="Microsoft.VisualBasic.Activities.VisualBasicReference&lt;'Result&gt;.ExpressionText" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.VisualBasic.Activities.IVisualBasicExpression.ExpressionText</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Activities</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

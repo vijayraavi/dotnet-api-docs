@@ -50,6 +50,7 @@
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.IEnumerator`1.Current</InterfaceMember>
+        <InterfaceMember>P:System.Collections.Immutable.IStrongEnumerator`1.Current</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -110,6 +111,7 @@
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IEnumerator.MoveNext</InterfaceMember>
+        <InterfaceMember>M:System.Collections.Immutable.IStrongEnumerator`1.MoveNext</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>

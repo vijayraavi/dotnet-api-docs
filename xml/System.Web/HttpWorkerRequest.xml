@@ -2998,6 +2998,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ MachineConfigPath { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.MachineConfigPath : string" Usage="System.Web.HttpWorkerRequest.MachineConfigPath" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Web.IHttpMapPath.MachineConfigPath</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -3044,6 +3047,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ MapPath(System::String ^ virtualPath);" />
       <MemberSignature Language="F#" Value="abstract member MapPath : string -&gt; string&#xA;override this.MapPath : string -&gt; string" Usage="httpWorkerRequest.MapPath virtualPath" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.IHttpMapPath.MapPath(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
